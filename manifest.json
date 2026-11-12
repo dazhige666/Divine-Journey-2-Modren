@@ -785,9 +785,9 @@
       "required": true
     },
     {
-      "slug": "modular-machinery",
-      "projectID": 270790,
-      "fileID": 2713714,
+      "slug": "modularmachinery-community-edition",
+      "projectID": 817377,
+      "fileID": 7372951,
       "required": true
     },
     {
@@ -828,9 +828,9 @@
       "required": true
     },
     {
-      "slug": "modular-diversity",
-      "projectID": 280506,
-      "fileID": 2738135,
+      "slug": "modular-machinery-community-edition-addons",
+      "projectID": 1236022,
+      "fileID": 9323881,
       "required": true
     },
     {
@@ -1063,12 +1063,6 @@
       "slug": "ae2-network-visualiser",
       "projectID": 321720,
       "fileID": 2711427,
-      "required": true
-    },
-    {
-      "slug": "modular-magic",
-      "projectID": 324318,
-      "fileID": 2737623,
       "required": true
     },
     {

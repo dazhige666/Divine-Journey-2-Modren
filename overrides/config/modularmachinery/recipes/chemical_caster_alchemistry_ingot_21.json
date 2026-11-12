@@ -15,9 +15,9 @@
             "energyPerTick": 100000
         },
         {
-            "type": "mekheat",
+            "type": "modularmachineryaddons:heat",
             "io-type": "input",
-            "temperatureRequiredMin": 500
+            "amount": 500
         },
         {
             "type": "item",

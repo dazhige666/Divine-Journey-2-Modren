@@ -9368,7 +9368,7 @@
               "Count:3": 1
             },
             "2:10": {
-              "id:8": "modularmagic:blockaspectproviderinput",
+              "id:8": "modularmachinery:blockaspectproviderinput",
               "Count:3": 41
             },
             "3:10": {
@@ -18727,7 +18727,7 @@
               "Damage:2": 2
             },
             "13:10": {
-              "id:8": "modulardiversity:blockmeklaseracceptor",
+              "id:8": "modularmachineryaddons:blocklaserinput",
               "Count:3": 1
             },
             "14:10": {
@@ -21508,7 +21508,7 @@
               "Count:3": 16
             },
             "9:10": {
-              "id:8": "modulardiversity:blockmekheatinput",
+              "id:8": "modularmachineryaddons:blockheatinput",
               "Count:3": 4
             },
             "10:10": {
@@ -27942,7 +27942,7 @@
         "betterquesting:10": {
           "visibility:8": "ALWAYS",
           "icon:10": {
-            "id:8": "modularmagic:blockwillprovideroutput"
+            "id:8": "modularmachinery:blockwillprovideroutput"
           },
           "name:8": "dj2.quest.db.622.title",
           "desc:8": "dj2.quest.db.622.desc"
@@ -27996,11 +27996,11 @@
               "Count:3": 1
             },
             "6:10": {
-              "id:8": "modularmagic:blocklifeessenceprovideroutput",
+              "id:8": "modularmachinery:blocklifeessenceprovideroutput",
               "Count:3": 1
             },
             "7:10": {
-              "id:8": "modularmagic:blockwillprovideroutput",
+              "id:8": "modularmachinery:blockwillprovideroutput",
               "Count:3": 1
             },
             "8:10": {

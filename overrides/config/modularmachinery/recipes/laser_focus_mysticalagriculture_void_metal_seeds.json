@@ -31,9 +31,9 @@
             "energyPerTick": 32000
         },
         {
-            "type": "meklaser",
+            "type": "modularmachineryaddons:laser",
             "io-type": "input",
-            "energy": 25600000
+            "power": 25600000
         },
         {
             "type": "item",

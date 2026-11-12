@@ -87,7 +87,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmagic:blockwillprovideroutput@0"
+                "modularmachinery:blockwillprovideroutput@0"
             ]
         },
         {
@@ -95,7 +95,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmagic:blocklifeessenceprovideroutput@0"
+                "modularmachinery:blocklifeessenceprovideroutput@0"
             ]
         },
         {

@@ -13,7 +13,7 @@
         {
             "type": "lifeessence",
             "io-type": "input",
-            "essenceamount": 5000
+            "amount": 5000
         },
         {
             "type": "item",
