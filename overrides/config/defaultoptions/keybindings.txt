@@ -268,3 +268,4 @@ key_enderio.keybind.fovplus:0:NONE
 key_enderio.keybind.fovminus:0:NONE
 key_enderio.keybind.fovplusfast:0:NONE
 key_enderio.keybind.fovminusfast:0:NONE
+key_gui.xaero_open_map:36:NONE
