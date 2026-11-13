@@ -20,7 +20,6 @@ recipes.remove(<aether_legacy:freezer>);
 recipes.addShaped(<aether_legacy:freezer>, [[<aether_legacy:icestone>,<aether_legacy:icestone>,<aether_legacy:icestone>],[<aether_legacy:icestone>,<aether_legacy:zanite_block>,<aether_legacy:icestone>],[<aether_legacy:aether_log>,<aether_legacy:aether_log>,<aether_legacy:aether_log>]]);
 
 // Steel Ring
-<aether_legacy:iron_ring>.displayName = "Steel Ring";
 recipes.remove(<aether_legacy:iron_ring>);
 recipes.addShaped(<aether_legacy:iron_ring>, [[<thermalfoundation:material:352>,<immersiveengineering:material:2>,<thermalfoundation:material:352>],[<immersiveengineering:material:2>,null,<immersiveengineering:material:2>],[<thermalfoundation:material:352>,<immersiveengineering:material:2>,<thermalfoundation:material:352>]]);
 
@@ -29,7 +28,6 @@ recipes.remove(<aether_legacy:golden_ring>);
 recipes.addShaped(<aether_legacy:golden_ring>, [[<thermalfoundation:material:33>,<lightningcraft:rod:5>,<thermalfoundation:material:33>],[<lightningcraft:rod:5>,null,<lightningcraft:rod:5>],[<thermalfoundation:material:33>,<lightningcraft:rod:5>,<thermalfoundation:material:33>]]);
 
 // Steel Pendant
-<aether_legacy:iron_pendant>.displayName = "Steel Pendant";
 recipes.remove(<aether_legacy:iron_pendant>);
 recipes.addShaped(<aether_legacy:iron_pendant>, [[<atum:linen_thread>,<atum:linen_thread>,<immersiveengineering:material:2>],[<atum:linen_thread>,null,<immersiveengineering:material:2>],[<immersiveengineering:material:2>,<immersiveengineering:material:2>,<thermalfoundation:material:352>]]);
 

@@ -9,7 +9,7 @@
             "x": 0,
             "y": 4,
             "z": 2,
-            "description": "Note: The Celestial Collector Crystal must be attuned to Lucerna for the multiblock to form.",
+            "description": "modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc",
             "modifier": {
                 "io": "input",
                 "target": "energy",

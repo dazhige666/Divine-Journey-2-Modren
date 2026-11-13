@@ -64,7 +64,6 @@ mods.thermalexpansion.RedstoneFurnace.addRecipe(<contenttweaker:electrotine>, <c
 mods.enderio.AlloySmelter.addRecipe(<contenttweaker:electrotine>, [<contenttweaker:electrotine_ore>], 2000);
 
 // Sandy Coal Compound -> Sandy Silicon Compound
-<projectred-core:resource_item:250>.displayName = "Sandy Silicon Compound";
 recipes.remove(<projectred-core:resource_item:250>);
 recipes.addShaped(<projectred-core:resource_item:250>, [[<extrautils2:compressedsand>,<galacticraftcore:basic_block_core:13>,<extrautils2:compressedsand>],[<galacticraftcore:basic_block_core:13>,<extrautils2:compressedsand>,<galacticraftcore:basic_block_core:13>],[<extrautils2:compressedsand>,<galacticraftcore:basic_block_core:13>,<extrautils2:compressedsand>]]);
 

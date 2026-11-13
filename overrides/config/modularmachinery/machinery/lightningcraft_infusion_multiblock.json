@@ -9,7 +9,7 @@
             "x": 0,
             "y": 2,
             "z": 1,
-            "description": "Replace the Skyfather Air Terminal with an LE Reciever (Tier 3) to decrease the energy cost by 50%.",
+            "description": "modularmachinery.lightningcraft_infusion_multiblock.modifier.wireless_block.desc",
             "modifier": {
                 "io": "input",
                 "target": "energy",
@@ -22,7 +22,7 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "description": "Replace the Advanced Lightning Cell with a Mystic Lightning Cell to multiply the processing speed by 2.",
+            "description": "modularmachinery.lightningcraft_infusion_multiblock.modifier.mystic_cell.desc",
             "modifiers": [
                 {
                     "io": "input",
@@ -43,7 +43,7 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "description": "Replace the Advanced Lightning Cell with an RF Lightning Generator to multiply the processing speed by 5.",
+            "description": "modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc",
             "modifiers": [
                 {
                     "io": "input",

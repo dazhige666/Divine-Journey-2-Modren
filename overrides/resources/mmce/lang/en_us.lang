@@ -1,0 +1,21 @@
+# Divine Journey 2 Modern - added content (not present in the original pack).
+# Modular Machinery machine/modifier localization. Loaded as the mmce resource domain;
+# Minecraft merges lang keys from every resource domain, so this does not shadow MMCE's own lang file.
+
+modularmachinery.lightningcraft_infusion_multiblock.modifier.wireless_block.desc=Replace the §eSkyfather Air Terminal§r with an §eLE Receiver (Tier 3)§r to decrease the energy cost by 50%.
+modularmachinery.lightningcraft_infusion_multiblock.modifier.mystic_cell.desc=Replace the §eAdvanced Lightning Cell§r with a §eMystic Lightning Cell§r to multiply the processing speed by 2.
+modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=Replace the §eAdvanced Lightning Cell§r with an §eRF Lightning Generator§r to multiply the processing speed by 5.
+modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=Note: The §eCelestial Collector Crystal§r must be attuned to §eLucerna§r for the multiblock to form.
+
+# Machine display names. AbstractMachine.getLocalizedName() looks up "<namespace>.<path>";
+# keys here override the JSON "localizedname" field.
+modularmachinery.auto_infusion_matrix=Auto Infusion Matrix
+modularmachinery.chemical_caster=Chemical Caster
+modularmachinery.high_voltage_plasmafier=High Voltage Plasmafier
+modularmachinery.laser_focus=Laser Focus
+modularmachinery.lightningcraft_infusion_multiblock=Lightningcraft Infusion Multiblock
+modularmachinery.liquicrafter=Liquicrafter
+modularmachinery.mass_inscriber=Mass Inscriber
+modularmachinery.mob_loot_fabricator=Mob Loot Fabricator
+modularmachinery.ultimate_compressor=Ultimate Compressor
+modularmachinery.weak_fusion_plant=Weak Fusion Plant

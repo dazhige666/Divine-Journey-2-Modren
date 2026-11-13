@@ -15,12 +15,6 @@ print("STARTING ThermalFoundation.zs");
 game.setLocalization("tile.thermalfoundation.ore.mithril.name", "Mithril Ore");
 game.setLocalization("tile.thermalfoundation.storage.mithril.name", "Mithril Block");
 game.setLocalization("tile.thermalfoundation.glass.mithril.name", "Hardened Mithril Glass");
-<thermalfoundation:coin:72>.displayName = "Mithril Coin";
-<thermalfoundation:material:72>.displayName = "Pulverized Mithril";
-<thermalfoundation:material:136>.displayName = "Mithril Ingot";
-<thermalfoundation:material:200>.displayName = "Mithril Nugget";
-<thermalfoundation:material:264>.displayName = "Mithril Gear";
-<thermalfoundation:material:328>.displayName = "Mithril Plate";
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:glass:8> * 2, <thermalfoundation:glass:3> * 2, <thermalfoundation:material:72>, 6000, <thermalfoundation:material:865>, 15);
 
 // Steel Tools are already added by Immersive Engineering

@@ -1,0 +1,43 @@
+Divine Journey 2 Modern - removed CraftTweaker displayName overrides
+====================================================================
+
+Scope
+-----
+18 entries are now handled by the language files in this directory:
+- 6 Mithril items (Thermal Foundation), migrated 2026-11-13.
+- 12 further items, migrated 2026-11-14 (all displayName overrides except the one
+  explicitly excluded below).
+
+Excluded on purpose (user decision):
+- extendedcrafting:singularity:21 (Alchemical Brass Singularity)
+Its displayName line stays in the .zs scripts (known to be a no-op; fix tracked in TODO.md).
+
+Reason
+------
+CraftTweaker's `<item>.displayName = "..."` is not a static data change: it calls
+LanguageMap.inject("<unlocalized>.name", "<value>") at script load time. Injected
+keys are applied after language files are loaded, so they would override the
+zh_cn names in this resource domain (and force English on Chinese clients).
+To make the names localizable, the lines below were removed and moved to
+overrides/resources/itemrenames/lang/{en_us,zh_cn}.lang.
+
+Removed lines (file:line: statement)
+------------------------------------
+overrides/scripts/Unique/ContentTweakerBag.zs:115: <biggercraftingtables:biggercraftingtable:2>.displayName = "Jigsaw Puzzle Crafting Table";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:18: <thermalfoundation:coin:72>.displayName = "Mithril Coin";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:19: <thermalfoundation:material:72>.displayName = "Pulverized Mithril";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:20: <thermalfoundation:material:136>.displayName = "Mithril Ingot";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:21: <thermalfoundation:material:200>.displayName = "Mithril Nugget";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:22: <thermalfoundation:material:264>.displayName = "Mithril Gear";
+overrides/scripts/ModSpecific/ThermalFoundation.zs:23: <thermalfoundation:material:328>.displayName = "Mithril Plate";
+overrides/scripts/ModSpecific/AetherLegacy.zs:23: <aether_legacy:iron_ring>.displayName = "Steel Ring";
+overrides/scripts/ModSpecific/AetherLegacy.zs:32: <aether_legacy:iron_pendant>.displayName = "Steel Pendant";
+overrides/scripts/ModSpecific/Bewitchment.zs:128: <bewitchment:salt>.displayName = "Ritualistic Salt";
+overrides/scripts/ModSpecific/DivineRPG.zs:11: <divinerpg:ghast_pumpkin>.displayName = "Ghast Block";
+overrides/scripts/ModSpecific/EvilCraft.zs:326: <evilcraft:blood_orb:1>.displayName = "Evil Blood Orb";
+overrides/scripts/ModSpecific/MysticalAgriculture.zs:589: <mysticalagriculture:moonstone_seeds>.displayName = "Moon Stone Seeds";
+overrides/scripts/ModSpecific/MysticalAgriculture.zs:590: <mysticalagriculture:moonstone_essence>.displayName = "Moon Stone Essence";
+overrides/scripts/ModSpecific/MysticalAgriculture.zs:873: <mysticalagriculture:brass_seeds>.displayName = "Alchemical Brass Seeds";
+overrides/scripts/ModSpecific/MysticalAgriculture.zs:874: <mysticalagriculture:brass_essence>.displayName = "Alchemical Brass Essence";
+overrides/scripts/ModSpecific/ProjectRedCore.zs:67: <projectred-core:resource_item:250>.displayName = "Sandy Silicon Compound";
+overrides/scripts/ModSpecific/Thaumcraft.zs:660: <thaumcraft:metal_brass>.displayName = "Alchemical Brass Block";

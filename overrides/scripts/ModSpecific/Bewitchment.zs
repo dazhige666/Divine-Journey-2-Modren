@@ -125,7 +125,6 @@ mods.thaumcraft.Infusion.registerRecipe("bewitchment:distillery", "", <bewitchme
 <bewitchment:garlic_seeds>.addTooltip(game.localize("dj2.garlic_seeds.desc0"));
 
 // Ritualistic Salt
-<bewitchment:salt>.displayName = "Ritualistic Salt";
 WitchesCauldron.addRecipe([<bewitchment:salt> * 3], [<mekanism:salt>,<mekanism:salt>,<mekanism:salt>,<bloodmagic:ritual_stone>,<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praecantatio"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}),<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})]);
 
 // Cleansing Balm

@@ -1,0 +1,22 @@
+# Divine Journey 2 Modern - item renames
+# Keys are <unlocalized>.name for items whose CraftTweaker displayName was removed;
+# see ../REMOVED-DISPLAYNAMES.txt for the original lines and the reason.
+
+container.giantcraftingtable.name=Jigsaw Puzzle Crafting Table
+item.bewitchment.salt.name=Ritualistic Salt
+item.iron_pendant.name=Steel Pendant
+item.iron_ring.name=Steel Ring
+item.items.evilcraft.blood_orb.filled.name=Evil Blood Orb
+item.ma.brass_essence.name=Alchemical Brass Essence
+item.ma.brass_seeds.name=Alchemical Brass Seeds
+item.ma.moonstone_essence.name=Moon Stone Essence
+item.ma.moonstone_seeds.name=Moon Stone Seeds
+item.projectred.core.itemResource.sand_coal_comp.name=Sandy Silicon Compound
+item.thermalfoundation.coin.coinMithril.name=Mithril Coin
+item.thermalfoundation.material.dustMithril.name=Pulverized Mithril
+item.thermalfoundation.material.gearMithril.name=Mithril Gear
+item.thermalfoundation.material.ingotMithril.name=Mithril Ingot
+item.thermalfoundation.material.nuggetMithril.name=Mithril Nugget
+item.thermalfoundation.material.plateMithril.name=Mithril Plate
+tile.ghast_pumpkin.name=Ghast Block
+tile.metal_brass.name=Alchemical Brass Block

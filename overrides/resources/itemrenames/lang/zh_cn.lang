@@ -1,0 +1,22 @@
+# Divine Journey 2 Modern - 物品改名
+# 键为 <unlocalized>.name，对应已从 CraftTweaker 脚本中删除的 displayName；
+# 原始脚本行和原因见 ../REMOVED-DISPLAYNAMES.txt。
+
+container.giantcraftingtable.name=拼图合成台
+item.bewitchment.salt.name=仪式盐
+item.iron_pendant.name=钢吊坠
+item.iron_ring.name=钢戒指
+item.items.evilcraft.blood_orb.filled.name=邪恶血珠
+item.ma.brass_essence.name=炼金黄铜精华
+item.ma.brass_seeds.name=炼金黄铜种子
+item.ma.moonstone_essence.name=月石精华
+item.ma.moonstone_seeds.name=月石种子
+item.projectred.core.itemResource.sand_coal_comp.name=含沙硅化合物
+item.thermalfoundation.coin.coinMithril.name=秘银币
+item.thermalfoundation.material.dustMithril.name=秘银粉
+item.thermalfoundation.material.gearMithril.name=秘银齿轮
+item.thermalfoundation.material.ingotMithril.name=秘银锭
+item.thermalfoundation.material.nuggetMithril.name=秘银粒
+item.thermalfoundation.material.plateMithril.name=秘银板
+tile.ghast_pumpkin.name=恶魂方块
+tile.metal_brass.name=炼金黄铜块

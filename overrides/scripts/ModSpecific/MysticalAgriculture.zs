@@ -586,8 +586,6 @@ addTier3MysticalAgricultureSeedWithInput(<mysticalagriculture:fluix_seeds>, <app
 
 // Moon Stone Seeds & Moon Stone Essence -> Moon Stone
 addTier3MysticalAgricultureSeedWithInput(<mysticalagriculture:moonstone_seeds>, <extrautils2:ingredients:5>, <contenttweaker:condensed_vis_crystal_luna>, <aspect:luna>, <mysticalagriculture:lapis_lazuli_seeds>);
-<mysticalagriculture:moonstone_seeds>.displayName = "Moon Stone Seeds";
-<mysticalagriculture:moonstone_essence>.displayName = "Moon Stone Essence";
 recipes.addShaped(<extrautils2:ingredients:5>, [[<mysticalagriculture:moonstone_essence>,<mysticalagriculture:moonstone_essence>,<mysticalagriculture:moonstone_essence>],[<mysticalagriculture:moonstone_essence>,null,<mysticalagriculture:moonstone_essence>],[<mysticalagriculture:moonstone_essence>,<mysticalagriculture:moonstone_essence>,<mysticalagriculture:moonstone_essence>]]);
 
 // Tier 4 Crafting Seed
@@ -870,8 +868,6 @@ recipes.remove(<mysticalagriculture:zinc_seeds>);
 // recipe in config/modularmachinery/recipes/laser_focus_mysticalagriculture_zinc_seeds.json
 
 // Alchemical Brass Seeds
-<mysticalagriculture:brass_seeds>.displayName = "Alchemical Brass Seeds";
-<mysticalagriculture:brass_essence>.displayName = "Alchemical Brass Essence";
 recipes.remove(<mysticalagriculture:brass_seeds>);
 // recipe in config/modularmachinery/recipes/laser_focus_mysticalagriculture_alchemical_brass_seeds.json
 

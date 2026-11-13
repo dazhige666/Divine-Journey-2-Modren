@@ -8,7 +8,6 @@ import mods.thermalexpansion.InductionSmelter;
 print("STARTING DivineRPG.zs");
 
 // Ghast Block
-<divinerpg:ghast_pumpkin>.displayName = "Ghast Block";
 recipes.remove(<divinerpg:ghast_pumpkin>);
 recipes.addShaped(<divinerpg:ghast_pumpkin>, [[<minecraft:ghast_tear>,<minecraft:ghast_tear>,<minecraft:ghast_tear>],[<minecraft:ghast_tear>,<minecraft:ghast_tear>,<minecraft:ghast_tear>],[<minecraft:ghast_tear>,<minecraft:ghast_tear>,<minecraft:ghast_tear>]]);
 recipes.addShapeless(<minecraft:ghast_tear> * 9, [<divinerpg:ghast_pumpkin>]);
