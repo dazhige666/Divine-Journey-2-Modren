@@ -75,13 +75,6 @@
       "required": true
     },
     {
-      "slug": "waila-harvestability",
-      "projectID": 79287,
-      "fileID": 2481605,
-      "required": true,
-      "clientOnly": true
-    },
-    {
       "slug": "the-erebus",
       "projectID": 220698,
       "fileID": 3211974,
@@ -145,12 +138,6 @@
       "slug": "rftools",
       "projectID": 224641,
       "fileID": 2861573,
-      "required": true
-    },
-    {
-      "slug": "wawla",
-      "projectID": 224712,
-      "fileID": 2916368,
       "required": true
     },
     {
@@ -652,12 +639,6 @@
       "required": true
     },
     {
-      "slug": "hwyla",
-      "projectID": 253449,
-      "fileID": 2568751,
-      "required": true
-    },
-    {
       "slug": "guidebook",
       "projectID": 253874,
       "fileID": 2989594,
@@ -1024,12 +1005,6 @@
       "required": true
     },
     {
-      "slug": "wasaila",
-      "projectID": 313252,
-      "fileID": 2668865,
-      "required": true
-    },
-    {
       "slug": "draconicadditions",
       "projectID": 314515,
       "fileID": 3195127,
@@ -1363,6 +1338,20 @@
       "projectID": 1342654,
       "fileID": 7294306,
       "required": true
+    },
+    {
+      "slug": "the-one-probe-community-edition",
+      "projectID": 885670,
+      "fileID": 9174145,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "topalldependents",
+      "projectID": 1120632,
+      "fileID": 8896901,
+      "required": true,
+      "clientOnly": true
     }
   ],
   "overrides": "overrides"
