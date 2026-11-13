@@ -1,6 +1,6 @@
 # Divine Journey 2 Modlist
 
-Total Mods: 224
+Total Mods: 223
 
 ## Type Key
 
@@ -132,7 +132,6 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :toolbox:     | [JEI Utilities](https://www.curseforge.com/minecraft/mc-mods/jei-utilities)                                                           | [vfyjxf_](https://curseforge.com/members/vfyjxf_)                                     |                    |
 | :gem:         | [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei)                                                                 | [mezz](https://curseforge.com/members/mezz)                                           |                    |
 | :ring:        | [Just Enough Throwing In Fluids](https://www.curseforge.com/minecraft/mc-mods/jetif)                                                  | [Lykrast](https://curseforge.com/members/Lykrast)                                     | :white_check_mark: |
-| :toolbox:     | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)                                                                 | [techbrew](https://curseforge.com/members/techbrew)                                   |                    |
 | :toolbox:     | [Just Enough Calculation](https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation)                                       | [towdium](https://curseforge.com/members/towdium)                                     |                    |
 | :ring:        | [Just Enough Reactors](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors)                                             | [BrainStone](https://curseforge.com/members/BrainStone)                               |                    |
 | :ring:        | [Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)                                       | [way2muchnoise](https://curseforge.com/members/way2muchnoise)                         | :white_check_mark: |
@@ -243,6 +242,9 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :ring:        | [Wasaila](https://www.curseforge.com/minecraft/mc-mods/wasaila)                                                                       | [Mrbysco](https://curseforge.com/members/Mrbysco)                                     |                    |
 | :ring:        | [Wawla - What Are We Looking At](https://www.curseforge.com/minecraft/mc-mods/wawla)                                                  | [DarkhaxDev](https://curseforge.com/members/DarkhaxDev)                               |                    |
 | :diamonds:    | [Wireless Redstone CBE](https://www.curseforge.com/minecraft/mc-mods/wireless-redstone-cbe)                                           | [covers1624](https://curseforge.com/members/covers1624)                               |                    |
+| :world_map:   | [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)                                                          | [xaero96](https://curseforge.com/members/xaero96)                                     |                    |
+| :world_map:   | [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)                                                      | [xaero96](https://curseforge.com/members/xaero96)                                     |                    |
+| :books:       | [XaeroLib](https://www.curseforge.com/minecraft/mc-mods/xaerolib)                                                                       | [xaero96](https://curseforge.com/members/xaero96)                                     |                    |
 | :world_map:   | [YUNG's Better Caves](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)                                                | [YUNGNICKYOUNG](https://curseforge.com/members/YUNGNICKYOUNG)                         |                    |
 | :gear:        | [Zen Utils](https://www.curseforge.com/minecraft/mc-mods/zenutil)                                                                     | [youyihj](https://curseforge.com/members/youyihj)                                     |                    |
 | :books:       | [ZeroCore 2](https://www.curseforge.com/minecraft/mc-mods/zerocore)                                                                   | [ZeroNoRyouki](https://curseforge.com/members/ZeroNoRyouki)                           |                    |

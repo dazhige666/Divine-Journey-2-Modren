@@ -15,12 +15,6 @@
   "author": "AtricosHU",
   "files": [
     {
-      "slug": "journeymap",
-      "projectID": 32274,
-      "fileID": 5172461,
-      "required": true
-    },
-    {
       "slug": "abyssalcraft",
       "projectID": 53686,
       "fileID": 3425234,
@@ -1357,6 +1351,27 @@
       "slug": "moddirector",
       "projectID": 367103,
       "fileID": 3517526,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "xaerolib",
+      "projectID": 1417462,
+      "fileID": 8849823,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "xaeros-minimap",
+      "projectID": 263420,
+      "fileID": 9067150,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "xaeros-world-map",
+      "projectID": 317780,
+      "fileID": 9067249,
       "required": true,
       "clientOnly": true
     }

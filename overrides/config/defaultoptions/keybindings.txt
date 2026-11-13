@@ -245,22 +245,6 @@ key_key.debugDumpNBTItem:0:NONE
 key_key.debugDumpNBTBlock:0:NONE
 key_key.simplybackpacks.backpackpickup.desc:0:NONE
 key_key.simplybackpacks.backpackopen.desc:46:NONE
-key_key.journeymap.zoom_in:73:NONE
-key_key.journeymap.zoom_out:72:NONE
-key_key.journeymap.minimap_type:0:NONE
-key_key.journeymap.minimap_preset:43:NONE
-key_key.journeymap.create_waypoint:51:NONE
-key_key.journeymap.toggle_waypoints:0:NONE
-key_key.journeymap.fullscreen_create_waypoint:0:NONE
-key_key.journeymap.fullscreen_chat_position:0:NONE
-key_key.journeymap.map_toggle_alt:36:NONE
-key_key.journeymap.fullscreen_waypoints:0:NONE
-key_key.journeymap.minimap_toggle_alt:0:NONE
-key_key.journeymap.fullscreen_options:0:NONE
-key_key.journeymap.fullscreen.north:200:NONE
-key_key.journeymap.fullscreen.south:208:NONE
-key_key.journeymap.fullscreen.east:205:NONE
-key_key.journeymap.fullscreen.west:203:NONE
 key_key.control:29:NONE
 key_Profile GUI:210:NONE
 key_enderio.keybind.inventory:0:NONE
