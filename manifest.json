@@ -1352,6 +1352,13 @@
       "fileID": 8896901,
       "required": true,
       "clientOnly": true
+    },
+    {
+      "slug": "moddirector",
+      "projectID": 367103,
+      "fileID": 3517526,
+      "required": true,
+      "clientOnly": true
     }
   ],
   "overrides": "overrides"

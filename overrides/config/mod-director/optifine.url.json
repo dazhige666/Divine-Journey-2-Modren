@@ -1,0 +1,17 @@
+{
+  "url": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar",
+  "follows": [
+    "Download</a>"
+  ],
+  "fileName": "OptiFine_1.12.2_HD_U_G5.jar",
+  "metadata": {
+    "side": "CLIENT",
+    "hash": {
+      "SHA-256": "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e",
+      "MD5": "54e561e441192cf009803ae95873c5d0"
+    }
+  },
+  "installationPolicy": {
+    "continueOnFailedDownload": true
+  }
+}
