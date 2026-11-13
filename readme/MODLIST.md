@@ -1,6 +1,6 @@
 # Divine Journey 2 Modlist
 
-Total Mods: 223
+Total Mods: 224
 
 ## Type Key
 
@@ -8,13 +8,13 @@ Total Mods: 223
 | ------------- | ----- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | :books:       | 48    | Library           | Required for other mods and not doing much on its own                                                                  |
 | :toolbox:     | 42    | Utility           | Typically visual or minor improvements                                                                                 |
-| :gear:        | 27    | Development       | Basically never interacted with by a player                                                                            |
+| :gear:        | 29    | Development       | Basically never interacted with by a player                                                                            |
 | :gem:         | 36    | Primary           | One of the main mods in the pack, frequently interacted with and makes up a substantial part of progression on its own |
-| :ring:        | 38    | Addon             | Adds addition features to a Primary or Utility Mod, sometimes containing significant content of its own right          |
-| :diamonds:    | 11    | Minor             | A standalone mod that adds some features, but doesn't make up a substantial part of progression                        |
+| :ring:        | 35    | Addon             | Adds addition features to a Primary or Utility Mod, sometimes containing significant content of its own right          |
+| :diamonds:    | 10    | Minor             | A standalone mod that adds some features, but doesn't make up a substantial part of progression                        |
 | :bug:         | 9     | Bugfix/Performace | Solely fixes one or multiple bugs or performance issues present in Vanilla or another mod                              |
 | :eyes:        | 5     | Visual            | Improves the visual options of the pack                                                                                |
-| :world_map:   | 5     | Worldgen          | Changes or improves worldgen                                                                                           |
+| :world_map:   | 7     | Worldgen          | Changes or improves worldgen                                                                                           |
 | :closed_book: | 3     | Questbook         | Related to the Questbook                                                                                               |
 | :wastebasket: | 0     | Outdated          | Used to be a different category, but is no longer used, but is still in the pack to allow migration of items           |
 
@@ -116,7 +116,7 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :books:       | [Guide-API](https://www.curseforge.com/minecraft/mc-mods/guide-api)                                                                   | [TehNut](https://curseforge.com/members/TehNut)                                       |                    |
 | :books:       | [Guidebook](https://www.curseforge.com/minecraft/mc-mods/guidebook)                                                                   | [gigaherz](https://curseforge.com/members/gigaherz)                                   |                    |
 | :books:       | [Hammer Lib](https://www.curseforge.com/minecraft/mc-mods/hammer-lib)                                                                 | [Zeitheron](https://curseforge.com/members/Zeitheron)                                 |                    |
-| :toolbox:     | [Hwyla](https://www.curseforge.com/minecraft/mc-mods/hwyla)                                                                           | [TehNut](https://curseforge.com/members/TehNut)                                       |                    |
+| :toolbox:     | [I18nUpdateMod](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)                                                    | [CFPAOrg](https://curseforge.com/members/CFPAOrg)                                     |                    |
 | :gem:         | [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)                                           | [BluSunrize](https://curseforge.com/members/BluSunrize)                               |                    |
 | :gem:         | [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)                                             | [Buuz135](https://curseforge.com/members/Buuz135)                                     |                    |
 | :books:       | [InfinityLib](https://www.curseforge.com/minecraft/mc-mods/infinitylib)                                                               | [InfinityRaider](https://curseforge.com/members/InfinityRaider)                       |                    |
@@ -151,6 +151,7 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :gear:        | [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)                                                                 | [Jaredlll08](https://curseforge.com/members/Jaredlll08)                               |                    |
 | :gear:        | [Modular Machinery: Community Edition](https://www.curseforge.com/minecraft/mc-mods/modularmachinery-community-edition)               | [HellFirePvP](https://curseforge.com/members/HellFirePvP)                             |                    |
 | :gear:        | [Modular Machinery: Community Edition - Addons](https://www.curseforge.com/minecraft/mc-mods/modular-machinery-community-edition-addons) | [Alecsio](https://curseforge.com/members/Alecsio)                                     |                    |
+| :toolbox:     | [ModDirector](https://www.curseforge.com/minecraft/mc-mods/moddirector)                                                               | [Janrupf](https://curseforge.com/members/Janrupf)                                     |                    |
 | :ring:        | [More Overlays](https://www.curseforge.com/minecraft/mc-mods/more-overlays)                                                           | [feldim245](https://curseforge.com/members/feldim245)                                 | :white_check_mark: |
 | :gear:        | [MoreTweaker](https://www.curseforge.com/minecraft/mc-mods/moretweaker)                                                               | [noeppinoeppi](https://curseforge.com/members/noeppinoeppi)                           |                    |
 | :eyes:        | [MorphOverlay](https://www.curseforge.com/minecraft/mc-mods/morphoverlay)                                                             | [blue_beaker](https://curseforge.com/members/blue_beaker)                             | :white_check_mark: |
@@ -214,6 +215,8 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :ring:        | [Thaumic JEI](https://www.curseforge.com/minecraft/mc-mods/thaumic-jei)                                                               | [Buuz135](https://curseforge.com/members/Buuz135)                                     | :white_check_mark: |
 | :gem:         | [The Erebus](https://www.curseforge.com/minecraft/mc-mods/the-erebus)                                                                 | [vadis365](https://curseforge.com/members/vadis365)                                   |                    |
 | :gem:         | [The Twilight Forest - Deforestation Edition](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest-deforestation-edition) | [MetallicaFan011](https://curseforge.com/members/metallicafan011)                     |                    |
+| :ring:        | [TopAllDependents](https://www.curseforge.com/minecraft/mc-mods/topalldependents)                                                     | [wdcftgg](https://curseforge.com/members/wdcftgg)                                     |                    |
+| :toolbox:     | [The One Probe Community Edition](https://www.curseforge.com/minecraft/mc-mods/the-one-probe-community-edition)                       | [McJty](https://curseforge.com/members/McJty)                                         |                    |
 | :ring:        | [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)                                                     | [TeamCoFH](https://curseforge.com/members/TeamCoFH)                                   |                    |
 | :ring:        | [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)                                                   | [TeamCoFH](https://curseforge.com/members/TeamCoFH)                                   |                    |
 | :gem:         | [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)                                                 | [TeamCoFH](https://curseforge.com/members/TeamCoFH)                                   |                    |
@@ -237,10 +240,7 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :toolbox:     | [Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)                                                     | [ACGaming](https://curseforge.com/members/ACGaming)                                   |                    |
 | :books:       | [ValkyrieLib](https://www.curseforge.com/minecraft/mc-mods/valkyrielib)                                                               | [ValkyrieofNight](https://curseforge.com/members/ValkyrieofNight)                     |                    |
 | :bug:         | [VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)                                                                 | [embeddedt](https://curseforge.com/members/embeddedt)                                 |                    |
-| :toolbox:     | [Waila Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)                                             | [squeek502](https://curseforge.com/members/squeek502)                                 | :white_check_mark: |
 | :books:       | [WanionLib](https://www.curseforge.com/minecraft/mc-mods/wanionlib)                                                                   | [WanionCane](https://curseforge.com/members/WanionCane)                               |                    |
-| :ring:        | [Wasaila](https://www.curseforge.com/minecraft/mc-mods/wasaila)                                                                       | [Mrbysco](https://curseforge.com/members/Mrbysco)                                     |                    |
-| :ring:        | [Wawla - What Are We Looking At](https://www.curseforge.com/minecraft/mc-mods/wawla)                                                  | [DarkhaxDev](https://curseforge.com/members/DarkhaxDev)                               |                    |
 | :diamonds:    | [Wireless Redstone CBE](https://www.curseforge.com/minecraft/mc-mods/wireless-redstone-cbe)                                           | [covers1624](https://curseforge.com/members/covers1624)                               |                    |
 | :world_map:   | [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)                                                          | [xaero96](https://curseforge.com/members/xaero96)                                     |                    |
 | :world_map:   | [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)                                                      | [xaero96](https://curseforge.com/members/xaero96)                                     |                    |

@@ -1,0 +1,48 @@
+
+# Rename Storage Drawer Access Points
+storagedrawers.container.unboundSlave=未绑定的接入点
+tile.storagedrawers.controllerSlave.name=控制器接入点
+#storagedrawers.controllerSlave.description=Extra attach points for controllers
+tile.framedcompactdrawers.framed_slave.name=框架式控制器接入点
+
+# Fix Totemic wording
+totemic.page.fertility0=§4春之祭§0是图腾师可进行的众多生长与丰饶§4仪式§0之一.激活后,附近的所有动物和村民将依次开始繁殖,分别消耗食物或绿宝石.不过有一定概率不消耗食物.<br>与此同时,附近的树苗将会转化为§1红雪松树苗§0.
+
+# Bewitchment Altar Upgrades Category
+jei.category.divine_journey_2.altar_upgrades.name=祭坛升级
+
+dj2.jei.bewitchment.type.sword=剑祭祭坛增幅
+dj2.jei.bewitchment.type.wand=法杖祭坛增幅
+dj2.jei.bewitchment.type.pentacle=五芒星祭坛增幅
+dj2.jei.bewitchment.type.cup=奖杯祭坛增幅
+
+dj2.jei.bewitchment.nothing=什么也不做
+dj2.jei.bewitchment.sword=将最大§5魔法能量§r乘以%s§r
+dj2.jei.bewitchment.wand=将基础最大§5魔法能量§r修改%s§r
+dj2.jei.bewitchment.pentacle=修改§5魔法能量§r获取速度 %s§r
+dj2.jei.bewitchment.cup_add=修改§5魔法能量§r获取速度 %s§r
+dj2.jei.bewitchment.cup_times=将最大§5魔法能量§r乘以%s§r
+dj2.jei.bewitchment.cup_both=将§5魔法能量§r的获取修改%s§r，并将最大§5魔法能量§r乘以%s§r
+
+dj2.jei.bewitchment.entry.soul_reaper=需要内部有§c1024§r个灵魂
+dj2.jei.bewitchment.entry.rift_jar=需要一个没有裂缝的裂缝罐子
+dj2.jei.bewitchment.entry.full_rift_jar=需要至少§c90§r大小的裂缝的裂缝罐子（最大尺寸为§c100§r）
+dj2.jei.bewitchment.entry.flower_pot=需要一个空花盆
+dj2.jei.bewitchment.entry.flower_pot_full=需要一个装满的花盆
+
+# Thaumcraft Matrix Stability Category
+jei.category.divine_journey_2.matrix_stability.name=符文矩阵稳定器
+
+dj2.jei.thaumcraft.matrix.base=在范围内时修改符文矩阵稳定性，效果递减。
+dj2.jei.thaumcraft.matrix.blockstate_note=§d§o给定方块的所有方块状态被视为相同。§r
+dj2.jei.thaumcraft.matrix.increase=§b匹配时增加§r或§c不匹配时减少§r稳定性 §b%s§r。
+dj2.jei.thaumcraft.matrix.decrease=§c降低§r稳定性§c%s§r，如果不匹配。
+
+# Lightning Conversion Category
+jei.category.divine_journey_2.lightning.name=闪电转化
+
+dj2.jei.lightningcraft.lightning.instruction=用闪电击中输入物品
+
+# Bewitchment Rituals
+ritual.divine_journey_2.cycles=循环仪式
+ritual.divine_journey_2.tough_and_pure=坚纯仪式

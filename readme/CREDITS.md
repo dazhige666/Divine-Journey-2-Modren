@@ -85,3 +85,7 @@
 - **SkySom**: Coding help
 
 - **Witixin**: Coding help
+
+## 本地化
+
+- **琅然_**、**PinkYuDeer**、**柠娜**：Translation-of-DJ2 简体中文汉化（GPL-3.0）。

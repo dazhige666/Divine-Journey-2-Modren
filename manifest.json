@@ -1374,6 +1374,13 @@
       "fileID": 9067249,
       "required": true,
       "clientOnly": true
+    },
+    {
+      "slug": "i18nupdatemod",
+      "projectID": 297404,
+      "fileID": 7173159,
+      "required": true,
+      "clientOnly": true
     }
   ],
   "overrides": "overrides"

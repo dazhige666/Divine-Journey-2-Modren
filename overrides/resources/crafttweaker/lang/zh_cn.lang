@@ -2,6 +2,8 @@
 commands.curseforge.usage=在聊天栏中发送一条前往 CurseForge 页面的链接。
 commands.discord.usage=在聊天栏中发送一条前往 Discord 页面的链接。
 commands.issues.usage=在聊天栏中发送一条前往问题汇报页面的链接。
+commands.book_of_logic.usage=将逻辑之书的全文输出至聊天栏以供本地化使用
+commands.introduction_book.usage=将入门指南的全文输出至聊天栏以供本地化使用
 commands.curseforge.text=点击此处打开 DJ2 的 CurseForge 页面
 commands.discord.text=点击此处加入 Discord 频道
 commands.issues.text=点击此处汇报 Bug 或问题
@@ -12,8 +14,9 @@ ritual.moretweaker.moretweakerrecipe1=周期仪式
 
 # Custom player event messages
 dj2.event.elemental_tool.desc0=§d元素铭文工具已禁用，仅用于合成仪式推测杖！
-dj2.event.elemental_tool.desc1=§6耐久度实际上不会消耗，只是个不同步问题。
 dj2.event.horde_horn.message=§b生成失败 - 请在开敞空间使用。
+dj2.event.solar_flux_ie_drill.desc0=§c为防止复制漏洞
+dj2.event.solar_flux_ie_drill.desc1=§c不可使用IE钻头破坏Solar Flux的太阳能板
 
 # Activate Block JEI category
 dj2.activate_block_jei.hand.name=§r§c右键点击
@@ -28,6 +31,7 @@ dj2.activate_block_jei.glass_cable.desc0=§r§d任意 AE2 线缆
 dj2.activate_block_jei.rf_duct.desc0=§r§d几乎所有能存储或传输 RF/FE/CF/AE 的东西
 dj2.activate_block_jei.bucket.desc0=§r§d几乎所有能存储或传输流体的东西
 dj2.activate_block_jei.barrier.desc0=§r§d对空气右击
+dj2.activate_block_jei.after_killed.desc0=§r§b死亡后触发
 
 # Configure JEI category
 dj2.configure_jei.gear.name=§r§d配置方块
@@ -204,7 +208,7 @@ dj2.star_of_revelation.desc1=§c§l警告：§7§lAE2 自动合成将会消耗�
 dj2.spacerock.desc0=§r于§7月球§r自定义地牢发现。
 dj2.secret_alien_technology.desc0=§r于§c火星§r自定义地牢发现。
 dj2.chunk_of_the_meteor_that_ended_the_era_of_dinosaurs.desc0=§r于§7小行星带§r自定义地牢发现。
-dj2.fragment_of_the_sun.desc0§r于§6金星§r自定义地牢发现。
+dj2.fragment_of_the_sun.desc0=§r生成于自定义§6金星§r地牢中
 dj2.crystal_core.desc0=§r如果使用水晶石合成，
 dj2.crystal_core.desc1=§r作为材料的水晶石必须符合下列要求：
 dj2.crystal_core.desc2=§9尺寸 >= 300§r 且§9纯度 >= 75%§r。
@@ -234,7 +238,7 @@ dj2.goddess_pearl.desc1=§c§l警告：§7§lAE2 自动合成将会消耗该物�
 dj2.divinerpg_galacticraft_keys.desc=右击以清除 5 格半径内的所有 %s 门方块。
 
 # Imp leather info tooltip
-dj2.imp_leather.desc0=可使用根源魔法的仪式：召唤生物来生成小恶魔。
+dj2.imp_leather.desc0=§f可使用根源魔法的仪式：召唤生物来生成小恶魔。
 
 # Bag of Truth and related endgame items.
 dj2.bag_of_truth_unlocked.name=§d§l真相之袋
@@ -289,6 +293,7 @@ dj2.drop_of_evil.desc1=§c§l只能通过合成获取。
 dj2.drop_of_evil.desc2=§4右击泥土或草地可产生大量的诅咒之土。
 dj2.drop_of_evil.desc3=§4怪物将会在这种土地上快速生成。
 dj2.drop_of_evil.desc4=§4当心，诅咒之土会在日光下燃烧！
+dj2.chunkloader.desc0=§5§o区块加载请使用FTB Chunks模组！
 dj2.suncrystal.desc0=§f扔到太阳直射的地方为其充能。
 dj2.suncrystal.desc1=§f在后续流程中，你可以用液态阳光或荧石精华来充能。
 dj2.suncrystal.desc2=§c液态阳光只能充能耐久度为 0 的晶体。
@@ -317,6 +322,7 @@ dj2.emptiness_spires.desc0=§f于虚域维度的邪术旋塔发现。
 dj2.ender_storage_tank.desc0=§4合成该物品需要一个装满§r§6烈焰之炽焱§r的便携储罐（基础）§4!
 
 # DivineRPG tooltips
+dj2.divinerpg_furnace.desc0=§c无法自动输出物品
 dj2.infernal_flame.desc0=§l§f用于在下界召唤§r§l§c怒焰王§r§l§f。
 dj2.mysterious_clock.desc0=§l§f用于在主世界召唤§r§l§4远古实体§r§l§f。
 dj2.call_of_the_watcher.desc0=§l§f用于在下界召唤§r§l§c监视者§r§l§f。
@@ -342,10 +348,17 @@ dj2.wizards_book.desc0=§f从位于r§9秘界地牢§r§r的§4瓦提库斯领�
 dj2.robit.desc0=§c§l警告：§r§7§l只会保留作为材料的私人箱子中前 3 行的物品！
 dj2.dynamic_tank_warning.desc0=§c§l警告：§r§f动态储罐有时会丢失存储
 dj2.dynamic_tank_warning.desc1=§f的流体。不·推·荐制作/使用。
+dj2.gaugedropper.desc0=按住潜行键点击空气清空
 
 # Lightningcraft tooltips
+dj2.electricium.desc0=§f用雷电同时轰击掉落物
+dj2.electricium.desc1=§f形式的钻石、金锭以及铁锭
+dj2.electricium.desc2=§f来制作第一块雷电锭！
 dj2.demon_blood.desc0=§f由下界自然生成的
 dj2.demon_blood.desc1=§f恶魔士兵掉落。
+dj2.ichor.desc0=§f用雷电同时轰击掉落物形式的
+dj2.ichor.desc1=§f恶魔之血、天域锭以及绿宝石来
+dj2.ichor.desc2=§f初次制作该物品。
 dj2.underpowder.desc0=§f由位于冥界的幽冥爬行者掉落。
 dj2.guards_bone.desc0=§f由位于冥界的骷髅守卫掉落。
 
@@ -381,6 +394,8 @@ dj2.syringe_disabled.desc3=§4物品已禁用。让战斗变得太容易了。
 dj2.blood_chest.desc0=§c物品已禁用。让物品修复变得太容易了。
 
 # EnderIO tooltips
+dj2.me_conduits.desc0=§c§l警告
+dj2.me_conduits.desc1=§f过度使用可能导致卡顿且无法正常传输频道
 dj2.farming_station.desc0=§c§l警告：§r§f不·要用该机器来收割
 dj2.farming_station.desc1=§f作物架上的作物。会导致游戏崩溃。
 dj2.farming_station.desc2=§f§o<按住 Shift 显示替代方案>
@@ -399,6 +414,7 @@ dj2.item_calculator.desc4=§f可能还有更多尚未发现。
 dj2.item_calculator.desc5=§c§l小心使用！
 
 # Bewitchment tooltips
+dj2.coquina.desc0=§f自然生成于海滩，也可合成获得
 dj2.white_sage_seeds.desc0=§f由枯萎的灌木概率掉落。
 dj2.garlic_seeds.desc0=§f由绒球葱概率掉落。
 dj2.dragons_blood_resin.desc0=§f在初次制作后，可通过使用伯莱恩新月小刀
@@ -449,6 +465,8 @@ dj2.rare_earths.desc3=§f按掉落率升序排序。
 dj2.rare_earths.desc4=§f此外，也可使用狱火熔炉熔炼以下矿物获得：
 dj2.rare_earths.desc5=§f铁、金、银、
 dj2.rare_earths.desc6=§f铜、锡、铅、朱砂。
+dj2.porous_stone.desc0=§6使用精准采集获取
+dj2.porous_stone.desc1=§6在腐化种子影响范围外由污秽岩石转化
 dj2.grapple_gun_spool.desc0=物品已禁用。会导致游戏崩溃。
 dj2.bath_salts.desc0=§f将该物品放入上方留有坑洞的奥术浴场，
 dj2.bath_salts.desc1=§f便可将浴场中的水转化为净化之水泵出。
@@ -493,7 +511,7 @@ dj2.thermal_kit.desc3=基于 §c18§r 个槽位的初始数值，将保险箱的
 # Silver plate
 dj2.silver_plate.desc0=§5§oS'il vous plaît
 
-# Blood Magic: Alchemical Wizardy tooltips
+# Blood Magic: Alchemical Wizardry tooltips
 dj2.rune_speed.desc0=每个符文增加 §620%§r 合成时的 LP 消耗速度以及气血宝珠的灌注速率，线性叠加。
 dj2.rune_self_sacrifice.desc0=每个符文增加 §610%§r 玩家自我献祭时获得的 LP 量，线性叠加。
 dj2.rune_sacrifice.desc0=每个符文增加 §610%§r 献祭生物时获得的 LP 量，线性叠加。
@@ -540,12 +558,19 @@ dj2.engineers_manual.desc1=§o使用 JEI 来查看！
 
 # Mystical Agriculture tooltips
 dj2.dragon_egg_seeds.desc0=层级：§r§c5
+dj2.any_crystal_durability.desc0=剩余使用次数
+dj2.inferium_crystal.desc0=§e下级§r -> §a中级§r
+dj2.prudentium_crystal.desc0=§a中级§r -> §6上级§r
+dj2.intermedium_crystal.desc0=§6上级§r -> §b特级§r
+dj2.superium_crystal.desc0=§b特级§r -> §c终极§r
+dj2.supremium_crystal.desc0=§c终极§r -> §5至臻§r
+dj2.master_crystal.desc0=§e§kE§a§kS§6§kS§b§kE§c§kN§5§kC§f§kE§r -> §e§kE§a§kS§6§kS§b§kE§c§kN§5§kC§f§kE§r
 
 # Quantum Flux tooltips
 dj2.ender_crystal.desc0=由末影人掉落。
 dj2.graphitedust.desc0=引爆它来制作超级钻石！
 
-# Baubly Heart Canisters tooltips
+# Baubley Heart Canisters tooltips
 dj2.bhc_red_heart.desc0=§f小概率由所有非 Boss 生物掉落。
 dj2.bhc_orange_heart.desc0=§f小概率由大多数 Boss 生物掉落，
 dj2.bhc_orange_heart.desc1=§f也可用凋灵灵魂碎片合成获得。
@@ -603,7 +628,6 @@ dj2.monolith_stone.desc0=§7可通过挖掘修格斯巢穴的墙壁获得
 dj2.monolith_stone.desc1=§7也可通过合成获得。
 dj2.necronomicon.desc0=§7合成不消耗作为材料的雕像。
 dj2.coralium_ore.desc0=§f于海洋和沼泽生态群系生成。
-dj2.abyore.desc0=§f于黑暗之地生态群系生成。
 dj2.coralium_stone.desc0=§f珊瑚石可于深渊荒原发现。
 dj2.coralium_stone.desc1=§f液态反物质与r§b液态珊瑚
 dj2.coralium_stone.desc2=§f反应也可生成珊瑚石！
@@ -683,7 +707,6 @@ dj2.roots_wipes_input_bag.desc0=§l§c警告：§r§7合成该物品将清空袋
 dj2.elemental_soul_crop.desc0=可在任意种类的元素土上种植。
 dj2.baffle_cap_mushroom.desc0=生长方式与原版蘑菇相同。
 dj2.wildwood_quiver.desc0=§4§o合成需要刚制作好、未被使用的普通背包。
-dj2.imp_leather.desc0=§f可使用根源魔法的仪式：召唤生物来生成小恶魔。
 
 # Astral Sorcery tooltips
 dj2.infused_wood.desc0=§f仅接受微光梦之木
@@ -697,7 +720,7 @@ dj2.undergroundbiomes_gravel.desc1=§5§o来转化为原版沙砾。
 # Dragon's Breath tooltips
 dj2.dragon_breath.desc0=§f若在收集龙息时因为植物魔法的§7末地空气§r§f而遇到困难，
 dj2.dragon_breath.desc1=§f可以尝试以下方法：§r§c不要§r§f对着方块右击，调整角度，
-dj2.dragon_breath.desc2=§f令准心只对着紫色的§r§d龙息粒子§r§f,
+dj2.dragon_breath.desc2=§f令准心只对着紫色的§r§d龙息粒子§r§f，
 dj2.dragon_breath.desc3=§f而§r§c不是§r§f对着龙息下面的方块。
 
 # Lilypad tooltip
@@ -734,6 +757,7 @@ dj2.totempedia.desc1=§f合成时请参考 JEI！
 
 # Aether tooltips
 dj2.aerogel_warning.desc0=§c§l在装有 TickProfiler 的服务器中，尝试自动化该物品会导致崩溃。
+dj2.enchanter.desc0=放置在重力石方块上方时运行速度显著提升！
 
 # Draconic Evolution tooltips
 dj2.wyvern_core.desc0=§f合成需要消耗四分之一池魔力。
@@ -748,6 +772,9 @@ dj2.chaos_shard.desc1=§f也可使用炼金化学合成。
 # Construction Paste Container tooltip
 dj2.constructionpastecontainer.desc0=该黏膏容器最多可存储 §c%d§r §f个构建黏膏。
 
+# Omniwand tooltip
+dj2.omniwand.desc0=Search "##omniwand" in JEI to see what items can be added!
+
 # Graphite Dust tooltip
 dj2.jei.industrial_graphite_dust.desc0=引爆工业级石墨粉来制作该物品。
 
@@ -760,3 +787,22 @@ dj2.jei.hand_framing_tool.desc3=工具镶框后，对任意已放置的抽屉右
 # Deprecated
 dj2.deprecated.deprecated.desc=§c已弃用
 dj2.deprecated.convert.desc=§c通过无序合成来转换为替代物品。
+
+
+# Fix Broken Lang Keys from other sources
+
+# Missing keys from Bewitchment for Thaumcraft Research
+research.f_MATCOLDIRON.text=分析寒铁
+research.f_MATSILVER.text=分析银锭
+
+# Underground Biomes forgot to translate some of their blocks
+# They instead have duplicate lang keys for sedimentary.
+# https://github.com/LemADEC/UndergroundBiomesConstructs/blob/master/src/main/resources/assets/undergroundbiomes/lang/en_us.lang#L625
+tile.metamorphic_sandstone_chiseled.gneiss.name=Chiseled Gneiss Sandstone
+tile.metamorphic_sandstone_chiseled.eclogite.name=Chiseled Eclogite Sandstone
+tile.metamorphic_sandstone_chiseled.marble.name=Chiseled Marble Sandstone
+tile.metamorphic_sandstone_chiseled.quartzite.name=Chiseled Quartzite Sandstone
+tile.metamorphic_sandstone_chiseled.blueschist.name=Blue Chiseled Schist Sandstone
+tile.metamorphic_sandstone_chiseled.greenschist.name=Green Chiseled Schist Sandstone
+tile.metamorphic_sandstone_chiseled.soapstone.name=Chiseled Soapstone Sandstone
+tile.metamorphic_sandstone_chiseled.migmatite.name=Chiseled Migmatite Sandstone
