@@ -63,4 +63,3 @@ A list of dimensions, including their ID and mod of origin. If "Should be reset?
 | Tips                           | Tips-1.12.2-1.0.9                   |
 | Tip The Scales                 | TipTheScales-1.12.2-1.0.4           |
 | Toast Control                  | Toast Control-1.12.2-1.8.1          |
-| Waila Harvestability           | WailaHarvestability-mc1.12-1.1.12   |
