@@ -3,14 +3,15 @@ Divine Journey 2 Modern - removed CraftTweaker displayName overrides
 
 Scope
 -----
-18 entries are now handled by the language files in this directory:
-- 6 Mithril items (Thermal Foundation), migrated 2026-11-13.
-- 12 further items, migrated 2026-11-14 (all displayName overrides except the one
-  explicitly excluded below).
-
-Excluded on purpose (user decision):
-- extendedcrafting:singularity:21 (Alchemical Brass Singularity)
-Its displayName line stays in the .zs scripts (known to be a no-op; fix tracked in TODO.md).
+19 displayName overrides have been removed from the scripts:
+- 18 are handled by the language files in this directory:
+  - 6 Mithril items (Thermal Foundation), migrated 2026-11-13.
+  - 12 further items, migrated 2026-11-14.
+- 1 is handled by overrides/resources/extendedcrafting/lang/ (2026-11-14):
+  - extendedcrafting:singularity:21 (Alchemical Brass Singularity)
+    The original line was a no-op: the displayed name is built from
+    item.ec.singularity.name plus item.ec.singularity.<material>, not from the
+    injected key.
 
 Reason
 ------
@@ -41,3 +42,4 @@ overrides/scripts/ModSpecific/MysticalAgriculture.zs:873: <mysticalagriculture:b
 overrides/scripts/ModSpecific/MysticalAgriculture.zs:874: <mysticalagriculture:brass_essence>.displayName = "Alchemical Brass Essence";
 overrides/scripts/ModSpecific/ProjectRedCore.zs:67: <projectred-core:resource_item:250>.displayName = "Sandy Silicon Compound";
 overrides/scripts/ModSpecific/Thaumcraft.zs:660: <thaumcraft:metal_brass>.displayName = "Alchemical Brass Block";
+overrides/scripts/ModSpecific/ExtendedCrafting.zs:129: <extendedcrafting:singularity:21>.displayName = "Alchemical Brass Singularity";

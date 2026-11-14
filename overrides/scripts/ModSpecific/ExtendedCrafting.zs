@@ -125,9 +125,6 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritia:singularity:12>, <
 // Titanium Singularity
 mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity:31>, <galacticraftplanets:item_basic_asteroids>, 1024, <contenttweaker:singularification_catalyst>, 100000000);
 
-// Alchemical Brass Singularity
-<extendedcrafting:singularity:21>.displayName = "Alchemical Brass Singularity";
-
 //  Ender Star
 mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);
 mods.extendedcrafting.EnderCrafting.addShaped(<extendedcrafting:material:40>, [[<extendedcrafting:material:48>,<extendedcrafting:singularity_custom:154>,<extendedcrafting:material:48>],[<extendedcrafting:singularity_custom:154>,<astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}}),<extendedcrafting:singularity_custom:154>],[<extendedcrafting:material:48>,<extendedcrafting:singularity_custom:154>,<extendedcrafting:material:48>]], 10);

@@ -17,3 +17,8 @@ modularmachinery.mass_inscriber=批量压印器
 modularmachinery.mob_loot_fabricator=怪物战利品制造机
 modularmachinery.ultimate_compressor=终极压缩机
 modularmachinery.weak_fusion_plant=弱聚变工厂
+
+# ExtendedCrafting 奇点：I18n 中文包的 item.ec.singularity.name 缺了 %s，
+# 而它的资源包排在我们的 resources/ 之后，覆盖层压不住，只能走同样的注入。
+item.ec.singularity.name=%s奇点
+item.ec.singularity.brass=炼金黄铜

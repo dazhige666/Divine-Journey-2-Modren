@@ -1,0 +1,67 @@
+# Divine Journey 2 Modern - added content (not present in the original pack).
+#
+# ExtendedCrafting 的自定义奇点由 config/extendedcrafting.cfg 的 custom_singularities
+# 定义，名字只有英文 name 字段，模组按 item.ec.singularity.<name> 找翻译，找不到就
+# 回退成英文原名。I18n 中文包只覆盖了 32 个内置材料，不含这些，所以在这里补齐。
+# 译名以本包物品的现有中文名为准（取 Material 名，去掉「锭/片/粉」等后缀）。
+item.ec.singularity.chrome=铬
+item.ec.singularity.clay=粘土
+item.ec.singularity.quartz=下界石英
+item.ec.singularity.draconium=龙
+item.ec.singularity.electrical_steel=磁钢
+item.ec.singularity.energetic_alloy=充能合金
+item.ec.singularity.vibrant_alloy=脉冲合金
+item.ec.singularity.redstone_alloy=红石合金
+item.ec.singularity.conductive_iron=导电铁
+item.ec.singularity.pulsating_iron=充能铁
+item.ec.singularity.dark_steel=玄钢
+item.ec.singularity.soularium=魂金
+item.ec.singularity.end_steel=末影钢
+item.ec.singularity.crystalline_alloy=晶化合金
+item.ec.singularity.melodic_alloy=旋律合金
+item.ec.singularity.stellar_alloy=恒星合金
+item.ec.singularity.crystalline_pink_slime=晶化粉红史莱姆
+item.ec.singularity.energetic_silver=充能银
+item.ec.singularity.vivid_alloy=生动合金
+item.ec.singularity.pink_slime=粉红史莱姆
+item.ec.singularity.grains_of_infinity=基岩粉
+item.ec.singularity.electrotine=蓝石
+item.ec.singularity.ruby=红宝石
+item.ec.singularity.sapphire=蓝宝石
+item.ec.singularity.peridot=橄榄石
+item.ec.singularity.osmium=锇
+item.ec.singularity.refined_obsidian=强化黑曜石
+item.ec.singularity.refined_glowstone=荧石
+item.ec.singularity.coralium_brick=珊瑚砖
+item.ec.singularity.refined_coralium=精炼珊瑚
+item.ec.singularity.abyssalnite=渊素
+item.ec.singularity.dreadium=惧质
+item.ec.singularity.realmite=现石
+item.ec.singularity.arlemite=阿勒石
+item.ec.singularity.rupee=卢比
+item.ec.singularity.netherite=炎岩
+item.ec.singularity.bloodgem=血宝石
+item.ec.singularity.black_quartz=焦黑石英
+item.ec.singularity.certus_quartz=赛特斯石英
+item.ec.singularity.resonant_clathrate=谐振络合物
+item.ec.singularity.pyrotheum=炽焱
+item.ec.singularity.cryotheum=凛冰
+item.ec.singularity.aerotheum=清风
+item.ec.singularity.petrotheum=层岩
+item.ec.singularity.plastic=塑料片
+item.ec.singularity.sulfur=硫磺
+item.ec.singularity.niter=硝石
+item.ec.singularity.dark_gem=暗黑宝石
+item.ec.singularity.manasteel=魔力钢
+item.ec.singularity.elementium=精灵钢
+item.ec.singularity.terrasteel=泰拉钢
+item.ec.singularity.thaumium=神秘
+item.ec.singularity.void_metal=虚空金属
+item.ec.singularity.cold_iron=寒铁
+item.ec.singularity.yellorium=黄铀
+item.ec.singularity.starmetal=星辉
+item.ec.singularity.solar=太阳能
+item.ec.singularity.amethyst=紫水晶
+item.ec.singularity.quicksilver=水银
+item.ec.singularity.amber=琥珀
+item.ec.singularity.alumite=耐酸铝
