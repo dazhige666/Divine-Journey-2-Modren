@@ -1,50 +1,57 @@
-<img src="readme/images/divine-journey-2.png" align="left" width="160px" alt="Divine Journey 2 Logo" />
+# Divine Journey 2 Modern
 
-# Divine Journey 2
-
-An Expert modpack for Minecraft 1.12.2.
-
-By Atricos and a number of others - see the [Credits](readme/CREDITS.md).
-
-<br>
-<br>
+Minecraft 1.12.2 专家级整合包，基于 [Divine Journey 2](https://github.com/Divine-Journey-2/Divine-Journey-2) 2.23.4 改造：把停更的多方块机器体系换成 MMCE，HUD 与小地图换成仍在维护的替代品，并内置简体中文。
 
 <div align="center">
 
-[![Total CurseForge Downloads](https://cf.way2muchnoise.eu/full_370666_Downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/modpacks/divine-journey-2/files)
-[![ModDex rating](https://moddex.gg/badges/projects/divine-journey-2/rating.svg?style=for-the-badge)](https://moddex.gg/modpack/divine-journey-2)
-
-[![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.12.2-yellow.svg?style=for-the-badge)](/manifest.json)
-[![Most recent GitHub release](https://img.shields.io/github/v/release/divine-journey-2/divine-journey-2?color=%23C82A26&label=Latest%20Release&style=for-the-badge)](https://github.com/Divine-Journey-2/Divine-Journey-2/releases/latest)
-[![Open Github Issues](https://img.shields.io/github/issues/divine-journey-2/divine-journey-2?color&label=Open%20Issues&style=for-the-badge)](https://github.com/Divine-Journey-2/Divine-Journey-2/issues)
-[![Repository License](https://img.shields.io/badge/License-GPL--3.0-yellow.svg?style=for-the-badge)](/LICENSE)
-[![Atricos' Patreon](https://img.shields.io/badge/Patreon-Support%20Atricos-orange.svg?logo=patreon&logoColor=orange&style=for-the-badge)](https://www.patreon.com/Atricos)
-[![Discord](https://img.shields.io/discord/691927762755387402?label=Discord&colorB=7289DA&logo=discord&logoColor=7289DA&style=for-the-badge)](https://discord.gg/rH9pyS7)
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.12.2-yellow.svg?style=for-the-badge)](/manifest.json)
+[![License](https://img.shields.io/badge/License-GPL--3.0-yellow.svg?style=for-the-badge)](/LICENSE)
+[![Based on Divine Journey 2](https://img.shields.io/badge/Based%20on-DJ2%202.23.4-blue.svg?style=for-the-badge)](https://github.com/Divine-Journey-2/Divine-Journey-2)
 
 </div>
 
-Report bugs, typos, and other issues or request features the [issues](https://github.com/Divine-Journey-2/Divine-Journey-2/issues) tab on GitHub.
+## 这是什么
 
-For more information, browse the GitHub or visit the official [CurseForge page](https://www.curseforge.com/minecraft/modpacks/divine-journey-2).
+DJ2 Modern 是 Divine Journey 2 的改版，不是官方续作，也不是新包。玩法内容与上游一致，改造集中在运行与维护层面：降低卡顿、提升帧率，把已经停更的组件替换成仍在维护的替代品。
 
-## Download
+- **玩法内容与上游一致**：没有新增或删减任务章节，没有重做进度曲线。
+- **仍然运行在 Forge 1.12.2 上**：后续将迁移到 Cleanroom。
+- **中文内置**：任务书与本包自定义文本直接随包分发，不再依赖玩家自己找汉化。
 
-Download the pack on [GitHub](https://github.com/Divine-Journey-2/Divine-Journey-2/releases) or [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-journey-2/files).
+## 与上游 DJ2 的差异
 
-Nightly (pre-release) versions of the pack can be downloaded off the [Nightly](https://nightly.link/Divine-Journey-2/Divine-Journey-2/workflows/nightly/main).
+| 项目 | 上游 2.23.4 | 本版 |
+|---|---|---|
+| 多方块机器 | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
+| HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
+| 小地图 | JourneyMap | **Xaero's Minimap / World Map** |
+| 光影/优化 | 需要手动安装 OptiFine | **ModDirector 首次启动自动下载** |
+| 语言 | 英文 | **内置简体中文** + I18nUpdateMod 在运行时补齐其余模组的中文 |
 
-## Modlist
+这些替换集中在运行与界面层：多方块结构的搭建方式、配方输入输出、任务要求与上游保持一致。
 
-View the modlist on [GitHub](readme/MODLIST.md), via the [auto-generated html](modlist.html), or [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-journey-2/relations/dependencies)
+## 中文
 
-## Info for server owners
+本包的简体中文分两部分：
 
-View [Server Info](readme/SERVER_INFO.md) for information on what dimensions to reset and what mods are clientside.
+- 内置部分：DJ2 自定义文本（任务书、ContentTweaker / CraftTweaker 物品、附魔描述、GroovyScript、Requious Frakto），以及 MMCE 机器名与 modifier 描述，通过 `overrides/resources/<domain>/lang/zh_cn.lang` 覆盖层提供，不修改任何模组 jar。
+- 运行时部分：其余模组的中文由 I18nUpdateMod 下载的 CFPA 语言包提供。
 
-## Preview Images
+机制细节、汉化来源与更新方式见 [`readme/LOCALIZATION-NOTES.md`](readme/LOCALIZATION-NOTES.md)；对汉化文本的修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
 
-A number of Preview Images have been made for the pack, which are visible on [GitHub](readme/PREVIEW_IMAGES.md) or on [CurseForge](https://www.curseforge.com/minecraft/modpacks/divine-journey-2/screenshots). These images may not be entirely accurate to the current status of the pack.
+## 许可与致谢
 
-The primary self-promo image:
+- 本整合包与上游 DJ2 一样以 **GPL-3.0** 发布，仓库公开。
+- 简体中文来自 **Translation-of-DJ2**（作者 琅然_、PinkYuDeer、柠娜，GPL-3.0），完整署名与修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
+- 上游作者与贡献者名单见 [`readme/CREDITS.md`](readme/CREDITS.md)；多方块机器体系来自 MMCE 及其 Addons 的作者。
 
-![Preview Image](readme/images/preview-image.jpg)
+## English summary
+
+Divine Journey 2 Modern is a modernization of [Divine Journey 2](https://github.com/Divine-Journey-2/Divine-Journey-2) for Minecraft 1.12.2, based on upstream 2.23.4. Gameplay is unchanged: same quests, same progression. What has changed is the infrastructure:
+
+- Modular Machinery / Modular Diversity / ModularMagic → **MMCE 2.3.2 + MMCE-Addons 2.0.5** (recipes and structures migrated)
+- Hwyla → **The One Probe CE**; JourneyMap → **Xaero's Minimap and World Map**
+- OptiFine is downloaded on first launch by **ModDirector**
+- **Simplified Chinese** is bundled for the quest book and custom content; I18nUpdateMod fetches the remaining translations at runtime
+
+Licensed GPL-3.0, like upstream. Third-party licenses and credits: [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md).
