@@ -37,7 +37,7 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 - 内置部分：DJ2 自定义文本（任务书、ContentTweaker / CraftTweaker 物品、附魔描述、GroovyScript、Requious Frakto），以及 MMCE 机器名与 modifier 描述，通过 `overrides/resources/<domain>/lang/zh_cn.lang` 覆盖层提供，不修改任何模组 jar。
 - 运行时部分：其余模组的中文由 I18nUpdateMod 下载的 CFPA 语言包提供。
 
-机制细节、汉化来源与更新方式见 [`readme/LOCALIZATION-NOTES.md`](readme/LOCALIZATION-NOTES.md)；对汉化文本的修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
+汉化来源、署名与对汉化文本的修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
 
 ## 许可与致谢
 
