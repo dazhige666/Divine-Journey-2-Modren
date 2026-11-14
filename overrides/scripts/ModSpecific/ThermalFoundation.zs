@@ -11,10 +11,6 @@ import mods.zenutils.I18n;
 
 print("STARTING ThermalFoundation.zs");
 
-// Renaming Mana Infused to Mithril
-game.setLocalization("tile.thermalfoundation.ore.mithril.name", "Mithril Ore");
-game.setLocalization("tile.thermalfoundation.storage.mithril.name", "Mithril Block");
-game.setLocalization("tile.thermalfoundation.glass.mithril.name", "Hardened Mithril Glass");
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:glass:8> * 2, <thermalfoundation:glass:3> * 2, <thermalfoundation:material:72>, 6000, <thermalfoundation:material:865>, 15);
 
 // Steel Tools are already added by Immersive Engineering

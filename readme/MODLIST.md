@@ -1,13 +1,13 @@
 # Divine Journey 2 Modlist
 
-Total Mods: 224
+Total Mods: 225
 
 ## Type Key
 
 | Icon          | Count | Type of Mod       | Description                                                                                                            |
 | ------------- | ----- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | :books:       | 48    | Library           | Required for other mods and not doing much on its own                                                                  |
-| :toolbox:     | 42    | Utility           | Typically visual or minor improvements                                                                                 |
+| :toolbox:     | 43    | Utility           | Typically visual or minor improvements                                                                                 |
 | :gear:        | 29    | Development       | Basically never interacted with by a player                                                                            |
 | :gem:         | 36    | Primary           | One of the main mods in the pack, frequently interacted with and makes up a substantial part of progression on its own |
 | :ring:        | 35    | Addon             | Adds addition features to a Primary or Utility Mod, sometimes containing significant content of its own right          |
@@ -133,6 +133,7 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :gem:         | [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei)                                                                 | [mezz](https://curseforge.com/members/mezz)                                           |                    |
 | :ring:        | [Just Enough Throwing In Fluids](https://www.curseforge.com/minecraft/mc-mods/jetif)                                                  | [Lykrast](https://curseforge.com/members/Lykrast)                                     | :white_check_mark: |
 | :toolbox:     | [Just Enough Calculation](https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation)                                       | [towdium](https://curseforge.com/members/towdium)                                     |                    |
+| :toolbox:     | [Just Enough Characters](https://www.curseforge.com/minecraft/mc-mods/just-enough-characters)                                         | [towdium](https://curseforge.com/members/towdium)                                     |                    |
 | :ring:        | [Just Enough Reactors](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors)                                             | [BrainStone](https://curseforge.com/members/BrainStone)                               |                    |
 | :ring:        | [Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)                                       | [way2muchnoise](https://curseforge.com/members/way2muchnoise)                         | :white_check_mark: |
 | :ring:        | [Knowledge Sharer](https://www.curseforge.com/minecraft/mc-mods/knowledge-sharer)                                                     | [Rongmario](https://curseforge.com/members/Rongmario)                                 |                    |

@@ -1381,6 +1381,13 @@
       "fileID": 7173159,
       "required": true,
       "clientOnly": true
+    },
+    {
+      "slug": "just-enough-characters",
+      "projectID": 250702,
+      "fileID": 9163752,
+      "required": true,
+      "clientOnly": true
     }
   ],
   "overrides": "overrides"
