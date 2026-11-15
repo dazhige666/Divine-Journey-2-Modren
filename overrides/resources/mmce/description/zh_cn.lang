@@ -1,0 +1,9 @@
+# Divine Journey 2 Modern - added content (not present in the original pack).
+# Modular Machinery modifier 描述（中文）。这不是 Minecraft 语言文件：模组只把 JSON 里的
+# description 当字面字符串，MachineModifierDescriptionI18n.groovy 读本文件，按 key 替换文本。
+# 新增机器时，在这里加一行 modularmachinery.<registryname>.modifier.<name>.desc=描述。
+
+modularmachinery.lightningcraft_infusion_multiblock.modifier.wireless_block.desc=将§e天域引雷针§r替换为§eLE 接收器（三阶）§r，使能量消耗降低 50%。
+modularmachinery.lightningcraft_infusion_multiblock.modifier.mystic_cell.desc=将§e进阶 LE 能量单元§r替换为§e神秘 LE 能量单元§r，使处理速度提升至 2 倍。
+modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=将§e进阶 LE 能量单元§r替换为§eRF雷电发电机§r，使处理速度提升至 5 倍。
+modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=注意：§e天辉聚能水晶§r必须调谐至§e圣芒座§r，多方块结构才能成型。

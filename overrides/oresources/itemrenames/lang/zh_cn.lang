@@ -4,7 +4,6 @@
 
 container.giantcraftingtable.name=拼图合成台
 item.bewitchment.salt.name=仪式盐
-item.ingot.brass.name=炼金黄铜锭
 item.iron_pendant.name=钢吊坠
 item.iron_ring.name=钢戒指
 item.items.evilcraft.blood_orb.filled.name=邪恶血珠
@@ -22,5 +21,5 @@ item.thermalfoundation.material.plateMithril.name=秘银板
 tile.thermalfoundation.glass.mithril.name=硬化秘银玻璃
 tile.thermalfoundation.ore.mithril.name=秘银矿石
 tile.thermalfoundation.storage.mithril.name=秘银块
-tile.ghast_pumpkin.name=恶魂方块
+tile.ghast_pumpkin.name=恶魂块
 tile.metal_brass.name=炼金黄铜块

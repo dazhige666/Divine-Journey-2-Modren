@@ -1,0 +1,5 @@
+# Divine Journey 2 Modern - added content (not present in the original pack).
+# 奇点模板键。I18n 包里 item.ec.singularity.name 丢了 %s、brass 译作「黄铜」，
+# 只有覆盖资源包（oresources/，加载顺序最后）能压过它；这里不再依赖运行时注入。
+item.ec.singularity.name=%s奇点
+item.ec.singularity.brass=炼金黄铜

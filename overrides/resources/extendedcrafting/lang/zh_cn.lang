@@ -1,8 +1,7 @@
 # Divine Journey 2 Modern - added content (not present in the original pack).
-#
-# ExtendedCrafting 的自定义奇点由 config/extendedcrafting.cfg 的 custom_singularities
-# 定义，名字只有英文 name 字段，模组按 item.ec.singularity.<name> 找翻译，找不到就
-# 回退成英文原名。I18n 中文包只覆盖了 32 个内置材料，不含这些，所以在这里补齐。
+# ExtendedCrafting 奇点（61 个，由 config/extendedcrafting.cfg 的 custom_singularities 定义）。
+# 名字只有英文 name 字段，模组按 item.ec.singularity.<name> 找翻译，找不到就回退英文原名。
+# I18n 包与模组自带 en_us 都没有这些键，放在本域即可直接生效（F3+T）。
 # 译名以本包物品的现有中文名为准（取 Material 名，去掉「锭/片/粉」等后缀）。
 item.ec.singularity.chrome=铬
 item.ec.singularity.clay=粘土

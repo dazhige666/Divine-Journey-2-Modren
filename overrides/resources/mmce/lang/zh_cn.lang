@@ -1,12 +1,9 @@
 # Divine Journey 2 Modern - added content (not present in the original pack).
+# Modular Machinery 机器名。加载为 mmce 资源域；Minecraft 会合并各资源域的 lang 键，
+# 因此不会遮蔽 MMCE 自带的 lang 文件。I18n 包与本包补汉材质包都没有 mmce 域。
+# modifier 的描述不放这里，见 resources/mmce/description/（由 Groovy 脚本读取）。
 
-modularmachinery.lightningcraft_infusion_multiblock.modifier.wireless_block.desc=将§e天域引雷针§r替换为§eLE 接收器（三阶）§r，使能量消耗降低 50%。
-modularmachinery.lightningcraft_infusion_multiblock.modifier.mystic_cell.desc=将§e进阶 LE 能量单元§r替换为§e神秘 LE 能量单元§r，使处理速度提升至 2 倍。
-modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=将§e进阶 LE 能量单元§r替换为§eRF雷电发电机§r，使处理速度提升至 5 倍。
-modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=注意：§e天辉聚能水晶§r必须调谐至§e圣芒座§r，多方块结构才能成型。
-
-# 机器名称（10 台 DJ2 自定义机器）。键名 = modularmachinery.<registryname>，值先留英文占位，
-# 逐行替换成中文即可；不要改键名。
+# 机器名称（DJ2 自定义机器）。键名 = modularmachinery.<registryname>，不要改键名。
 modularmachinery.auto_infusion_matrix=自动注魔矩阵
 modularmachinery.chemical_caster=化学铸造机
 modularmachinery.high_voltage_plasmafier=高压等离子化装置
@@ -17,8 +14,3 @@ modularmachinery.mass_inscriber=批量压印器
 modularmachinery.mob_loot_fabricator=怪物战利品制造机
 modularmachinery.ultimate_compressor=终极压缩机
 modularmachinery.weak_fusion_plant=弱聚变工厂
-
-# ExtendedCrafting 奇点：I18n 中文包的 item.ec.singularity.name 缺了 %s，
-# 而它的资源包排在我们的 resources/ 之后，覆盖层压不住，只能走同样的注入。
-item.ec.singularity.name=%s奇点
-item.ec.singularity.brass=炼金黄铜

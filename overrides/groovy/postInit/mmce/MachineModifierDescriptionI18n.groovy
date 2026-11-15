@@ -1,10 +1,12 @@
 // Divine Journey 2 Modern - added content (not present in the original pack).
-// Modular Machinery stores modifier descriptions as literal strings. The machine
-// JSON now holds a lang key, and this script turns those keys into text on the
-// client. GroovyScript rewrites java.io.File into its sandboxed GroovyFile (which
-// resolves paths against the Minecraft home) and blacklists java.nio.file, so the
-// lang file is read through GroovyFile. Keys are injected into LanguageMap, which
-// also localizes the machine display names (AbstractMachine.getLocalizedName()).
+// Modular Machinery stores modifier descriptions as literal strings: the machine
+// JSON holds a lang-like key, and this script swaps those keys for text once the
+// player is in a world. The text lives in resources/mmce/description/<locale>.lang,
+// outside the assets/<domain>/lang path, so it is never merged into LanguageMap.
+// GroovyScript rewrites java.io.File into its sandboxed GroovyFile (which resolves
+// paths against the Minecraft home) and blacklists java.nio.file, so the file is
+// read through GroovyFile. Machine display names are ordinary lang keys in
+// resources/mmce/lang/ and need no script.
 //
 // Uses GroovyScript's eventManager instead of @SubscribeEvent: script classes are
 // not scanned by Forge, so annotated methods would never fire.
@@ -13,28 +15,23 @@ import com.cleanroommc.groovyscript.event.GroovyEventManager
 import com.cleanroommc.groovyscript.helper.GroovyFile
 import hellfirepvp.modularmachinery.common.machine.MachineRegistry
 import net.minecraft.client.Minecraft
-import net.minecraft.client.resources.I18n
-import net.minecraft.util.text.translation.LanguageMap
 import net.minecraftforge.fml.common.gameevent.TickEvent
 
 
-Map<String, String> translations = [:]
-int cooldown = 0
+Map<String, String> descriptions = [:]
 int changedLines = 0
+boolean applied = false
 
 def log = { Object message ->
     System.out.println("[mmce-i18n] " + message)
 }
 
-def findLangFile = { String locale ->
+def findDescriptionFile = { String locale ->
     try {
-        List<String> codes = [locale]
-        if (locale != null) {
-            codes.add(locale.toLowerCase())
-        }
-        for (String code : codes.unique()) {
+        List<String> codes = [locale, locale == null ? null : locale.toLowerCase(), 'en_us']
+        for (String code : codes.findAll { it != null }.unique()) {
             // GroovyFile resolves this against the Minecraft home directory.
-            GroovyFile file = new GroovyFile('resources/mmce/lang/' + code + '.lang')
+            GroovyFile file = new GroovyFile('resources/mmce/description/' + code + '.lang')
             if (file.isFile()) {
                 return file
             }
@@ -46,7 +43,7 @@ def findLangFile = { String locale ->
     }
 }
 
-def readLangFile = { GroovyFile file ->
+def readDescriptionFile = { GroovyFile file ->
     Map<String, String> map = [:]
     try {
         file.eachLine('UTF-8') { String line ->
@@ -60,25 +57,6 @@ def readLangFile = { GroovyFile file ->
         log('read failed: ' + t)
     }
     return map
-}
-
-def injectTranslations = { Map<String, String> map ->
-    if (map.isEmpty()) {
-        return
-    }
-    StringBuilder builder = new StringBuilder()
-    map.each { String key, String value ->
-        builder.append(key).append('=').append(value).append('\n')
-    }
-    // java.io.ByteArrayInputStream is blacklisted by the sandbox, so write the
-    // keys to a temporary file and hand its stream to LanguageMap instead.
-    GroovyFile temp = new GroovyFile('config/mmce_i18n_runtime.lang')
-    temp.setText(builder.toString(), 'UTF-8')
-    try {
-        temp.withInputStream { stream -> LanguageMap.inject(stream) }
-    } finally {
-        temp.delete()
-    }
 }
 
 def translateAll = {
@@ -104,8 +82,8 @@ def translateAll = {
             }
             for (int i = 0; i < lines.size(); i++) {
                 String line = lines.get(i)
-                if (line != null && translations.containsKey(line)) {
-                    lines.set(i, translations.get(line))
+                if (line != null && descriptions.containsKey(line)) {
+                    lines.set(i, descriptions.get(line))
                     changedLines++
                 }
             }
@@ -117,39 +95,29 @@ log('script loaded')
 
 if (Minecraft.getMinecraft() != null) {
     GroovyEventManager.INSTANCE.listen(TickEvent.ClientTickEvent) {
-        if (cooldown > 0) {
-            cooldown--
+        def mc = Minecraft.getMinecraft()
+        if (mc.world == null || mc.player == null) {
+            // Left the world: allow one more pass after the next join.
+            applied = false
             return
         }
-        // ClientTickEvent fires twice per tick; 1200 is roughly 30 seconds.
-        cooldown = 1200
+        if (applied) {
+            return
+        }
+        applied = true
         try {
-            def mc = Minecraft.getMinecraft()
-            if (mc.world == null) {
-                return
-            }
             String locale = mc.getLanguageManager().getCurrentLanguage().getLanguageCode()
-            GroovyFile file = findLangFile(locale)
+            GroovyFile file = findDescriptionFile(locale)
             if (file == null) {
-                log('lang file not found for locale=' + locale)
+                log('description file not found for locale=' + locale)
                 return
             }
-            translations = readLangFile(file)
-            log('read locale=' + locale + ' file=' + file + ' keys=' + translations.size())
-            if (translations.isEmpty()) {
-                return
-            }
-            try {
-                injectTranslations(translations)
-            } catch (Throwable t) {
-                log('inject failed: ' + t)
-            }
+            descriptions = readDescriptionFile(file)
+            log('read locale=' + locale + ' file=' + file + ' keys=' + descriptions.size())
             translateAll()
-            log('applied keys=' + translations.size() + ' machines=' + (MachineRegistry.getLoadedMachines()?.size()) + ' lines=' + changedLines)
-            log('check name=' + I18n.format('modularmachinery.chemical_caster'))
-            log('check desc=' + I18n.format('modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc'))
+            log('applied machines=' + (MachineRegistry.getLoadedMachines()?.size()) + ' lines=' + changedLines)
         } catch (Throwable t) {
-            log('tick failed: ' + t)
+            log('apply failed: ' + t)
         }
     }
 }

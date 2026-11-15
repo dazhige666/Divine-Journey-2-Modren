@@ -1,0 +1,10 @@
+# Divine Journey 2 Modern - added content (not present in the original pack).
+# Modular Machinery modifier descriptions (English). This is not a Minecraft lang
+# file: the mod stores the JSON description as a literal string, and
+# MachineModifierDescriptionI18n.groovy reads this file and swaps the keys for text.
+# When adding a machine, add modularmachinery.<registryname>.modifier.<name>.desc=...
+
+modularmachinery.lightningcraft_infusion_multiblock.modifier.wireless_block.desc=Replace the §eSkyfather Air Terminal§r with an §eLE Receiver (Tier 3)§r to decrease the energy cost by 50%.
+modularmachinery.lightningcraft_infusion_multiblock.modifier.mystic_cell.desc=Replace the §eAdvanced Lightning Cell§r with a §eMystic Lightning Cell§r to multiply the processing speed by 2.
+modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=Replace the §eAdvanced Lightning Cell§r with an §eRF Lightning Generator§r to multiply the processing speed by 5.
+modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=Note: The §eCelestial Collector Crystal§r must be attuned to §eLucerna§r for the multiblock to form.

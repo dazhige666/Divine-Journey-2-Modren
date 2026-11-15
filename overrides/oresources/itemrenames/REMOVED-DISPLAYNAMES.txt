@@ -7,7 +7,7 @@ Scope
 - 18 are handled by the language files in this directory:
   - 6 Mithril items (Thermal Foundation), migrated 2026-11-13.
   - 12 further items, migrated 2026-11-14.
-- 1 is handled by overrides/resources/extendedcrafting/lang/ (2026-11-14):
+- 1 is handled by overrides/oresources/extendedcrafting/lang/ (2026-11-15, formerly the extendedcrafting domain):
   - extendedcrafting:singularity:21 (Alchemical Brass Singularity)
     The original line was a no-op: the displayed name is built from
     item.ec.singularity.name plus item.ec.singularity.<material>, not from the
@@ -20,7 +20,7 @@ LanguageMap.inject("<unlocalized>.name", "<value>") at script load time. Injecte
 keys are applied after language files are loaded, so they would override the
 zh_cn names in this resource domain (and force English on Chinese clients).
 To make the names localizable, the lines below were removed and moved to
-overrides/resources/itemrenames/lang/{en_us,zh_cn}.lang.
+overrides/oresources/itemrenames/lang/{en_us,zh_cn}.lang.
 
 Removed lines (file:line: statement)
 ------------------------------------
