@@ -23,7 +23,7 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 1. 下载本包的最新 zip（CurseForge 格式），导入启动器。
 2. 首次启动会弹出 Cleanroom Relauncher 窗口：指定 Cleanroom 版本为 0.6.13，Java 版本为 25（Zulu 25）。
 3. 首次进游戏需要联网且可能卡死：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。
-4. 光影（可选）：自行下载 OptiFine 1.12.2 HD U G5 放进 `mods/`；**不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
+4. **如果安装了 OptiFine，不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
 ## 与上游 DJ2 的差异
 
