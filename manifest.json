@@ -1053,12 +1053,6 @@
       "required": true
     },
     {
-      "slug": "spark",
-      "projectID": 361579,
-      "fileID": 3542217,
-      "required": true
-    },
-    {
       "slug": "official-divinerpg",
       "projectID": 363543,
       "fileID": 3081433,
@@ -1103,7 +1097,7 @@
     {
       "slug": "zenutil",
       "projectID": 401178,
-      "fileID": 8135692,
+      "fileID": 9380480,
       "required": true
     },
     {
@@ -1125,12 +1119,6 @@
       "required": true
     },
     {
-      "slug": "mixin-booter",
-      "projectID": 419286,
-      "fileID": 7049694,
-      "required": true
-    },
-    {
       "slug": "bqtweaker",
       "projectID": 423758,
       "fileID": 4448659,
@@ -1139,7 +1127,7 @@
     {
       "slug": "forgelin-continuous",
       "projectID": 456403,
-      "fileID": 7883992,
+      "fileID": 8877225,
       "required": true
     },
     {
@@ -1189,7 +1177,7 @@
     {
       "slug": "jei-utilities",
       "projectID": 616190,
-      "fileID": 4630499,
+      "fileID": 8528497,
       "required": true,
       "clientOnly": true
     },
@@ -1209,12 +1197,6 @@
       "slug": "thaumic-energistics-extended-life",
       "projectID": 849094,
       "fileID": 4513158,
-      "required": true
-    },
-    {
-      "slug": "configanytime",
-      "projectID": 870276,
-      "fileID": 5212709,
       "required": true
     },
     {
@@ -1254,18 +1236,6 @@
       "required": true
     },
     {
-      "slug": "fermiumbooter",
-      "projectID": 968474,
-      "fileID": 7279112,
-      "required": true
-    },
-    {
-      "slug": "fermiumasm",
-      "projectID": 971247,
-      "fileID": 7741058,
-      "required": true
-    },
-    {
       "slug": "bubbles-a-baubles-fork",
       "projectID": 995393,
       "fileID": 7736064,
@@ -1293,12 +1263,6 @@
       "slug": "natura-legacy",
       "projectID": 1116420,
       "fileID": 7571611,
-      "required": true
-    },
-    {
-      "slug": "noisethreader",
-      "projectID": 1153744,
-      "fileID": 7522969,
       "required": true
     },
     {
@@ -1344,13 +1308,6 @@
       "slug": "topalldependents",
       "projectID": 1120632,
       "fileID": 8896901,
-      "required": true,
-      "clientOnly": true
-    },
-    {
-      "slug": "filedirector",
-      "projectID": 650242,
-      "fileID": 6436962,
       "required": true,
       "clientOnly": true
     },
@@ -1430,6 +1387,37 @@
       "fileID": 4076539,
       "required": true,
       "clientOnly": true
+    },
+    {
+      "slug": "fugue",
+      "projectID": 1005815,
+      "fileID": 8878028,
+      "required": true
+    },
+    {
+      "slug": "chibi",
+      "projectID": 460609,
+      "fileID": 8957115,
+      "required": true
+    },
+    {
+      "slug": "flare",
+      "projectID": 692142,
+      "fileID": 7857037,
+      "required": true
+    },
+    {
+      "slug": "cleanroom-relauncher",
+      "projectID": 1214490,
+      "fileID": 9290129,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "scalar-legacy",
+      "projectID": 1235372,
+      "fileID": 6842491,
+      "required": true
     }
   ],
   "overrides": "overrides"

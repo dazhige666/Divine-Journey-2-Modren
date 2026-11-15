@@ -15,7 +15,8 @@ Minecraft 1.12.2 专家级整合包，基于 [Divine Journey 2](https://github.c
 DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造集中在运行与维护层面：降低卡顿、提升帧率，把已经停更的组件替换成仍在维护的替代品。
 
 - **玩法内容与上游一致**：没有新增或删减任务章节，没有重做进度曲线。
-- **仍然运行在 Forge 1.12.2 上**：后续将迁移到 Cleanroom。
+- **运行在 Cleanroom 0.6.13 上**：Minecraft 1.12.2 兼容层，需要 Java 25；首次启动由 Cleanroom Relauncher 提示选择 Java。
+- **不自动下载模组**：OptiFine 需自行放进 `mods/`。
 - **中文内置**：任务书与本包自定义文本直接随包分发，不再依赖玩家自己找汉化。
 
 ## 与上游 DJ2 的差异
@@ -25,7 +26,6 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 | 多方块机器 | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
 | HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
 | 小地图 | JourneyMap | **Xaero's Minimap / World Map** |
-| 光影/优化 | 需要手动安装 OptiFine | **File Director 首次启动自动下载** |
 | 语言 | 英文 | **内置简体中文** + I18nUpdateMod 在运行时补齐其余模组的中文 |
 
 这些替换集中在运行与界面层：多方块结构的搭建方式、配方输入输出、任务要求与上游保持一致。
@@ -49,9 +49,10 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 
 Divine Journey 2 Modern is a modernization of [Divine Journey 2](https://github.com/Divine-Journey-2/Divine-Journey-2) for Minecraft 1.12.2, based on upstream 2.23.4. Gameplay is unchanged: same quests, same progression. What has changed is the infrastructure:
 
+- Runs on **Cleanroom 0.6.13** (Java 25 required; the Cleanroom Relauncher sets up the runtime on first launch) instead of plain Forge
+
 - Modular Machinery / Modular Diversity / ModularMagic → **MMCE 2.3.2 + MMCE-Addons 2.0.5** (recipes and structures migrated)
 - Hwyla → **The One Probe CE**; JourneyMap → **Xaero's Minimap and World Map**
-- OptiFine is downloaded on first launch by **File Director**
 - **Simplified Chinese** is bundled for the quest book and custom content; I18nUpdateMod fetches the remaining translations at runtime
 
 Licensed GPL-3.0, like upstream. Third-party licenses and credits: [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md).
