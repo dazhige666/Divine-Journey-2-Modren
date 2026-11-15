@@ -8,13 +8,16 @@
 - 使用版本：`2.23.4-zh-6`（commit `d245627082dc7a5005d491ebaa813f97686cd343`）
 - 作者：琅然_、PinkYuDeer、柠娜
 - 许可：GNU General Public License v3.0（全文见 `licenses/Translation-of-DJ2-GPL-3.0.txt`）
-- 使用方式：其中 5 个文件原样复制，未做修改：
+- 使用方式：其中 6 个文件原样复制，未做修改：
   - `resources/contenttweaker/lang/zh_cn.lang`
   - `resources/crafttweaker/lang/zh_cn.lang`
   - `resources/enchantment_descriptions/lang/zh_cn.lang`
   - `resources/groovy/lang/zh_cn.lang`
   - `resources/requious_frakto/lang/zh_cn.lang`
+  - `config/ingameinfoxml.cfg`（IGI 信息面板配置，取自同一仓库的 IGI 配置包）
 - 本仓库修改过的文件（GPL-3.0 第 5(a) 条变更说明）：
+  - `config/InGameInfoXML/InGameInfo.xml`（IGI 信息面板配置，取自同一仓库的 IGI 配置包）
+    - 2026-11-15：删去 RF 维度信息中的 `{rftdimensionpower}` 与 `RF @` 两行。IGI-RFTools 1.2 按 `int` 调用 `DimensionStorage.getEnergyLevel`，而 rftoolsdim 5.71 返回 `long`，该值恒为 `false`；现在只显示维度名与 `{rftdimensioncost} RF/t`。
   - `resources/betterquesting/lang/zh_cn.lang`
     - 2026-11-14：物品名称对齐 I18n 译名，共 26 行（雷电工艺「聚能器→引雷针」「LE存储器→LE 能量单元」；星辉魔法「天体→天辉」）。改动仅限译名，未增删任务内容。
     - 2026-11-14：重写 7 条被错误复制自相邻任务的任务正文（274、278、300、744、769、1482、1577），修正 1567/1082/1083 标题与 1083/774 正文引用、错字，共 13 行。未增删任务内容。

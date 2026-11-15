@@ -32,7 +32,7 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 | 运行环境 | Forge 1.12.2（Java 8） | **Cleanroom 0.6.13-alpha**（1.12.2 兼容层，需 Java 25；由 Relauncher 固定版本并引导选择 Java） |
 | 多方块机器 | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
 | HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
-| 信息面板 | — | **InGame Info XML + 5 个附属**（TPS/MSPT、血魔法 LP、神秘灵气与咒波、RF 维度） |
+| 信息面板 | — | **InGame Info XML + 5 个附属**（TPS/MSPT、血魔法 LP、神秘灵气与咒波、RF 维度；配置为中文硬编码，仅支持中文） |
 | 小地图 | JourneyMap | **Xaero's Minimap / World Map** |
 | 优化 | Spark + FermiumBooter / FermiumASM / NoiseThreader | **Flare + Chibi (LoliASM)**，mixin 层交给 Cleanroom 内置 |
 | 语言 | 英文 | **内置简体中文** + I18nUpdateMod 在运行时补齐其余模组的中文；JEI 支持拼音与首字母搜索 |
@@ -46,12 +46,15 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 - 内置部分：DJ2 自定义文本（任务书、ContentTweaker / CraftTweaker 物品、附魔描述、GroovyScript、Requious Frakto），以及 MMCE 机器名与 modifier 描述，通过 `overrides/resources/` 与 `overrides/oresources/` 下的覆盖文件提供，不修改任何模组 jar。
 - 运行时部分：其余模组的中文由 I18nUpdateMod 下载的 CFPA 语言包提供。
 
+IGI 信息面板的配置（`overrides/config/InGameInfoXML/`）同样是中文的：标签直接写成中文字符串，英文客户端会看到中文 HUD，后续可能补英文版。
+
 汉化来源、署名与对汉化文本的修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
 
 ## 许可与致谢
 
 - 本整合包与上游 DJ2 一样以 **GPL-3.0** 发布，仓库公开。
 - 简体中文来自 **Translation-of-DJ2**（作者 琅然_、PinkYuDeer、柠娜，GPL-3.0），完整署名与修改记录见 [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md)。
+- IGI 信息面板的配置（`overrides/config/InGameInfoXML/`）也来自 **Translation-of-DJ2**，与任务书汉化同源，同样以 GPL-3.0 分发。
 - 上游作者与贡献者名单见 [`readme/CREDITS.md`](readme/CREDITS.md)；多方块机器体系来自 MMCE 及其 Addons 的作者。
 
 ## English summary
@@ -63,6 +66,7 @@ Divine Journey 2 Modern is a modernization of [Divine Journey 2](https://github.
 - Hwyla → **The One Probe CE**; JourneyMap → **Xaero's Minimap and World Map**; adds an **InGame Info XML** panel (TPS, blood magic LP, Thaumcraft aura, RFTools dimensions)
 - Spark and the Fermium mixin stack → **Flare + Chibi (LoliASM)**, with Cleanroom's built-in mixin layer
 - **Simplified Chinese** is bundled for the quest book and custom content; I18nUpdateMod fetches the remaining translations at runtime
+- **HUD language:** the InGame Info XML panel is configured in Chinese only — its labels are hardcoded Chinese strings, so English users will see a Chinese HUD. English labels may be added later; for now you can disable the IGI mods if you would rather not have it
 
 **Installing:** import the zip into Prism Launcher or MultiMC as a CurseForge-format pack. The first launch opens the Cleanroom Relauncher window, where you pick a Java 25 runtime (e.g. Azul Zulu 25); it downloads Cleanroom and restarts the game. OptiFine is not downloaded automatically — drop the jar into `mods/` if you want shaders, and **do not enable "Fast Render"** (it breaks rendering in this pack). The first game launch also needs a network connection for the CFPA language pack.
 
