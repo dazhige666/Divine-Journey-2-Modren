@@ -12,7 +12,7 @@ Minecraft 1.12.2 专家级整合包，基于 [Divine Journey 2](https://github.c
 
 ## 这是什么
 
-DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造集中在运行与维护层面：降低卡顿、提升帧率，把已经停更的组件替换成仍在维护的替代品。
+DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造集中在运行与维护层面：降低卡顿、提升帧率，把已经停更的模组替换成仍在维护的替代品。
 
 - **玩法内容与上游一致**：没有新增或删减任务章节，没有重做进度曲线。
 - **中文内置**：任务书与本包自定义文本直接随包分发，不再依赖玩家自己找汉化。
@@ -21,8 +21,9 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 ## 安装
 
 1. 下载本包的最新 zip（CurseForge 格式），导入启动器。
-2. 首次启动会弹出 Cleanroom Relauncher 窗口：指定cleanroom版本为0.6.13，java版本为25。
+2. 首次启动会弹出 Cleanroom Relauncher 窗口：指定 Cleanroom 版本为 0.6.13，Java 版本为 25（Zulu 25）。
 3. 首次进游戏需要联网且可能卡死：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。
+4. 光影（可选）：自行下载 OptiFine 1.12.2 HD U G5 放进 `mods/`；**不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
 ## 与上游 DJ2 的差异
 
@@ -63,6 +64,6 @@ Divine Journey 2 Modern is a modernization of [Divine Journey 2](https://github.
 - Spark and the Fermium mixin stack → **Flare + Chibi (LoliASM)**, with Cleanroom's built-in mixin layer
 - **Simplified Chinese** is bundled for the quest book and custom content; I18nUpdateMod fetches the remaining translations at runtime
 
-**Installing:** import the zip into Prism Launcher or MultiMC as a CurseForge-format pack. The first launch opens the Cleanroom Relauncher window, where you pick a Java 25 runtime (e.g. Azul Zulu 25); it downloads Cleanroom and restarts the game. OptiFine is not downloaded automatically — drop the jar into `mods/` if you want shaders. The first game launch also needs a network connection for the CFPA language pack.
+**Installing:** import the zip into Prism Launcher or MultiMC as a CurseForge-format pack. The first launch opens the Cleanroom Relauncher window, where you pick a Java 25 runtime (e.g. Azul Zulu 25); it downloads Cleanroom and restarts the game. OptiFine is not downloaded automatically — drop the jar into `mods/` if you want shaders, and **do not enable "Fast Render"** (it breaks rendering in this pack). The first game launch also needs a network connection for the CFPA language pack.
 
 Licensed GPL-3.0, like upstream. Third-party licenses and credits: [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md).
