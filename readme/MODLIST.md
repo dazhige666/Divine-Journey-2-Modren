@@ -1,16 +1,16 @@
 # Divine Journey 2 Modlist
 
-Total Mods: 225
+Total Mods: 231
 
 ## Type Key
 
 | Icon          | Count | Type of Mod       | Description                                                                                                            |
 | ------------- | ----- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| :books:       | 48    | Library           | Required for other mods and not doing much on its own                                                                  |
-| :toolbox:     | 43    | Utility           | Typically visual or minor improvements                                                                                 |
+| :books:       | 49    | Library           | Required for other mods and not doing much on its own                                                                  |
+| :toolbox:     | 44    | Utility           | Typically visual or minor improvements                                                                                 |
 | :gear:        | 29    | Development       | Basically never interacted with by a player                                                                            |
 | :gem:         | 36    | Primary           | One of the main mods in the pack, frequently interacted with and makes up a substantial part of progression on its own |
-| :ring:        | 35    | Addon             | Adds addition features to a Primary or Utility Mod, sometimes containing significant content of its own right          |
+| :ring:        | 39    | Addon             | Adds addition features to a Primary or Utility Mod, sometimes containing significant content of its own right          |
 | :diamonds:    | 10    | Minor             | A standalone mod that adds some features, but doesn't make up a substantial part of progression                        |
 | :bug:         | 9     | Bugfix/Performace | Solely fixes one or multiple bugs or performance issues present in Vanilla or another mod                              |
 | :eyes:        | 5     | Visual            | Improves the visual options of the pack                                                                                |
@@ -118,6 +118,11 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :books:       | [Guidebook](https://www.curseforge.com/minecraft/mc-mods/guidebook)                                                                   | [gigaherz](https://curseforge.com/members/gigaherz)                                   |                    |
 | :books:       | [Hammer Lib](https://www.curseforge.com/minecraft/mc-mods/hammer-lib)                                                                 | [Zeitheron](https://curseforge.com/members/Zeitheron)                                 |                    |
 | :toolbox:     | [I18nUpdateMod](https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod)                                                    | [CFPAOrg](https://curseforge.com/members/CFPAOrg)                                     |                    |
+| :ring:        | [IGI Extended](https://www.curseforge.com/minecraft/mc-mods/igiexteneded)                                                      | [Kasumi_Nova](https://curseforge.com/members/Kasumi_Nova)                             |                    |
+| :toolbox:     | [InGame Info XML](https://www.curseforge.com/minecraft/mc-mods/ingame-info-xml)                                                | [Lunatrius](https://curseforge.com/members/Lunatrius)                                 |                    |
+| :ring:        | [InGame Info XML Addon - Blood Magic](https://www.curseforge.com/minecraft/mc-mods/ingame-info-xml-addon-blood-magic)          | [smbarbour](https://curseforge.com/members/smbarbour)                                 |                    |
+| :ring:        | [InGame Info XML Addon - RFTools](https://www.curseforge.com/minecraft/mc-mods/ingame-info-xml-addon-rftools)                  | [smbarbour](https://curseforge.com/members/smbarbour)                                 |                    |
+| :ring:        | [InGame Info XML Addon - Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/ingame-info-xml-addon-thaumcraft)            | [smbarbour](https://curseforge.com/members/smbarbour)                                 |                    |
 | :gem:         | [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)                                           | [BluSunrize](https://curseforge.com/members/BluSunrize)                               |                    |
 | :gem:         | [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)                                             | [Buuz135](https://curseforge.com/members/Buuz135)                                     |                    |
 | :books:       | [InfinityLib](https://www.curseforge.com/minecraft/mc-mods/infinitylib)                                                               | [InfinityRaider](https://curseforge.com/members/InfinityRaider)                       |                    |
@@ -141,6 +146,7 @@ Mods are required on both client-side and server-side unless otherwise noted.
 | :toolbox:     | [LagGoggles](https://www.curseforge.com/minecraft/mc-mods/laggoggles)                                                                 | [Terminator_NL](https://curseforge.com/members/Terminator_NL)                         |                    |
 | :gem:         | [LightningCraft](https://www.curseforge.com/minecraft/mc-mods/lightningcraft)                                                         | [SBlectric](https://curseforge.com/members/SBlectric)                                 |                    |
 | :gear:        | [LootTweaker](https://www.curseforge.com/minecraft/mc-mods/loottweaker)                                                               | [Daomephsta](https://curseforge.com/members/Daomephsta)                               |                    |
+| :books:       | [LunatriusCore](https://www.curseforge.com/minecraft/mc-mods/lunatriuscore)                                                    | [Lunatrius](https://curseforge.com/members/Lunatrius)                                 |                    |
 | :books:       | [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)                                                                         | [mDiyo](https://curseforge.com/members/mDiyo)                                         |                    |
 | :books:       | [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib)                                                                     | [McJty](https://curseforge.com/members/McJty)                                         |                    |
 | :books:       | [MCMultiPart](https://www.curseforge.com/minecraft/mc-mods/mcmultipart)                                                               | [amadornes](https://curseforge.com/members/amadornes)                                 |                    |

@@ -1388,6 +1388,48 @@
       "fileID": 9163752,
       "required": true,
       "clientOnly": true
+    },
+    {
+      "slug": "ingameinfoxml",
+      "projectID": 225604,
+      "fileID": 2489566,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "lunatriuscore",
+      "projectID": 225605,
+      "fileID": 2489549,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "ingame-info-xml-addon-blood-magic",
+      "projectID": 250328,
+      "fileID": 2549047,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "ingame-info-xml-addon-rftools",
+      "projectID": 250324,
+      "fileID": 2520490,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "ingame-info-xml-addon-thaumcraft",
+      "projectID": 307469,
+      "fileID": 2640779,
+      "required": true,
+      "clientOnly": true
+    },
+    {
+      "slug": "igiexteneded",
+      "projectID": 656866,
+      "fileID": 4076539,
+      "required": true,
+      "clientOnly": true
     }
   ],
   "overrides": "overrides"
