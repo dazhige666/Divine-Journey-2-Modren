@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Divine Journey 2",
+  "name": "Divine Journey 2 Modern",
   "version": "@PACK_VERSION@",
-  "author": "AtricosHU",
+  "author": "dazhige666",
   "files": [
     {
       "slug": "abyssalcraft",

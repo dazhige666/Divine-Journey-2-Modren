@@ -14,7 +14,6 @@ overrides/config/enderio/recipes/examples/**
 overrides/config/JustEnoughCalculation/record.json
 overrides/config/teamreborn/configData.nbt
 build
-buildtools/API-KEY
 overrides/config/thaumicjei_itemstack_aspects.json
 overrides/config/normalasm
 overrides/config/codechicken

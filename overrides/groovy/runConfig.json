@@ -1,7 +1,7 @@
 {
-  "packName": "Divine Journey 2",
+  "packName": "Divine Journey 2 Modern",
   "packId": "divine_journey_2",
-  "author": ["AtricosHU", "WaitingIdly"],
+  "author": ["dazhige666"],
   "version": "@PACK_VERSION@",
   "debug": false,
   "loaders": {

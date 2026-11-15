@@ -17,7 +17,7 @@
 	#Link which will be opened in browser on request_help_button pressed.
 	#If equals CHANGE_ME, will open Forge/NeoForge/Fabric/Quilt discord link. Names of communities/channels also will be used not from config, but according to this link.
 	#Must start with 'https://' or 'www.'
-	help_link = "https://discord.gg/P8EZHwZUne"
+	help_link = "https://github.com/dazhige666/Divine-Journey-2-Modren/issues"
 	#Prevents creating "crash_assistant" folder in the logs folder.
 	#So this option prevents our app logging at all.
 	#HIGHLY UNRECOMMENDED to disable! Contains many useful info.
@@ -181,7 +181,7 @@
 	#Warning! This is not displayed anywhere, it's just tech param used for modlist feature to work correctly.
 	#Here must be actual nicknames of people who work with the modpack and publishing releases!
 	#-----------------------------------------------------------------------------------------------------
-	modpack_creators = ["AtricosHU", "WaitingIdly"]
+	modpack_creators = ["dazhige666"]
 	#If enabled, will add generated modlist.txt, with names of all mods / modids / mixin configs / jarjar mods info to logs.
 	add_modlist_txt_as_log = true
 	#If enabled, will add resourcepacks to modlist.json

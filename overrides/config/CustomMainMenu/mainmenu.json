@@ -74,37 +74,6 @@
                 "gui" : "mods"
             }
         },
-        "version_history":
-        {
-            "text" : "",
-            "posX" : -245,
-            "posY" : 203,
-            "width" : 224,
-            "height" : 27,
-            "alignment" : "top_right",
-            "texture" : "mainmenu:version_history.png",
-            "action" :
-            {
-                "type" : "openLink",
-                "link" : "https://www.curseforge.com/minecraft/modpacks/divine-journey-2/files"
-            }
-        },
-        "discord":
-        {
-            "text" : "",
-            "posX" : -245,
-            "posY" : 230,
-            "width" : 62,
-            "height" : 63,
-            "tooltip": "Join the Divine Journey 2 Discord Server!",
-            "alignment" : "top_right",
-            "texture" : "mainmenu:discord.png",
-            "action" :
-            {
-                "type" : "openLink",
-                "link" : "https://discord.gg/rH9pyS7"
-            }
-        },
         "language":
         {
             "text" : "",
@@ -191,7 +160,7 @@
             "alignment" : "bottom_left"
         },
         "creator":{
-            "text" : "- modpack by Atricos",
+            "text" : "- modpack by dazhige666",
             "posX" : 3,
             "posY" : -18,
             "fontSize" : 0.6,

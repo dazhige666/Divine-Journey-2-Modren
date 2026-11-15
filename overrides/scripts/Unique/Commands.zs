@@ -14,9 +14,8 @@ import mods.zenutils.command.ZenUtilsCommandSender;
 
 
 static links as string[][string] = {
-    curseforge: ["commands.curseforge.text", "https://www.curseforge.com/minecraft/modpacks/divine-journey-2"],
     discord: ["commands.discord.text", "https://discord.gg/rH9pyS7"],
-    issues: ["commands.issues.text", "https://github.com/Divine-Journey-2/Divine-Journey-2/issues"],
+    issues: ["commands.issues.text", "https://github.com/dazhige666/Divine-Journey-2-Modren/issues"],
 } as string[][string];
 
 
@@ -45,23 +44,18 @@ function printToTarget(server as IServer, sender as ZenUtilsCommandSender, args 
     }
 }
 
-val curseforge as ZenCommand = ZenCommand.create("curseforge");
 val discord as ZenCommand = ZenCommand.create("discord");
 val issues as ZenCommand = ZenCommand.create("issues");
 val bugs as ZenCommand = ZenCommand.create("bugs");
-curseforge.getCommandUsage = function(sender) { return "commands.curseforge.usage"; };
 discord.getCommandUsage = function(sender) { return "commands.discord.usage"; };
 issues.getCommandUsage = function(sender) { return "commands.issues.usage"; };
 bugs.getCommandUsage = function(sender) { return "commands.issues.usage"; };
-curseforge.requiredPermissionLevel = 0;
 discord.requiredPermissionLevel = 0;
 issues.requiredPermissionLevel = 0;
 bugs.requiredPermissionLevel = 0;
-curseforge.execute = function(command, server, sender, args) { printToTarget(server, sender, args, "curseforge"); };
 discord.execute = function(command, server, sender, args) { printToTarget(server, sender, args, "discord"); };
 issues.execute = function(command, server, sender, args) { printToTarget(server, sender, args, "issues"); };
 bugs.execute = function(command, server, sender, args) { printToTarget(server, sender, args, "issues"); };
-curseforge.register();
 discord.register();
 issues.register();
 bugs.register();
@@ -126,4 +120,4 @@ introduction_book.register();
 
 
 
-ZenCommandTree.create("dj2", curseforge, discord, issues, bugs, book_of_logic, introduction_book).register();
+ZenCommandTree.create("dj2", discord, issues, bugs, book_of_logic, introduction_book).register();
