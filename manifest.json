@@ -1348,9 +1348,9 @@
       "clientOnly": true
     },
     {
-      "slug": "moddirector",
-      "projectID": 367103,
-      "fileID": 3517526,
+      "slug": "filedirector",
+      "projectID": 650242,
+      "fileID": 6436962,
       "required": true,
       "clientOnly": true
     },

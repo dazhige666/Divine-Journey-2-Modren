@@ -25,7 +25,7 @@ DJ2 Modern 是 Divine Journey 2 的改版。玩法内容与上游一致，改造
 | 多方块机器 | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
 | HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
 | 小地图 | JourneyMap | **Xaero's Minimap / World Map** |
-| 光影/优化 | 需要手动安装 OptiFine | **ModDirector 首次启动自动下载** |
+| 光影/优化 | 需要手动安装 OptiFine | **File Director 首次启动自动下载** |
 | 语言 | 英文 | **内置简体中文** + I18nUpdateMod 在运行时补齐其余模组的中文 |
 
 这些替换集中在运行与界面层：多方块结构的搭建方式、配方输入输出、任务要求与上游保持一致。
@@ -51,7 +51,7 @@ Divine Journey 2 Modern is a modernization of [Divine Journey 2](https://github.
 
 - Modular Machinery / Modular Diversity / ModularMagic → **MMCE 2.3.2 + MMCE-Addons 2.0.5** (recipes and structures migrated)
 - Hwyla → **The One Probe CE**; JourneyMap → **Xaero's Minimap and World Map**
-- OptiFine is downloaded on first launch by **ModDirector**
+- OptiFine is downloaded on first launch by **File Director**
 - **Simplified Chinese** is bundled for the quest book and custom content; I18nUpdateMod fetches the remaining translations at runtime
 
 Licensed GPL-3.0, like upstream. Third-party licenses and credits: [`overrides/ATTRIBUTION.md`](overrides/ATTRIBUTION.md).

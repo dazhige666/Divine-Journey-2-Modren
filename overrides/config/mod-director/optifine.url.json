@@ -4,6 +4,9 @@
     "Download</a>"
   ],
   "fileName": "OptiFine_1.12.2_HD_U_G5.jar",
+  "options": {
+    "launchwrapperTweakerForceNext": true
+  },
   "metadata": {
     "side": "CLIENT",
     "hash": {
