@@ -18,6 +18,8 @@
 - 本仓库修改过的文件（GPL-3.0 第 5(a) 条变更说明）：
   - `config/InGameInfoXML/InGameInfo.xml`（IGI 信息面板配置，取自同一仓库的 IGI 配置包）
     - 2026-11-15：删去 RF 维度信息中的 `{rftdimensionpower}` 与 `RF @` 两行。IGI-RFTools 1.2 按 `int` 调用 `DimensionStorage.getEnergyLevel`，而 rftoolsdim 5.71 返回 `long`，该值恒为 `false`；现在只显示维度名与 `{rftdimensioncost} RF/t`。
+    - 2026-11-17：HUD 改为中英双语。321 个 `<str>` 值改为 `<translate>` 引用 `dj2hud.*` 键，新增 `resources/dj2hud/lang/{zh_cn,en_us}.lang`（各 321 键：48 条界面标签、50 条维度名、223 条群系名）。中文文本原样搬运；英文标签与维度名为机器翻译（机翻，未逐条人工校对）；群系名在英文客户端由游戏本体给出，不经翻译。
+    - 2026-11-17：恢复 RF 维度信息里的存量 RF 数值。原先删掉的 `RF @` 两段改由本仓库自写的 Groovy 标签 `dj2rftpower`（`overrides/groovy/postInit/igi/RFToolsDimensionPower.groovy`）提供，调用 rftoolsdim 5.71 的 `DimensionStorage.getEnergyLevel(int)`（返回 `long`）。
   - `resources/betterquesting/lang/zh_cn.lang`
     - 2026-11-14：物品名称对齐 I18n 译名，共 26 行（雷电工艺「聚能器→引雷针」「LE存储器→LE 能量单元」；星辉魔法「天体→天辉」）。改动仅限译名，未增删任务内容。
     - 2026-11-14：重写 7 条被错误复制自相邻任务的任务正文（274、278、300、744、769、1482、1577），修正 1567/1082/1083 标题与 1083/774 正文引用、错字，共 13 行。未增删任务内容。

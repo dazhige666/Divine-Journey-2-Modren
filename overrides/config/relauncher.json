@@ -5,9 +5,9 @@
   "targetVendor": "ZULU",
   "javaPath": "",
   "args": "-XX:+UseCompactObjectHeaders ",
-  "autoSetup": false,
+  "autoSetup": true,
   "enableRelauncher": true,
-  "fetchUpdates": true,
+  "fetchUpdates": false,
   "clearCleanroomFolder": false,
   "clearJavaProvisionFolder": false,
   "darkMode": false

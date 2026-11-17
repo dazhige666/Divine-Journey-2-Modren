@@ -71,14 +71,14 @@
             <icon>
                 <str>minecraft:daylight_detector</str>
             </icon>
-            <str> $f现实时间：$r</str>
+            <translate><str>dj2hud.label.realtime</str></translate>
             <str>$6{rltime24} $r</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> MC日期:  第{darkaqua} </str>
+            <translate><str>dj2hud.label.mcdate</str></translate>
             <add>
                 <round>
                     <div>
@@ -95,23 +95,23 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}年; 第{darkaqua} </str>
+            <translate><str>dj2hud.label.mcdate.year</str></translate>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> {white}天; 时间: {gold}{mctime12} </str>
+            <translate><str>dj2hud.label.mcdate.day</str></translate>
             <if>
                 <var>daytime</var>
-                <str>{yellow}(白天)</str>
-                <str>{gray}(黑夜)</str>
+                <translate><str>dj2hud.label.daylight</str></translate>
+                <translate><str>dj2hud.label.night</str></translate>
             </if>
         </line>
         <line>
             <icon>
                 <str>minecraft:leaves</str>
             </icon>
-            <str> 世界: {gold} </str>
+            <translate><str>dj2hud.label.world</str></translate>
                 <op>
                     <str>eq</str>
                     <var>dimensionid</var>
@@ -165,56 +165,56 @@
                     <num>173</num>
                     <num>227</num>
                     <num>228</num>
-                    <str>$6下界 $e(Ne)</str>
-                    <str>$6主世界 $e(OW)</str>
-                    <str>$6末地 $e(EN)</str>
-                    <str>$6通灵空间 $e(不建议使用)</str>
-                    <str>$6暮色森林 $e(TF)</str>
-                    <str>$6鸟神星 $e(MM)</str>
-                    <str>$6月球 $e(Mo)</str>
-                    <str>$6火星 $e(Ma)</str>
-                    <str>$6小行星带 $e(As)</str>
-                    <str>$6半人马Bb $e(CA)</str>
-                    <str>$6巴纳德C $e(BC)</str>
-                    <str>$6柯伊伯带 $e(KB)</str>
-                    <str>$6火星空间站 $e(MS)</str>
-                    <str>$6木卫二 $e(Eu)</str>
-                    <str>$6木卫一 $e(Io)</str>
-                    <str>$6水星 $e(Me)</str>
-                    <str>$6火卫一 $e(Ph)</str>
-                    <str>$6金星 $e(Ve)</str>
-                    <str>$6火卫二 $e(De)</str>
-                    <str>$6土卫二 $e(En)</str>
-                    <str>$6谷神星 $e(Ce)</str>
-                    <str>$6木卫三 $e(Ga)</str>
-                    <str>$6土卫六 $e(Ti)</str>
-                    <str>$6木卫四 $e(Ca)</str>
-                    <str>$6天卫四 $e(Ob)</str>
-                    <str>$6海卫八 $e(Pr)</str>
-                    <str>$6海卫一 $e(Tr)</str>
-                    <str>$6冥王星 $e(Pl)</str>
-                    <str>$6静态火星空间站 $e(SMS)</str>
-                    <str>$6巴纳德E $e(BE)</str>
-                    <str>$6巴纳德F $e(BF)</str>
-                    <str>$6妊神星 $e(Ha)</str>
-                    <str>$6织女B $e(VB)</str>
-                    <str>$6鲸鱼座T星E $e(TE)</str>
-                    <str>$6天卫五 $e(Mi)</str>
-                    <str>$6金星空间站 $e(VS)</str>
-                    <str>$6静态金星空间站 $e(SVS)</str>
-                    <str>$6外域 $e(Outer)</str>
-                    <str>$6精神世界 $e(巫术)</str>
-                    <str>$6痛苦迷宫 $e(巫术)</str>
-                    <str>$6基岩矿界 $e(Bedrock)</str>
-                    <str>$6罗斯128ba $e(RA)</str>
-                    <str>$6罗斯128b $e(RB)</str>
-                    <str>$6口袋世界 $e(神秘视界)</str>
-                    <str>$6镜中世界 $e(巫术)</str>
-                    <str>$6漆黑世界 $e(DD)</str>
-                    <str>$6深渊世界 $e(End Of Time)</str>
-                    <str>$6虚空漫步者世界 $e(魔像密经)</str>
-                    <str>$6废土世界 $e(GT++)</str>
-                    <str>$6澳大利亚 $e(GT++)</str>
+                    <translate><str>dj2hud.dim.-1</str></translate>
+                    <translate><str>dj2hud.dim.0</str></translate>
+                    <translate><str>dj2hud.dim.1</str></translate>
+                    <translate><str>dj2hud.dim.2</str></translate>
+                    <translate><str>dj2hud.dim.7</str></translate>
+                    <translate><str>dj2hud.dim.25</str></translate>
+                    <translate><str>dj2hud.dim.28</str></translate>
+                    <translate><str>dj2hud.dim.29</str></translate>
+                    <translate><str>dj2hud.dim.30</str></translate>
+                    <translate><str>dj2hud.dim.31</str></translate>
+                    <translate><str>dj2hud.dim.32</str></translate>
+                    <translate><str>dj2hud.dim.33</str></translate>
+                    <translate><str>dj2hud.dim.34</str></translate>
+                    <translate><str>dj2hud.dim.35</str></translate>
+                    <translate><str>dj2hud.dim.36</str></translate>
+                    <translate><str>dj2hud.dim.37</str></translate>
+                    <translate><str>dj2hud.dim.38</str></translate>
+                    <translate><str>dj2hud.dim.39</str></translate>
+                    <translate><str>dj2hud.dim.40</str></translate>
+                    <translate><str>dj2hud.dim.41</str></translate>
+                    <translate><str>dj2hud.dim.42</str></translate>
+                    <translate><str>dj2hud.dim.43</str></translate>
+                    <translate><str>dj2hud.dim.44</str></translate>
+                    <translate><str>dj2hud.dim.45</str></translate>
+                    <translate><str>dj2hud.dim.46</str></translate>
+                    <translate><str>dj2hud.dim.47</str></translate>
+                    <translate><str>dj2hud.dim.48</str></translate>
+                    <translate><str>dj2hud.dim.49</str></translate>
+                    <translate><str>dj2hud.dim.80</str></translate>
+                    <translate><str>dj2hud.dim.81</str></translate>
+                    <translate><str>dj2hud.dim.82</str></translate>
+                    <translate><str>dj2hud.dim.83</str></translate>
+                    <translate><str>dj2hud.dim.84</str></translate>
+                    <translate><str>dj2hud.dim.85</str></translate>
+                    <translate><str>dj2hud.dim.86</str></translate>
+                    <translate><str>dj2hud.dim.87</str></translate>
+                    <translate><str>dj2hud.dim.88</str></translate>
+                    <translate><str>dj2hud.dim.50</str></translate>
+                    <translate><str>dj2hud.dim.55</str></translate>
+                    <translate><str>dj2hud.dim.56</str></translate>
+                    <translate><str>dj2hud.dim.60</str></translate>
+                    <translate><str>dj2hud.dim.63</str></translate>
+                    <translate><str>dj2hud.dim.64</str></translate>
+                    <translate><str>dj2hud.dim.69</str></translate>
+                    <translate><str>dj2hud.dim.70</str></translate>
+                    <translate><str>dj2hud.dim.100</str></translate>
+                    <translate><str>dj2hud.dim.112</str></translate>
+                    <translate><str>dj2hud.dim.173</str></translate>
+                    <translate><str>dj2hud.dim.227</str></translate>
+                    <translate><str>dj2hud.dim.228</str></translate>
                     <str/>
                 </op>
                 <if>
@@ -235,7 +235,7 @@
                         </not>
                     </and>
                     <concat>
-                        <str>$6空间站 $e(</str>
+                        <translate><str>dj2hud.label.spacestation</str></translate>
                         <if>
                             <less>
                                 <var>dimensionid</var>
@@ -250,7 +250,7 @@
                                 <num>3</num>
                             </sub>
                         </if>
-                        <str>号)</str>
+                        <translate><str>dj2hud.label.spacestation.end</str></translate>
                     </concat>
                 </if>
                 <if>
@@ -258,7 +258,7 @@
                         <var>dimensionid</var>
                         <num>178</num>
                     </greater>
-                    <str>$6花园/虚空世界 $e({dimensionid})</str>
+                    <translate><str>dj2hud.label.gardenvoid</str></translate>
                 </if>
                 
                 <if>
@@ -266,6 +266,8 @@
                     <concat>
                     <var>rftdimensionname</var>
                     <str> (</str>
+                    <var>dj2rftpower</var>
+                    <str> RF @ </str>
                     <var>rftdimensioncost</var>
                     <str> RF/t)</str>
                     </concat>
@@ -273,7 +275,7 @@
                 </if>
             <if>
                 <var>slimechunk</var>
-                <str>$c$l是史莱姆区块!</str>
+                <translate><str>dj2hud.label.slimechunk.warn</str></translate>
                 <str></str>
             </if>
         </line>
@@ -282,14 +284,14 @@
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> 实体:  {gold}{entitiesrendered}{white} 已显现 / {gold}{entitiestotal}{white} 已加载  </str>
+            <translate><str>dj2hud.label.entities</str></translate>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> 生物群系:  {darkaqua}</str>
+            <translate><str>dj2hud.label.biome</str></translate>
             <op>
                 <str>eq</str>
                 <var>biomeid</var>
@@ -533,245 +535,245 @@
 
                 <num>255</num>
 
-                <str>海洋</str>
-                <str>平原</str>
-                <str>沙漠</str>
-                <str>峭壁</str>
-                <str>森林</str>
-                <str>针叶林</str>
-                <str>沼泽</str>
-                <str>河流</str>
-                <str>下界</str>
-                <str>天空</str>
-                <str>冻洋</str>
-                <str>冻河</str>
-                <str>冰原</str>
-                <str>雪山</str>
-                <str>蘑菇岛</str>
-                <str>蘑菇岛岸</str>
-                <str>沙滩</str>
-                <str>沙丘</str>
-                <str>森林山丘</str>
-                <str>针叶林山丘</str>
-                <str>悬崖</str>
-                <str>丛林</str>
-                <str>丛林山丘</str>
-                <str>丛林边缘</str>
-                <str>深海</str>
-                <str>石滩</str>
-                <str>寒冷沙滩</str>
-                <str>桦木林</str>
-                <str>桦木林山丘</str>
-                <str>黑森林</str>
-                <str>冷针叶林</str>
-                <str>冷针叶林山丘</str>
-                <str>大型针叶林</str>
-                <str>大型针叶林山丘</str>
-                <str>峭壁+</str>
-                <str>热带草原</str>
-                <str>热带高原</str>
-                <str>平顶山</str>
-                <str>平顶山高原F</str>
-                <str>平顶山高原</str>
-                <str>阿尔卑斯山林</str>
-                <str>阿尔卑斯山</str>
-                <str>北极</str>
-                <str>竹林</str>
-                <str>河口</str>
-                <str>泥沼</str>
+                <translate><str>dj2hud.biome.0</str></translate>
+                <translate><str>dj2hud.biome.1</str></translate>
+                <translate><str>dj2hud.biome.2</str></translate>
+                <translate><str>dj2hud.biome.3</str></translate>
+                <translate><str>dj2hud.biome.4</str></translate>
+                <translate><str>dj2hud.biome.5</str></translate>
+                <translate><str>dj2hud.biome.6</str></translate>
+                <translate><str>dj2hud.biome.7</str></translate>
+                <translate><str>dj2hud.biome.8</str></translate>
+                <translate><str>dj2hud.biome.9</str></translate>
+                <translate><str>dj2hud.biome.10</str></translate>
+                <translate><str>dj2hud.biome.11</str></translate>
+                <translate><str>dj2hud.biome.12</str></translate>
+                <translate><str>dj2hud.biome.13</str></translate>
+                <translate><str>dj2hud.biome.14</str></translate>
+                <translate><str>dj2hud.biome.15</str></translate>
+                <translate><str>dj2hud.biome.16</str></translate>
+                <translate><str>dj2hud.biome.17</str></translate>
+                <translate><str>dj2hud.biome.18</str></translate>
+                <translate><str>dj2hud.biome.19</str></translate>
+                <translate><str>dj2hud.biome.20</str></translate>
+                <translate><str>dj2hud.biome.21</str></translate>
+                <translate><str>dj2hud.biome.22</str></translate>
+                <translate><str>dj2hud.biome.23</str></translate>
+                <translate><str>dj2hud.biome.24</str></translate>
+                <translate><str>dj2hud.biome.25</str></translate>
+                <translate><str>dj2hud.biome.26</str></translate>
+                <translate><str>dj2hud.biome.27</str></translate>
+                <translate><str>dj2hud.biome.28</str></translate>
+                <translate><str>dj2hud.biome.29</str></translate>
+                <translate><str>dj2hud.biome.30</str></translate>
+                <translate><str>dj2hud.biome.31</str></translate>
+                <translate><str>dj2hud.biome.32</str></translate>
+                <translate><str>dj2hud.biome.33</str></translate>
+                <translate><str>dj2hud.biome.34</str></translate>
+                <translate><str>dj2hud.biome.35</str></translate>
+                <translate><str>dj2hud.biome.36</str></translate>
+                <translate><str>dj2hud.biome.37</str></translate>
+                <translate><str>dj2hud.biome.38</str></translate>
+                <translate><str>dj2hud.biome.39</str></translate>
+                <translate><str>dj2hud.biome.40</str></translate>
+                <translate><str>dj2hud.biome.41</str></translate>
+                <translate><str>dj2hud.biome.42</str></translate>
+                <translate><str>dj2hud.biome.43</str></translate>
+                <translate><str>dj2hud.biome.44</str></translate>
+                <translate><str>dj2hud.biome.45</str></translate>
 
-                <str>寒带森林</str>
-                <str>灌木林</str>
-                <str>峡谷</str>
-                <str>河谷</str>
-                <str>阔叶灌木林</str>
-                <str>樱花林</str>
-                <str>针叶林</str>
-                <str>珊瑚礁</str>
+                <translate><str>dj2hud.biome.47</str></translate>
+                <translate><str>dj2hud.biome.48</str></translate>
+                <translate><str>dj2hud.biome.49</str></translate>
+                <translate><str>dj2hud.biome.50</str></translate>
+                <translate><str>dj2hud.biome.51</str></translate>
+                <translate><str>dj2hud.biome.52</str></translate>
+                <translate><str>dj2hud.biome.53</str></translate>
+                <translate><str>dj2hud.biome.54</str></translate>
                 
-                <str>峭壁</str>
-                <str>死亡森林</str>
-                <str>荒芜沼泽</str>
-                <str>落叶林</str>
-                <str>干涸河床</str>
-                <str>桉树林</str>
-                <str>低位沼泽</str>
-                <str>花海</str>
-                <str>霜冻森林</str>
-                <str>蘑菇森林</str>
-                <str>花园</str>
-                <str>冰川</str>
-                <str>草地</str>
-                <str>小树林</str>
-                <str>荒原</str>
-                <str>高地</str>
-                <str>琼崖</str>
-                <str>海藻森林</str>
-                <str>湖泊之地</str>
-                <str>湖沼之地</str>
-                <str>薰衣草田</str>
-                <str>葱郁沙漠</str>
-                <str>葱郁河流</str>
-                <str>葱郁沼泽</str>
-                <str>红树林</str>
-                <str>枫树林</str>
-                <str>湿地</str>
-                <str>草甸森林</str>
-                <str>草甸</str>
-                <str>旷野</str>
-                <str>高山</str>
-                <str>诡秘之森</str>
-                <str>绿洲</str>
-                <str>不祥之森</str>
-                <str>果园</str>
-                <str>起源山谷</str>
-                <str>内陆</str>
+                <translate><str>dj2hud.biome.56</str></translate>
+                <translate><str>dj2hud.biome.57</str></translate>
+                <translate><str>dj2hud.biome.58</str></translate>
+                <translate><str>dj2hud.biome.59</str></translate>
+                <translate><str>dj2hud.biome.60</str></translate>
+                <translate><str>dj2hud.biome.61</str></translate>
+                <translate><str>dj2hud.biome.62</str></translate>
+                <translate><str>dj2hud.biome.63</str></translate>
+                <translate><str>dj2hud.biome.64</str></translate>
+                <translate><str>dj2hud.biome.65</str></translate>
+                <translate><str>dj2hud.biome.66</str></translate>
+                <translate><str>dj2hud.biome.67</str></translate>
+                <translate><str>dj2hud.biome.68</str></translate>
+                <translate><str>dj2hud.biome.69</str></translate>
+                <translate><str>dj2hud.biome.70</str></translate>
+                <translate><str>dj2hud.biome.71</str></translate>
+                <translate><str>dj2hud.biome.72</str></translate>
+                <translate><str>dj2hud.biome.73</str></translate>
+                <translate><str>dj2hud.biome.74</str></translate>
+                <translate><str>dj2hud.biome.75</str></translate>
+                <translate><str>dj2hud.biome.76</str></translate>
+                <translate><str>dj2hud.biome.77</str></translate>
+                <translate><str>dj2hud.biome.78</str></translate>
+                <translate><str>dj2hud.biome.79</str></translate>
+                <translate><str>dj2hud.biome.80</str></translate>
+                <translate><str>dj2hud.biome.81</str></translate>
+                <translate><str>dj2hud.biome.82</str></translate>
+                <translate><str>dj2hud.biome.83</str></translate>
+                <translate><str>dj2hud.biome.84</str></translate>
+                <translate><str>dj2hud.biome.85</str></translate>
+                <translate><str>dj2hud.biome.86</str></translate>
+                <translate><str>dj2hud.biome.87</str></translate>
+                <translate><str>dj2hud.biome.88</str></translate>
+                <translate><str>dj2hud.biome.89</str></translate>
+                <translate><str>dj2hud.biome.90</str></translate>
+                <translate><str>dj2hud.biome.91</str></translate>
+                <translate><str>dj2hud.biome.92</str></translate>
                 
-                <str>极地裂谷</str>
-                <str>草原</str>
-                <str>泥潭</str>
-                <str>雨林</str>
-                <str>红木林</str>
-                <str>神圣之泉</str>
-                <str>灌木丛</str>
-                <str>季节性森林-平原</str>
-                <str>季节性森林-森林</str>
-                <str>避风港</str>
-                <str>灌丛</str>
-                <str>丝林空地</str>
-                <str>泥坑</str>
-                <str>雪山针叶林</str>
-                <str>幽灵花园</str>
-                <str>云杉林</str>
-                <str>干草原</str>
-                <str>温带雨林</str>
-                <str>树丛</str>
-                <str>热带雨林</str>
-                <str>热带海岛</str>
-                <str>苔原</str>
+                <translate><str>dj2hud.biome.94</str></translate>
+                <translate><str>dj2hud.biome.95</str></translate>
+                <translate><str>dj2hud.biome.96</str></translate>
+                <translate><str>dj2hud.biome.97</str></translate>
+                <translate><str>dj2hud.biome.98</str></translate>
+                <translate><str>dj2hud.biome.99</str></translate>
+                <translate><str>dj2hud.biome.100</str></translate>
+                <translate><str>dj2hud.biome.101</str></translate>
+                <translate><str>dj2hud.biome.102</str></translate>
+                <translate><str>dj2hud.biome.103</str></translate>
+                <translate><str>dj2hud.biome.104</str></translate>
+                <translate><str>dj2hud.biome.105</str></translate>
+                <translate><str>dj2hud.biome.106</str></translate>
+                <translate><str>dj2hud.biome.107</str></translate>
+                <translate><str>dj2hud.biome.108</str></translate>
+                <translate><str>dj2hud.biome.109</str></translate>
+                <translate><str>dj2hud.biome.110</str></translate>
+                <translate><str>dj2hud.biome.111</str></translate>
+                <translate><str>dj2hud.biome.112</str></translate>
+                <translate><str>dj2hud.biome.113</str></translate>
+                <translate><str>dj2hud.biome.114</str></translate>
+                <translate><str>dj2hud.biome.115</str></translate>
                 
-                <str>血池肉林</str>
-                <str>火山</str>
-                <str>废土</str>
-                <str>湿地</str>
-                <str>林地</str>
-                <str>旱生灌丛</str>
-                <str>密林</str>
+                <translate><str>dj2hud.biome.117</str></translate>
+                <translate><str>dj2hud.biome.118</str></translate>
+                <translate><str>dj2hud.biome.119</str></translate>
+                <translate><str>dj2hud.biome.120</str></translate>
+                <translate><str>dj2hud.biome.121</str></translate>
+                <translate><str>dj2hud.biome.122</str></translate>
+                <translate><str>dj2hud.biome.123</str></translate>
 
-                <str>原油海域</str>
-                <str>原油沙漠</str>
-                <str>骨林</str>
-                <str>向日葵平原</str>
-                <str>沙漠 M</str>
-                <str>峭壁 M</str>
-                <str>繁花森林</str>
-                <str>针叶林 M</str>
-                <str>沼泽 M</str>
-                <str>存储单元</str>
-                <str>腐化沙地</str>
-                <str>无间炼狱</str>
-                <str>地下花园</str>
+                <translate><str>dj2hud.biome.126</str></translate>
+                <translate><str>dj2hud.biome.127</str></translate>
+                <translate><str>dj2hud.biome.128</str></translate>
+                <translate><str>dj2hud.biome.129</str></translate>
+                <translate><str>dj2hud.biome.130</str></translate>
+                <translate><str>dj2hud.biome.131</str></translate>
+                <translate><str>dj2hud.biome.132</str></translate>
+                <translate><str>dj2hud.biome.133</str></translate>
+                <translate><str>dj2hud.biome.134</str></translate>
+                <translate><str>dj2hud.biome.135</str></translate>
+                <translate><str>dj2hud.biome.136</str></translate>
+                <translate><str>dj2hud.biome.137</str></translate>
+                <translate><str>dj2hud.biome.138</str></translate>
 
-                <str>冰刺平原</str>
-                <str>月面</str>
-                <str>火星表面</str>
-                <str>小行星</str>
-                <str>太空</str>
+                <translate><str>dj2hud.biome.140</str></translate>
+                <translate><str>dj2hud.biome.141</str></translate>
+                <translate><str>dj2hud.biome.142</str></translate>
+                <translate><str>dj2hud.biome.143</str></translate>
+                <translate><str>dj2hud.biome.144</str></translate>
 
-                <str>丛林 M</str>
+                <translate><str>dj2hud.biome.149</str></translate>
 
-                <str>丛林边缘 M</str>
+                <translate><str>dj2hud.biome.151</str></translate>
 
-                <str>桦木林 M</str>
-                <str>桦木林山丘 M</str>
-                <str>黑森林 M</str>
-                <str>冷针叶林 M</str>
+                <translate><str>dj2hud.biome.155</str></translate>
+                <translate><str>dj2hud.biome.156</str></translate>
+                <translate><str>dj2hud.biome.157</str></translate>
+                <translate><str>dj2hud.biome.158</str></translate>
 
-                <str>红木林</str>
-                <str>红木林山丘</str>
-                <str>峭壁+ M</str>
-                <str>热带草原 M</str>
-                <str>热带高原 M</str>
-                <str>平顶山（岩柱）</str>
-                <str>平顶山高原 F M</str>
-                <str>平顶山高原 M</str>
+                <translate><str>dj2hud.biome.160</str></translate>
+                <translate><str>dj2hud.biome.161</str></translate>
+                <translate><str>dj2hud.biome.162</str></translate>
+                <translate><str>dj2hud.biome.163</str></translate>
+                <translate><str>dj2hud.biome.164</str></translate>
+                <translate><str>dj2hud.biome.165</str></translate>
+                <translate><str>dj2hud.biome.166</str></translate>
+                <translate><str>dj2hud.biome.167</str></translate>
                 
-                <str>暮色林中空地</str>
-                <str>黑暗森林</str>
-                <str>黑暗森林中心</str>
-                <str>蘑菇密林</str>
+                <translate><str>dj2hud.biome.170</str></translate>
+                <translate><str>dj2hud.biome.171</str></translate>
+                <translate><str>dj2hud.biome.172</str></translate>
+                <translate><str>dj2hud.biome.173</str></translate>
                 
-                <str>火焰沼泽</str>
-                <str>暮色冰川</str>
-                <str>暮色高地</str>
-                <str>高地中心</str>
-                <str>暮色湖泊</str>
-                <str>萤火虫森林</str>
-                <str>蘑菇森林</str>
-                <str>橡木稀树草原</str>
+                <translate><str>dj2hud.biome.175</str></translate>
+                <translate><str>dj2hud.biome.176</str></translate>
+                <translate><str>dj2hud.biome.177</str></translate>
+                <translate><str>dj2hud.biome.178</str></translate>
+                <translate><str>dj2hud.biome.179</str></translate>
+                <translate><str>dj2hud.biome.180</str></translate>
+                <translate><str>dj2hud.biome.181</str></translate>
+                <translate><str>dj2hud.biome.182</str></translate>
                 
-                <str>暮色溪流</str>
-                <str>暮色沼泽</str>
-                <str>荆棘之地</str>
-                <str>暮色森林</str>
-                <str>暮色密林</str>
-                <str>魔幻森林</str>
-                <str>诡秘之地</str>
-                <str>邪术之地</str>
-                <str>魔法森林</str>
-                <str>腐化之地</str>
+                <translate><str>dj2hud.biome.184</str></translate>
+                <translate><str>dj2hud.biome.185</str></translate>
+                <translate><str>dj2hud.biome.186</str></translate>
+                <translate><str>dj2hud.biome.187</str></translate>
+                <translate><str>dj2hud.biome.188</str></translate>
+                <translate><str>dj2hud.biome.189</str></translate>
+                <translate><str>dj2hud.biome.190</str></translate>
+                <translate><str>dj2hud.biome.191</str></translate>
+                <translate><str>dj2hud.biome.192</str></translate>
+                <translate><str>dj2hud.biome.193</str></translate>
 
-                <str>积雪森林</str>
+                <translate><str>dj2hud.biome.196</str></translate>
 
-                <str>剧毒废土</str>
-                <str>冰河</str>
-                <str>太空</str>
-                <str>寒带河流</str>
-                <str>金星</str>
-                <str>冥王星</str>
-                <str>温带河流</str>
-                <str>冥王星2</str>
-                <str>热带河流</str>
-                <str>冥王星3</str>
-                <str>潮湿河流</str>
-                <str>冥王星4</str>
-                <str>绿洲河流</str>
-                <str>柯伊伯带</str>
-                <str>冰洋</str>
-                <str>寒带海洋</str>
-                <str>木卫一</str>
-                <str>温带海洋</str>
-                <str>木卫一灰烬</str>
-                <str>热带海洋</str>
-                <str>土卫六</str>
-                <str>巴纳德C岸</str>
-                <str>巴纳德C山地</str>
-                <str>巴纳德C盆地</str>
-                <str>绿洲海洋</str>
-                <str>降雪沙漠</str>
-                <str>降雪森林</str>
-                <str>冰冷平原</str>
-                <str>冰冷森林</str>
-                <str>炎热平原</str>
-                <str>炎热森林</str>
-                <str>炎热沙漠</str>
-                <str>平原</str>
-                <str>热带</str>
-                <str>红木林</str>
-                <str>丛林</str>
-                <str>绿洲</str>
-                <str>温带森林</str>
-                <str>潮湿海洋</str>
-                <str>巴纳德C花海</str>
-                <str>巴纳德C海洋</str>
-                <str>澳大利亚沙漠 II</str>
-                <str>澳大利亚沙漠 III</str>
-                <str>澳大利亚平原</str>
-                <str>澳大利亚内陆</str>
-                <str>澳大利亚海洋</str>
-                <str>澳大利亚森林</str>
+                <translate><str>dj2hud.biome.199</str></translate>
+                <translate><str>dj2hud.biome.200</str></translate>
+                <translate><str>dj2hud.biome.201</str></translate>
+                <translate><str>dj2hud.biome.202</str></translate>
+                <translate><str>dj2hud.biome.203</str></translate>
+                <translate><str>dj2hud.biome.204</str></translate>
+                <translate><str>dj2hud.biome.205</str></translate>
+                <translate><str>dj2hud.biome.206</str></translate>
+                <translate><str>dj2hud.biome.207</str></translate>
+                <translate><str>dj2hud.biome.208</str></translate>
+                <translate><str>dj2hud.biome.209</str></translate>
+                <translate><str>dj2hud.biome.210</str></translate>
+                <translate><str>dj2hud.biome.211</str></translate>
+                <translate><str>dj2hud.biome.212</str></translate>
+                <translate><str>dj2hud.biome.213</str></translate>
+                <translate><str>dj2hud.biome.214</str></translate>
+                <translate><str>dj2hud.biome.215</str></translate>
+                <translate><str>dj2hud.biome.216</str></translate>
+                <translate><str>dj2hud.biome.217</str></translate>
+                <translate><str>dj2hud.biome.218</str></translate>
+                <translate><str>dj2hud.biome.219</str></translate>
+                <translate><str>dj2hud.biome.220</str></translate>
+                <translate><str>dj2hud.biome.221</str></translate>
+                <translate><str>dj2hud.biome.222</str></translate>
+                <translate><str>dj2hud.biome.223</str></translate>
+                <translate><str>dj2hud.biome.224</str></translate>
+                <translate><str>dj2hud.biome.225</str></translate>
+                <translate><str>dj2hud.biome.226</str></translate>
+                <translate><str>dj2hud.biome.227</str></translate>
+                <translate><str>dj2hud.biome.228</str></translate>
+                <translate><str>dj2hud.biome.229</str></translate>
+                <translate><str>dj2hud.biome.230</str></translate>
+                <translate><str>dj2hud.biome.231</str></translate>
+                <translate><str>dj2hud.biome.232</str></translate>
+                <translate><str>dj2hud.biome.233</str></translate>
+                <translate><str>dj2hud.biome.234</str></translate>
+                <translate><str>dj2hud.biome.235</str></translate>
+                <translate><str>dj2hud.biome.236</str></translate>
+                <translate><str>dj2hud.biome.237</str></translate>
+                <translate><str>dj2hud.biome.238</str></translate>
+                <translate><str>dj2hud.biome.239</str></translate>
+                <translate><str>dj2hud.biome.240</str></translate>
+                <translate><str>dj2hud.biome.241</str></translate>
+                <translate><str>dj2hud.biome.242</str></translate>
+                <translate><str>dj2hud.biome.243</str></translate>
+                <translate><str>dj2hud.biome.244</str></translate>
+                <translate><str>dj2hud.biome.245</str></translate>
 
-                <str>鲸鱼座T星E</str>
+                <translate><str>dj2hud.biome.255</str></translate>
 
                 <str/>
             </op>
@@ -801,15 +803,15 @@
                 <num>0</num>
             </round>
             <str>{white}K</str>
-            <str> 湿度 {gold}{humidity}{white}%</str>
+            <translate><str>dj2hud.label.humidity</str></translate>
         </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> 区块坐标:  X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} Y: {gold}{yi}{white}</str>
-            <str> Off:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white} 面向 {gold}</str>
+            <translate><str>dj2hud.label.chunkcoords</str></translate>
+            <translate><str>dj2hud.label.facing</str></translate>
             <op>
                 <str>eq</str>
                 <var>finedirection</var>
@@ -821,26 +823,26 @@
                 <str>South West</str>
                 <str>West</str>
                 <str>North West</str>
-                <str>北方</str>
-                <str>东北</str>
-                <str>东方</str>
-                <str>东南</str>
-                <str>南方</str>
-                <str>西南</str>
-                <str>西方</str>
-                <str>西北</str>
+                <translate><str>dj2hud.label.dir.n</str></translate>
+                <translate><str>dj2hud.label.dir.ne</str></translate>
+                <translate><str>dj2hud.label.dir.e</str></translate>
+                <translate><str>dj2hud.label.dir.se</str></translate>
+                <translate><str>dj2hud.label.dir.s</str></translate>
+                <translate><str>dj2hud.label.dir.sw</str></translate>
+                <translate><str>dj2hud.label.dir.w</str></translate>
+                <translate><str>dj2hud.label.dir.nw</str></translate>
             </op>
             <str>$f</str>
             <if>
                 <var>slimechunk</var>
-                <str> {gold}史莱姆区块{white}</str>
+                <translate><str>dj2hud.label.slimechunk</str></translate>
             </if>
         </line>
         <line>
             <icon>
                 <str>minecraft:torch</str>
             </icon>
-            <str> 光照等级:  </str>
+            <translate><str>dj2hud.label.light</str></translate>
             <max>
                 <var>light</var>
                 <num>7.5</num>
@@ -848,7 +850,7 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str>{white} (入眼: </str>
+            <translate><str>dj2hud.label.light.eyes</str></translate>
             <max>
                 <var>lighteye</var>
                 <num>7.5</num>
@@ -863,25 +865,25 @@
                 <str>thaumcraft:goggles</str>
                 <num>4</num>
             </icon>
-			<str> 神秘时代: </str>
-            <str> 灵气:  $4</str>
+			<translate><str>dj2hud.label.thaumcraft</str></translate>
+            <translate><str>dj2hud.label.vis</str></translate>
             <round>
                 <var>thaumaura</var>
                 <num>2</num>
             </round>
             <str> $f</str>
-            <str> 咒波： $4{thaumflux}$f</str>
-            <str> 永久： $4{thaumwarpperm}$f</str>
-            <str> 一般： $4{thaumwarpnormal}$f</str>
-            <str> 临时： $4{thaumwarptemp}$f </str>
+            <translate><str>dj2hud.label.flux</str></translate>
+            <translate><str>dj2hud.label.warp.permanent</str></translate>
+            <translate><str>dj2hud.label.warp.normal</str></translate>
+            <translate><str>dj2hud.label.warp.temporary</str></translate>
         </line>
         <line>
             <icon>
                 <str>bloodmagic:component</str>
                 <num>4</num>
             </icon>
-            <str> 血魔法2: </str>
-            <str> 当前LP: $6</str>
+            <translate><str>dj2hud.label.bloodmagic</str></translate>
+            <translate><str>dj2hud.label.lp.current</str></translate>
             <if>
                 <greater>
                     <round>
@@ -1292,16 +1294,16 @@
                     <num>1</num>
                     <num>0</num>
                     <num>-1</num>
-                        <str>最大LP:$6 30,000,000</str>
-                        <str>最大LP:$6 10,000,000</str>
-                        <str>最大LP:$6 1,000,000</str>
-                        <str>最大LP:$6 150,000</str>
-                        <str>最大LP:$6 25,000</str>
-                        <str>最大LP:$6 5,000</str>
-                        <str>最大LP:$6 0</str>
+                        <translate><str>dj2hud.label.lp.max.30000000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.10000000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.1000000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.150000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.25000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.5000</str></translate>
+                        <translate><str>dj2hud.label.lp.max.0</str></translate>
             </operation>
             <str>$f </str>
-            <str> 宝珠等级: </str>
+            <translate><str>dj2hud.label.orb</str></translate>
             <var>bmorbtier</var>
         </line>
         <line>
@@ -1310,15 +1312,15 @@
         <line>
             <if>
                 <var>snowing</var>
-                <str>  正在 {darkgreen}{underline}下雪{reset}</str>
+                <translate><str>dj2hud.label.weather.snow</str></translate>
             </if>
             <if>
                 <var>raining</var>
-                <str>  正在 {darkgreen}{underline}下雨{reset}</str>
+                <translate><str>dj2hud.label.weather.rain</str></translate>
             </if>
             <if>
                 <var>thundering</var>
-                <str> 并且是 {darkgreen}{u}暴风雨{reset}.</str>
+                <translate><str>dj2hud.label.weather.storm</str></translate>
             </if>
         </line>
         <line>
@@ -1374,7 +1376,7 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  你正在区块 {darkred}中心{white} .</str>
+                    <translate><str>dj2hud.label.chunkcenter</str></translate>
                 </concat>
             </if>
         </line>
@@ -1383,7 +1385,7 @@
         </line>
         <line>
             <if>
-                <str>  最近玩家：</str>
+                <translate><str>dj2hud.label.nearestplayer</str></translate>
             </if>
         </line>
         <line>
