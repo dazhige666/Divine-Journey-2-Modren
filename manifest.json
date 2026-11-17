@@ -403,10 +403,17 @@
       "required": true
     },
     {
-      "slug": "jei",
-      "projectID": 238222,
-      "fileID": 3043174,
+      "slug": "had-enough-items",
+      "projectID": 557549,
+      "fileID": 9596190,
       "required": true
+    },
+    {
+      "slug": "had-enough-characters",
+      "projectID": 640802,
+      "fileID": 4874506,
+      "required": true,
+      "clientOnly": true
     },
     {
       "slug": "better-builders-wands",
