@@ -548,7 +548,8 @@
       "botania:biomestonea:7",
       "chisel:stone:*",
       "minecraft:stone:0",
-      "minecraft:stone:*"
+      "chisel:stone1:*",
+      "chisel:stone2:*"
     ]
   },
   {
@@ -571,7 +572,9 @@
       "botania:biomestonea:13",
       "botania:biomestonea:14",
       "botania:biomestonea:15",
-      "chisel:cobblestone:*"
+      "chisel:cobblestone:*",
+      "chisel:cobblestone1:*",
+      "chisel:cobblestone2:*"
     ]
   },
   {
@@ -599,7 +602,9 @@
       "undergroundbiomes:igneous_sandstone:*",
       "undergroundbiomes:metamorphic_sandstone:*",
       "undergroundbiomes:sedimentary_sandstone:*",
-      "minecraft:sandstone:*"
+      "chisel:sandstoneyellow:*",
+      "chisel:sandstoneyellow1:*",
+      "chisel:sandstoneyellow2:*"
     ]
   },
   {
@@ -647,7 +652,16 @@
       "botania:biomestoneb:13",
       "botania:biomestoneb:14",
       "botania:biomestoneb:15",
-      "chisel:bricks:*"
+      "chisel:bricks:*",
+      "minecraft:stonebrick:*",
+      "minecraft:end_bricks",
+      "appliedenergistics2:sky_stone_brick",
+      "appliedenergistics2:sky_stone_small_brick",
+      "chisel:bricks1:*",
+      "chisel:bricks2:*",
+      "chisel:stonebrick:*",
+      "chisel:stonebrick1:*",
+      "chisel:stonebrick2:*"
     ]
   },
   {
@@ -731,7 +745,9 @@
       "undergroundbiomes:igneous_cobble_mossy:*",
       "undergroundbiomes:metamorphic_cobble_mossy:*",
       "undergroundbiomes:sedimentary_stone_mossy:*",
-      "chisel:cobblestonemossy:*"
+      "chisel:cobblestonemossy:*",
+      "chisel:cobblestonemossy1:*",
+      "chisel:cobblestonemossy2:*"
     ]
   },
   {
@@ -1894,7 +1910,12 @@
     "itemUids": [
       "chisel:factory:*",
       "chisel:technical:*",
-      "chisel:technicalNew:*"
+      "chisel:technicalNew:*",
+      "chisel:factory1:*",
+      "chisel:technical1:*",
+      "chisel:technicalnew:*",
+      "chisel:factory2:*",
+      "chisel:technical2:*"
     ]
   },
   {
@@ -1930,7 +1951,9 @@
     "backgroundColor": 861230421,
     "borderColor": -863467384,
     "itemUids": [
-      "chisel:tyrian:*"
+      "chisel:tyrian:*",
+      "chisel:tyrian1:*",
+      "chisel:tyrian2:*"
     ]
   },
   {
@@ -1939,7 +1962,10 @@
     "backgroundColor": 861230421,
     "borderColor": -863467384,
     "itemUids": [
-      "chisel:waterstone:*"
+      "chisel:waterstone:*",
+      "chisel:waterstone1:*",
+      "chisel:waterstone2:*",
+      "chisel:waterstoneextra:*"
     ]
   },
   {
@@ -1950,7 +1976,9 @@
     "itemUids": [
       "chisel:voidstone:*",
       "chisel:voidstoneRunic:*",
-      "chisel:energizedVoidstone:*"
+      "chisel:energizedVoidstone:*",
+      "chisel:energizedvoidstone:*",
+      "chisel:voidstonerunic:*"
     ]
   },
   {
@@ -1960,6 +1988,1603 @@
     "borderColor": -863467384,
     "itemUids": [
       "chisel:valentines:*"
+    ]
+  },
+  {
+    "id": "chisel_andesite",
+    "displayName": "Andesite",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:andesite:*",
+      "minecraft:stone:5",
+      "minecraft:stone:6",
+      "chisel:andesite1:*",
+      "chisel:andesite2:*"
+    ]
+  },
+  {
+    "id": "chisel_diorite",
+    "displayName": "Diorite",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:diorite:*",
+      "minecraft:stone:3",
+      "minecraft:stone:4",
+      "chisel:diorite1:*",
+      "chisel:diorite2:*"
+    ]
+  },
+  {
+    "id": "chisel_granite",
+    "displayName": "Granite",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:granite:*",
+      "minecraft:stone:1",
+      "minecraft:stone:2",
+      "chisel:granite1:*",
+      "chisel:granite2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_black",
+    "displayName": "Black Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_black:*",
+      "minecraft:concrete:15",
+      "chisel:concrete_powder:0",
+      "minecraft:concrete_powder:15",
+      "chisel:concrete_black1:*",
+      "chisel:concrete_black2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_blue",
+    "displayName": "Blue Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_blue:*",
+      "minecraft:concrete:11",
+      "chisel:concrete_powder:1",
+      "minecraft:concrete_powder:11",
+      "chisel:concrete_blue1:*",
+      "chisel:concrete_blue2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_brown",
+    "displayName": "Brown Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_brown:*",
+      "minecraft:concrete:12",
+      "chisel:concrete_powder:2",
+      "minecraft:concrete_powder:12",
+      "chisel:concrete_brown1:*",
+      "chisel:concrete_brown2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_cyan",
+    "displayName": "Cyan Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_cyan:*",
+      "minecraft:concrete:9",
+      "chisel:concrete_powder:3",
+      "minecraft:concrete_powder:9",
+      "chisel:concrete_cyan1:*",
+      "chisel:concrete_cyan2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_gray",
+    "displayName": "Gray Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_gray:*",
+      "minecraft:concrete:7",
+      "chisel:concrete_powder:4",
+      "minecraft:concrete_powder:7",
+      "chisel:concrete_gray1:*",
+      "chisel:concrete_gray2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_green",
+    "displayName": "Green Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_green:*",
+      "minecraft:concrete:13",
+      "chisel:concrete_powder:5",
+      "minecraft:concrete_powder:13",
+      "chisel:concrete_green1:*",
+      "chisel:concrete_green2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_lightblue",
+    "displayName": "Light Blue Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_lightblue:*",
+      "minecraft:concrete:3",
+      "chisel:concrete_powder:6",
+      "minecraft:concrete_powder:3",
+      "chisel:concrete_lightblue1:*",
+      "chisel:concrete_lightblue2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_lightgray",
+    "displayName": "Light Gray Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_lightgray:*",
+      "minecraft:concrete:8",
+      "chisel:concrete_powder:7",
+      "minecraft:concrete_powder:8",
+      "chisel:concrete_lightgray1:*",
+      "chisel:concrete_lightgray2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_lime",
+    "displayName": "Lime Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_lime:*",
+      "minecraft:concrete:5",
+      "chisel:concrete_powder:8",
+      "minecraft:concrete_powder:5",
+      "chisel:concrete_lime1:*",
+      "chisel:concrete_lime2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_magenta",
+    "displayName": "Magenta Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_magenta:*",
+      "minecraft:concrete:2",
+      "chisel:concrete_powder:9",
+      "minecraft:concrete_powder:2",
+      "chisel:concrete_magenta1:*",
+      "chisel:concrete_magenta2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_orange",
+    "displayName": "Orange Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_orange:*",
+      "minecraft:concrete:1",
+      "chisel:concrete_powder:10",
+      "minecraft:concrete_powder:1",
+      "chisel:concrete_orange1:*",
+      "chisel:concrete_orange2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_pink",
+    "displayName": "Pink Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_pink:*",
+      "minecraft:concrete:6",
+      "chisel:concrete_powder:11",
+      "minecraft:concrete_powder:6",
+      "chisel:concrete_pink1:*",
+      "chisel:concrete_pink2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_purple",
+    "displayName": "Purple Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_purple:*",
+      "minecraft:concrete:10",
+      "chisel:concrete_powder:12",
+      "minecraft:concrete_powder:10",
+      "chisel:concrete_purple1:*",
+      "chisel:concrete_purple2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_red",
+    "displayName": "Red Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_red:*",
+      "minecraft:concrete:14",
+      "chisel:concrete_powder:13",
+      "minecraft:concrete_powder:14",
+      "chisel:concrete_red1:*",
+      "chisel:concrete_red2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_white",
+    "displayName": "White Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_white:*",
+      "minecraft:concrete:0",
+      "chisel:concrete_powder:14",
+      "minecraft:concrete_powder:0",
+      "chisel:concrete_white1:*",
+      "chisel:concrete_white2:*"
+    ]
+  },
+  {
+    "id": "chisel_concrete_yellow",
+    "displayName": "Yellow Concrete",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:concrete_yellow:*",
+      "minecraft:concrete:4",
+      "chisel:concrete_powder:15",
+      "minecraft:concrete_powder:4",
+      "chisel:concrete_yellow1:*",
+      "chisel:concrete_yellow2:*"
+    ]
+  },
+  {
+    "id": "chisel_terracotta",
+    "displayName": "Terracotta",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:hardenedclay:*",
+      "minecraft:hardened_clay:0",
+      "chisel:hardenedclay1:*",
+      "chisel:hardenedclay2:*",
+      "minecraft:hardened_clay"
+    ]
+  },
+  {
+    "id": "chisel_glass",
+    "displayName": "Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:glass:*",
+      "chisel:glass1:*",
+      "minecraft:glass"
+    ]
+  },
+  {
+    "id": "chisel_glasspane",
+    "displayName": "Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:glasspane:*",
+      "chisel:glasspane1:*",
+      "minecraft:glass_pane"
+    ]
+  },
+  {
+    "id": "chisel_colored_terracotta",
+    "displayName": "Colored Terracotta",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:hardened_clay:1",
+      "minecraft:hardened_clay:2",
+      "minecraft:hardened_clay:3",
+      "minecraft:hardened_clay:4",
+      "minecraft:hardened_clay:5",
+      "minecraft:hardened_clay:6",
+      "minecraft:hardened_clay:7",
+      "minecraft:hardened_clay:8",
+      "minecraft:hardened_clay:9",
+      "minecraft:hardened_clay:10",
+      "minecraft:hardened_clay:11",
+      "minecraft:hardened_clay:12",
+      "minecraft:hardened_clay:13",
+      "minecraft:hardened_clay:14",
+      "minecraft:hardened_clay:15",
+      "minecraft:stained_hardened_clay:*"
+    ]
+  },
+  {
+    "id": "chisel_glazed_terracotta",
+    "displayName": "Glazed Terracotta",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:glazed_terracotta:0",
+      "minecraft:glazed_terracotta:1",
+      "minecraft:glazed_terracotta:2",
+      "minecraft:glazed_terracotta:3",
+      "minecraft:glazed_terracotta:4",
+      "minecraft:glazed_terracotta:5",
+      "minecraft:glazed_terracotta:6",
+      "minecraft:glazed_terracotta:7",
+      "minecraft:glazed_terracotta:8",
+      "minecraft:glazed_terracotta:9",
+      "minecraft:glazed_terracotta:10",
+      "minecraft:glazed_terracotta:11",
+      "minecraft:glazed_terracotta:12",
+      "minecraft:glazed_terracotta:13",
+      "minecraft:glazed_terracotta:14",
+      "minecraft:glazed_terracotta:15",
+      "minecraft:white_glazed_terracotta",
+      "minecraft:orange_glazed_terracotta",
+      "minecraft:magenta_glazed_terracotta",
+      "minecraft:light_blue_glazed_terracotta",
+      "minecraft:yellow_glazed_terracotta",
+      "minecraft:lime_glazed_terracotta",
+      "minecraft:pink_glazed_terracotta",
+      "minecraft:gray_glazed_terracotta",
+      "minecraft:silver_glazed_terracotta",
+      "minecraft:cyan_glazed_terracotta",
+      "minecraft:purple_glazed_terracotta",
+      "minecraft:blue_glazed_terracotta",
+      "minecraft:brown_glazed_terracotta",
+      "minecraft:green_glazed_terracotta",
+      "minecraft:red_glazed_terracotta",
+      "minecraft:black_glazed_terracotta"
+    ]
+  },
+  {
+    "id": "chisel_red_sandstone",
+    "displayName": "Red Sandstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:sandstonered:*",
+      "chisel:sandstonered1:*",
+      "chisel:sandstonered2:*",
+      "minecraft:red_sandstone",
+      "minecraft:red_sandstone:0",
+      "chisel:sandstonered-scribbles:*"
+    ]
+  },
+  {
+    "id": "chisel_temple",
+    "displayName": "Temple Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:temple:*"
+    ]
+  },
+  {
+    "id": "chisel_templemossy",
+    "displayName": "Mossy Temple Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:templemossy:*"
+    ]
+  },
+  {
+    "id": "chisel_netherrack",
+    "displayName": "Netherrack",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:netherrack:*",
+      "minecraft:netherrack"
+    ]
+  },
+  {
+    "id": "chisel_obsidian",
+    "displayName": "Obsidian",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:obsidian:*",
+      "minecraft:obsidian"
+    ]
+  },
+  {
+    "id": "chisel_prismarine",
+    "displayName": "Prismarine",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:prismarine:*",
+      "chisel:prismarine1:*",
+      "chisel:prismarine2:*",
+      "minecraft:prismarine",
+      "minecraft:prismarine:0",
+      "minecraft:prismarine:1",
+      "minecraft:prismarine:2"
+    ]
+  },
+  {
+    "id": "chisel_quartz_block",
+    "displayName": "Block of Quartz",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:quartz:*",
+      "chisel:quartz1:*",
+      "chisel:quartz2:*",
+      "minecraft:quartz_block",
+      "minecraft:quartz_block:0",
+      "minecraft:quartz_block:1",
+      "minecraft:quartz_block:2"
+    ]
+  },
+  {
+    "id": "chisel_redstone_block",
+    "displayName": "Block of Redstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:redstone:*",
+      "chisel:redstone1:*",
+      "chisel:redstone2:*",
+      "minecraft:redstone_block"
+    ]
+  },
+  {
+    "id": "chisel_marble",
+    "displayName": "Marble",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:marble:*",
+      "chisel:marble1:*",
+      "chisel:marble2:*",
+      "chisel:marblepillar:*",
+      "quark:marble:*",
+      "astralsorcery:blockmarble:*",
+      "astralsorcery:blockblackmarble:*"
+    ]
+  },
+  {
+    "id": "chisel_arcane_stone",
+    "displayName": "Arcane Stone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:arcane_stone:*",
+      "chisel:arcane_stone1:*",
+      "chisel:arcane_stone2:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_acacia",
+    "displayName": "Acacia Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:bookshelf_acacia:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_birch",
+    "displayName": "Birch Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:bookshelf_birch:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_darkoak",
+    "displayName": "Dark Oak Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:bookshelf_darkoak:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_jungle",
+    "displayName": "Jungle Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:bookshelf_jungle:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_oak",
+    "displayName": "Oak Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:bookshelf",
+      "chisel:bookshelf_oak:*"
+    ]
+  },
+  {
+    "id": "chisel_bookshelf_spruce",
+    "displayName": "Spruce Bookshelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:bookshelf_spruce:*"
+    ]
+  },
+  {
+    "id": "chisel_endstone",
+    "displayName": "Endstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:endstone:*",
+      "chisel:endstone1:*",
+      "chisel:endstone2:*",
+      "minecraft:end_stone"
+    ]
+  },
+  {
+    "id": "chisel_purpur",
+    "displayName": "Purpur Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:purpur:*",
+      "chisel:purpur1:*",
+      "chisel:purpur2:*",
+      "minecraft:purpur_block",
+      "minecraft:purpur_pillar"
+    ]
+  },
+  {
+    "id": "chisel_dirt",
+    "displayName": "Dirt",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:dirt:*",
+      "minecraft:dirt"
+    ]
+  },
+  {
+    "id": "chisel_coal_block",
+    "displayName": "Block of Coal",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:block_coal:*",
+      "chisel:block_coal1:*",
+      "chisel:block_coal2:*",
+      "minecraft:coal_block"
+    ]
+  },
+  {
+    "id": "chisel_charcoal_block",
+    "displayName": "Block of Charcoal",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:block_charcoal:*",
+      "chisel:block_charcoal1:*",
+      "chisel:block_charcoal2:*"
+    ]
+  },
+  {
+    "id": "chisel_coal_coke_block",
+    "displayName": "Block of Coal Coke",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:block_coal_coke:*",
+      "chisel:block_coal_coke1:*",
+      "chisel:block_coal_coke2:*"
+    ]
+  },
+  {
+    "id": "chisel_emerald_block",
+    "displayName": "Block of Emerald",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:emerald:*",
+      "minecraft:emerald_block"
+    ]
+  },
+  {
+    "id": "chisel_lapis_block",
+    "displayName": "Lapis Lazuli Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:lapis:*",
+      "minecraft:lapis_block"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_white",
+    "displayName": "White Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:0",
+      "atum:crystal_white_stained_glass",
+      "atum:framed_white_stained_glass",
+      "chisel:glassdyedwhite:*",
+      "betternether:quartz_stained_glass:0",
+      "betternether:quartz_stained_glass_framed:0",
+      "tconstruct:clear_stained_glass:0"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_white",
+    "displayName": "White Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:0",
+      "atum:thin_crystal_white_stained_glass",
+      "atum:thin_framed_white_stained_glass",
+      "chisel:glasspanedyedwhite:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_orange",
+    "displayName": "Orange Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:1",
+      "atum:crystal_orange_stained_glass",
+      "atum:framed_orange_stained_glass",
+      "chisel:glassdyedorange:*",
+      "betternether:quartz_stained_glass:1",
+      "betternether:quartz_stained_glass_framed:1",
+      "tconstruct:clear_stained_glass:1"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_orange",
+    "displayName": "Orange Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:1",
+      "atum:thin_crystal_orange_stained_glass",
+      "atum:thin_framed_orange_stained_glass",
+      "chisel:glasspanedyedorange:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_magenta",
+    "displayName": "Magenta Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:2",
+      "atum:crystal_magenta_stained_glass",
+      "atum:framed_magenta_stained_glass",
+      "chisel:glassdyedmagenta:*",
+      "betternether:quartz_stained_glass:2",
+      "betternether:quartz_stained_glass_framed:2",
+      "tconstruct:clear_stained_glass:2"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_magenta",
+    "displayName": "Magenta Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:2",
+      "atum:thin_crystal_magenta_stained_glass",
+      "atum:thin_framed_magenta_stained_glass",
+      "chisel:glasspanedyedmagenta:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_lightblue",
+    "displayName": "Light Blue Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:3",
+      "atum:crystal_light_blue_stained_glass",
+      "atum:framed_light_blue_stained_glass",
+      "chisel:glassdyedlightblue:*",
+      "betternether:quartz_stained_glass:3",
+      "betternether:quartz_stained_glass_framed:3",
+      "tconstruct:clear_stained_glass:3"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_lightblue",
+    "displayName": "Light Blue Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:3",
+      "atum:thin_crystal_light_blue_stained_glass",
+      "atum:thin_framed_light_blue_stained_glass",
+      "chisel:glasspanedyedlightblue:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_yellow",
+    "displayName": "Yellow Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:4",
+      "atum:crystal_yellow_stained_glass",
+      "atum:framed_yellow_stained_glass",
+      "chisel:glassdyedyellow:*",
+      "betternether:quartz_stained_glass:4",
+      "betternether:quartz_stained_glass_framed:4",
+      "tconstruct:clear_stained_glass:4"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_yellow",
+    "displayName": "Yellow Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:4",
+      "atum:thin_crystal_yellow_stained_glass",
+      "atum:thin_framed_yellow_stained_glass",
+      "chisel:glasspanedyedyellow:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_lime",
+    "displayName": "Lime Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:5",
+      "atum:crystal_lime_stained_glass",
+      "atum:framed_lime_stained_glass",
+      "chisel:glassdyedlime:*",
+      "betternether:quartz_stained_glass:5",
+      "betternether:quartz_stained_glass_framed:5",
+      "tconstruct:clear_stained_glass:5"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_lime",
+    "displayName": "Lime Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:5",
+      "atum:thin_crystal_lime_stained_glass",
+      "atum:thin_framed_lime_stained_glass",
+      "chisel:glasspanedyedlime:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_pink",
+    "displayName": "Pink Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:6",
+      "atum:crystal_pink_stained_glass",
+      "atum:framed_pink_stained_glass",
+      "chisel:glassdyedpink:*",
+      "betternether:quartz_stained_glass:6",
+      "betternether:quartz_stained_glass_framed:6",
+      "tconstruct:clear_stained_glass:6"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_pink",
+    "displayName": "Pink Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:6",
+      "atum:thin_crystal_pink_stained_glass",
+      "atum:thin_framed_pink_stained_glass",
+      "chisel:glasspanedyedpink:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_gray",
+    "displayName": "Gray Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:7",
+      "atum:crystal_gray_stained_glass",
+      "atum:framed_gray_stained_glass",
+      "chisel:glassdyedgray:*",
+      "betternether:quartz_stained_glass:7",
+      "betternether:quartz_stained_glass_framed:7",
+      "tconstruct:clear_stained_glass:7"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_gray",
+    "displayName": "Gray Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:7",
+      "atum:thin_crystal_gray_stained_glass",
+      "atum:thin_framed_gray_stained_glass",
+      "chisel:glasspanedyedgray:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_lightgray",
+    "displayName": "Light Gray Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:8",
+      "atum:crystal_silver_stained_glass",
+      "atum:framed_silver_stained_glass",
+      "chisel:glassdyedlightgray:*",
+      "betternether:quartz_stained_glass:8",
+      "betternether:quartz_stained_glass_framed:8",
+      "tconstruct:clear_stained_glass:8"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_lightgray",
+    "displayName": "Light Gray Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:8",
+      "atum:thin_crystal_silver_stained_glass",
+      "atum:thin_framed_silver_stained_glass",
+      "chisel:glasspanedyedlightgray:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_cyan",
+    "displayName": "Cyan Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:9",
+      "atum:crystal_cyan_stained_glass",
+      "atum:framed_cyan_stained_glass",
+      "chisel:glassdyedcyan:*",
+      "betternether:quartz_stained_glass:9",
+      "betternether:quartz_stained_glass_framed:9",
+      "tconstruct:clear_stained_glass:9"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_cyan",
+    "displayName": "Cyan Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:9",
+      "atum:thin_crystal_cyan_stained_glass",
+      "atum:thin_framed_cyan_stained_glass",
+      "chisel:glasspanedyedcyan:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_purple",
+    "displayName": "Purple Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:10",
+      "atum:crystal_purple_stained_glass",
+      "atum:framed_purple_stained_glass",
+      "chisel:glassdyedpurple:*",
+      "betternether:quartz_stained_glass:10",
+      "betternether:quartz_stained_glass_framed:10",
+      "tconstruct:clear_stained_glass:10"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_purple",
+    "displayName": "Purple Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:10",
+      "atum:thin_crystal_purple_stained_glass",
+      "atum:thin_framed_purple_stained_glass",
+      "chisel:glasspanedyedpurple:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_blue",
+    "displayName": "Blue Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:11",
+      "atum:crystal_blue_stained_glass",
+      "atum:framed_blue_stained_glass",
+      "chisel:glassdyedblue:*",
+      "betternether:quartz_stained_glass:11",
+      "betternether:quartz_stained_glass_framed:11",
+      "tconstruct:clear_stained_glass:11"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_blue",
+    "displayName": "Blue Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:11",
+      "atum:thin_crystal_blue_stained_glass",
+      "atum:thin_framed_blue_stained_glass",
+      "chisel:glasspanedyedblue:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_brown",
+    "displayName": "Brown Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:12",
+      "atum:crystal_brown_stained_glass",
+      "atum:framed_brown_stained_glass",
+      "chisel:glassdyedbrown:*",
+      "betternether:quartz_stained_glass:12",
+      "betternether:quartz_stained_glass_framed:12",
+      "tconstruct:clear_stained_glass:12"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_brown",
+    "displayName": "Brown Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:12",
+      "atum:thin_crystal_brown_stained_glass",
+      "atum:thin_framed_brown_stained_glass",
+      "chisel:glasspanedyedbrown:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_green",
+    "displayName": "Green Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:13",
+      "atum:crystal_green_stained_glass",
+      "atum:framed_green_stained_glass",
+      "chisel:glassdyedgreen:*",
+      "betternether:quartz_stained_glass:13",
+      "betternether:quartz_stained_glass_framed:13",
+      "tconstruct:clear_stained_glass:13"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_green",
+    "displayName": "Green Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:13",
+      "atum:thin_crystal_green_stained_glass",
+      "atum:thin_framed_green_stained_glass",
+      "chisel:glasspanedyedgreen:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_red",
+    "displayName": "Red Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:14",
+      "atum:crystal_red_stained_glass",
+      "atum:framed_red_stained_glass",
+      "chisel:glassdyedred:*",
+      "betternether:quartz_stained_glass:14",
+      "betternether:quartz_stained_glass_framed:14",
+      "tconstruct:clear_stained_glass:14"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_red",
+    "displayName": "Red Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:14",
+      "atum:thin_crystal_red_stained_glass",
+      "atum:thin_framed_red_stained_glass",
+      "chisel:glasspanedyedred:*"
+    ]
+  },
+  {
+    "id": "chisel_stained_glass_black",
+    "displayName": "Black Stained Glass",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass:15",
+      "atum:crystal_black_stained_glass",
+      "atum:framed_black_stained_glass",
+      "chisel:glassdyedblack:*",
+      "betternether:quartz_stained_glass:15",
+      "betternether:quartz_stained_glass_framed:15",
+      "tconstruct:clear_stained_glass:15"
+    ]
+  },
+  {
+    "id": "chisel_stained_glasspane_black",
+    "displayName": "Black Stained Glass Pane",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:stained_glass_pane:15",
+      "atum:thin_crystal_black_stained_glass",
+      "atum:thin_framed_black_stained_glass",
+      "chisel:glasspanedyedblack:*"
+    ]
+  },
+  {
+    "id": "chisel_glowstone",
+    "displayName": "Glowstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:glowstone:*",
+      "chisel:glowstone1:*",
+      "chisel:glowstone2:*",
+      "minecraft:glowstone"
+    ]
+  },
+  {
+    "id": "chisel_ice",
+    "displayName": "Ice",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:ice:*",
+      "chisel:ice1:*",
+      "chisel:ice2:*",
+      "chisel:icepillar:*",
+      "minecraft:ice",
+      "minecraft:packed_ice"
+    ]
+  },
+  {
+    "id": "chisel_ironbars",
+    "displayName": "Iron Bars",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:ironpane:*",
+      "minecraft:iron_bars"
+    ]
+  },
+  {
+    "id": "chisel_lavastone",
+    "displayName": "Lavastone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:lavastone:*",
+      "chisel:lavastone1:*",
+      "chisel:lavastone2:*"
+    ]
+  },
+  {
+    "id": "chisel_limestone",
+    "displayName": "Limestone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:limestone:*",
+      "chisel:limestone1:*",
+      "chisel:limestone2:*",
+      "quark:limestone:*"
+    ]
+  },
+  {
+    "id": "chisel_netherbrick",
+    "displayName": "Nether Brick",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:netherbrick:*",
+      "minecraft:nether_brick"
+    ]
+  },
+  {
+    "id": "chisel_planks_oak",
+    "displayName": "Oak Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-oak:*",
+      "minecraft:planks:0"
+    ]
+  },
+  {
+    "id": "chisel_planks_spruce",
+    "displayName": "Spruce Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-spruce:*",
+      "minecraft:planks:1"
+    ]
+  },
+  {
+    "id": "chisel_planks_birch",
+    "displayName": "Birch Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-birch:*",
+      "minecraft:planks:2"
+    ]
+  },
+  {
+    "id": "chisel_planks_jungle",
+    "displayName": "Jungle Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-jungle:*",
+      "minecraft:planks:3"
+    ]
+  },
+  {
+    "id": "chisel_planks_acacia",
+    "displayName": "Acacia Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-acacia:*",
+      "minecraft:planks:4"
+    ]
+  },
+  {
+    "id": "chisel_planks_darkoak",
+    "displayName": "Dark Oak Planks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:planks-dark-oak:*",
+      "minecraft:planks:5"
+    ]
+  },
+  {
+    "id": "cbits_bitbag",
+    "displayName": "Bit Bag",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chiselsandbits:bit_bag:*"
+    ]
+  },
+  {
+    "id": "chisel_wool_white",
+    "displayName": "White Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:0",
+      "chisel:wool_white:*",
+      "quark:quilted_wool:0",
+      "atum:linen_white"
+    ]
+  },
+  {
+    "id": "chisel_wool_orange",
+    "displayName": "Orange Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:1",
+      "chisel:wool_orange:*",
+      "quark:quilted_wool:1",
+      "atum:linen_orange"
+    ]
+  },
+  {
+    "id": "chisel_wool_magenta",
+    "displayName": "Magenta Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:2",
+      "chisel:wool_magenta:*",
+      "quark:quilted_wool:2",
+      "atum:linen_magenta"
+    ]
+  },
+  {
+    "id": "chisel_wool_lightblue",
+    "displayName": "Light Blue Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:3",
+      "chisel:wool_lightblue:*",
+      "quark:quilted_wool:3",
+      "atum:linen_light_blue"
+    ]
+  },
+  {
+    "id": "chisel_wool_yellow",
+    "displayName": "Yellow Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:4",
+      "chisel:wool_yellow:*",
+      "quark:quilted_wool:4",
+      "atum:linen_yellow"
+    ]
+  },
+  {
+    "id": "chisel_wool_lime",
+    "displayName": "Lime Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:5",
+      "chisel:wool_lime:*",
+      "quark:quilted_wool:5",
+      "atum:linen_lime"
+    ]
+  },
+  {
+    "id": "chisel_wool_pink",
+    "displayName": "Pink Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:6",
+      "chisel:wool_pink:*",
+      "quark:quilted_wool:6",
+      "atum:linen_pink"
+    ]
+  },
+  {
+    "id": "chisel_wool_gray",
+    "displayName": "Gray Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:7",
+      "chisel:wool_gray:*",
+      "quark:quilted_wool:7",
+      "atum:linen_gray"
+    ]
+  },
+  {
+    "id": "chisel_wool_lightgray",
+    "displayName": "Light Gray Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:8",
+      "chisel:wool_lightgray:*",
+      "quark:quilted_wool:8",
+      "atum:linen_silver"
+    ]
+  },
+  {
+    "id": "chisel_wool_cyan",
+    "displayName": "Cyan Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:9",
+      "chisel:wool_cyan:*",
+      "quark:quilted_wool:9",
+      "atum:linen_cyan"
+    ]
+  },
+  {
+    "id": "chisel_wool_purple",
+    "displayName": "Purple Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:10",
+      "chisel:wool_purple:*",
+      "quark:quilted_wool:10",
+      "atum:linen_purple"
+    ]
+  },
+  {
+    "id": "chisel_wool_blue",
+    "displayName": "Blue Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:11",
+      "chisel:wool_blue:*",
+      "quark:quilted_wool:11",
+      "atum:linen_blue"
+    ]
+  },
+  {
+    "id": "chisel_wool_brown",
+    "displayName": "Brown Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:12",
+      "chisel:wool_brown:*",
+      "quark:quilted_wool:12",
+      "atum:linen_brown"
+    ]
+  },
+  {
+    "id": "chisel_wool_green",
+    "displayName": "Green Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:13",
+      "chisel:wool_green:*",
+      "quark:quilted_wool:13",
+      "atum:linen_green"
+    ]
+  },
+  {
+    "id": "chisel_wool_red",
+    "displayName": "Red Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:14",
+      "chisel:wool_red:*",
+      "quark:quilted_wool:14",
+      "atum:linen_red"
+    ]
+  },
+  {
+    "id": "chisel_wool_black",
+    "displayName": "Black Wool",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:wool:15",
+      "chisel:wool_black:*",
+      "quark:quilted_wool:15",
+      "atum:linen_black"
+    ]
+  },
+  {
+    "id": "chisel_basalt",
+    "displayName": "Basalt",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:basalt:*",
+      "chisel:basalt1:*",
+      "chisel:basalt2:*",
+      "quark:basalt:*"
+    ]
+  },
+  {
+    "id": "chisel_certus",
+    "displayName": "Certus Quartz Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:certus:*",
+      "chisel:certus1:*",
+      "chisel:certus2:*",
+      "appliedenergistics2:quartz_block"
+    ]
+  },
+  {
+    "id": "chisel_shoji",
+    "displayName": "Shoji",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:paper:*"
+    ]
+  },
+  {
+    "id": "chisel_carpet_white",
+    "displayName": "White Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:0",
+      "chisel:carpet_white:*",
+      "atum:linen_carpet_white"
+    ]
+  },
+  {
+    "id": "chisel_carpet_orange",
+    "displayName": "Orange Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:1",
+      "chisel:carpet_orange:*",
+      "atum:linen_carpet_orange"
+    ]
+  },
+  {
+    "id": "chisel_carpet_magenta",
+    "displayName": "Magenta Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:2",
+      "chisel:carpet_magenta:*",
+      "atum:linen_carpet_magenta"
+    ]
+  },
+  {
+    "id": "chisel_carpet_lightblue",
+    "displayName": "Light Blue Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:3",
+      "chisel:carpet_lightblue:*",
+      "atum:linen_carpet_light_blue"
+    ]
+  },
+  {
+    "id": "chisel_carpet_yellow",
+    "displayName": "Yellow Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:4",
+      "chisel:carpet_yellow:*",
+      "atum:linen_carpet_yellow"
+    ]
+  },
+  {
+    "id": "chisel_carpet_lime",
+    "displayName": "Lime Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:5",
+      "chisel:carpet_lime:*",
+      "atum:linen_carpet_lime"
+    ]
+  },
+  {
+    "id": "chisel_carpet_pink",
+    "displayName": "Pink Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:6",
+      "chisel:carpet_pink:*",
+      "atum:linen_carpet_pink"
+    ]
+  },
+  {
+    "id": "chisel_carpet_gray",
+    "displayName": "Gray Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:7",
+      "chisel:carpet_gray:*",
+      "atum:linen_carpet_gray"
+    ]
+  },
+  {
+    "id": "chisel_carpet_lightgray",
+    "displayName": "Light Gray Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:8",
+      "chisel:carpet_lightgray:*",
+      "atum:linen_carpet_silver"
+    ]
+  },
+  {
+    "id": "chisel_carpet_cyan",
+    "displayName": "Cyan Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:9",
+      "chisel:carpet_cyan:*",
+      "atum:linen_carpet_cyan"
+    ]
+  },
+  {
+    "id": "chisel_carpet_purple",
+    "displayName": "Purple Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:10",
+      "chisel:carpet_purple:*",
+      "atum:linen_carpet_purple"
+    ]
+  },
+  {
+    "id": "chisel_carpet_blue",
+    "displayName": "Blue Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:11",
+      "chisel:carpet_blue:*",
+      "atum:linen_carpet_blue"
+    ]
+  },
+  {
+    "id": "chisel_carpet_brown",
+    "displayName": "Brown Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:12",
+      "chisel:carpet_brown:*",
+      "atum:linen_carpet_brown"
+    ]
+  },
+  {
+    "id": "chisel_carpet_green",
+    "displayName": "Green Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:13",
+      "chisel:carpet_green:*",
+      "atum:linen_carpet_green"
+    ]
+  },
+  {
+    "id": "chisel_carpet_red",
+    "displayName": "Red Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:14",
+      "chisel:carpet_red:*",
+      "atum:linen_carpet_red"
+    ]
+  },
+  {
+    "id": "chisel_carpet_black",
+    "displayName": "Black Carpet",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "minecraft:carpet:15",
+      "chisel:carpet_black:*",
+      "atum:linen_carpet_black"
     ]
   }
 ]
