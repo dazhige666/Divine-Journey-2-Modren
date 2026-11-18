@@ -546,6 +546,7 @@
       "botania:biomestonea:5",
       "botania:biomestonea:6",
       "botania:biomestonea:7",
+      "chisel:stone:*",
       "minecraft:stone:0",
       "minecraft:stone:*"
     ]
@@ -569,7 +570,8 @@
       "botania:biomestonea:12",
       "botania:biomestonea:13",
       "botania:biomestonea:14",
-      "botania:biomestonea:15"
+      "botania:biomestonea:15",
+      "chisel:cobblestone:*"
     ]
   },
   {
@@ -644,7 +646,8 @@
       "botania:biomestoneb:12",
       "botania:biomestoneb:13",
       "botania:biomestoneb:14",
-      "botania:biomestoneb:15"
+      "botania:biomestoneb:15",
+      "chisel:bricks:*"
     ]
   },
   {
@@ -680,7 +683,8 @@
       "minecraft:sandstone:1",
       "undergroundbiomes:igneous_sandstone_chiseled:*",
       "undergroundbiomes:metamorphic_sandstone_chiseled:*",
-      "undergroundbiomes:sedimentary_sandstone_chiseled:*"
+      "undergroundbiomes:sedimentary_sandstone_chiseled:*",
+      "chisel:sandstone-scribbles:*"
     ]
   },
   {
@@ -726,7 +730,8 @@
       "minecraft:mossy_cobblestone",
       "undergroundbiomes:igneous_cobble_mossy:*",
       "undergroundbiomes:metamorphic_cobble_mossy:*",
-      "undergroundbiomes:sedimentary_stone_mossy:*"
+      "undergroundbiomes:sedimentary_stone_mossy:*",
+      "chisel:cobblestonemossy:*"
     ]
   },
   {
@@ -1879,6 +1884,82 @@
       "traverse:red_rock_cobblestone_stairs",
       "traverse:blue_rock_bricks_stairs",
       "traverse:blue_rock_cobblestone_stairs"
+    ]
+  },
+  {
+    "id": "chisel_factory",
+    "displayName": "Factory Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:factory:*",
+      "chisel:technical:*",
+      "chisel:technicalNew:*"
+    ]
+  },
+  {
+    "id": "chisel_antiblock",
+    "displayName": "Antiblock",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:antiblock:*"
+    ]
+  },
+  {
+    "id": "chisel_futura",
+    "displayName": "Futura Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:futura:*"
+    ]
+  },
+  {
+    "id": "chisel_laboratory",
+    "displayName": "Laboratory Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:laboratory:*"
+    ]
+  },
+  {
+    "id": "chisel_tyrian",
+    "displayName": "Tyrian Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:tyrian:*"
+    ]
+  },
+  {
+    "id": "chisel_waterstone",
+    "displayName": "Waterstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:waterstone:*"
+    ]
+  },
+  {
+    "id": "chisel_voidstone",
+    "displayName": "Voidstone",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:voidstone:*",
+      "chisel:voidstoneRunic:*",
+      "chisel:energizedVoidstone:*"
+    ]
+  },
+  {
+    "id": "chisel_valentines",
+    "displayName": "Valentines' Block",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "chisel:valentines:*"
     ]
   }
 ]
