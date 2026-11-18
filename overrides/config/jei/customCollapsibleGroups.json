@@ -3586,5 +3586,62 @@
       "chisel:carpet_black:*",
       "atum:linen_carpet_black"
     ]
+  },
+  {
+    "id": "chisel_bloodmagic",
+    "displayName": "Blood Runes",
+    "itemUids": [
+      "chisel:bloodmagic:*",
+      "bloodmagic:blood_rune:0",
+      "bloodmagic:blood_rune:1",
+      "bloodmagic:blood_rune:2",
+      "bloodmagic:blood_rune:3",
+      "bloodmagic:blood_rune:4",
+      "bloodmagic:blood_rune:5",
+      "bloodmagic:blood_rune:6",
+      "bloodmagic:blood_rune:7",
+      "bloodmagic:blood_rune:8",
+      "bloodmagic:blood_rune:9",
+      "bloodmagic:blood_rune:10"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "chisel_brownstone",
+    "displayName": "Brownstone",
+    "itemUids": [
+      "chisel:brownstone:*"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "chisel_cloud",
+    "displayName": "Cloud",
+    "itemUids": [
+      "chisel:cloud:*"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "chisel_blockcobalt",
+    "displayName": "Block of Cobalt",
+    "itemUids": [
+      "chisel:blockcobalt:*"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "chisel_diamond",
+    "displayName": "Block of Diamond",
+    "itemUids": [
+      "chisel:diamond:*",
+      "minecraft:diamond_block"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
   }
 ]
