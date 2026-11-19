@@ -10,7 +10,8 @@
       "undergroundbiomes:metamorphic_stone_coal_ore:*",
       "undergroundbiomes:sedimentary_stone_coal_ore:*",
       "erebus:ore_coal",
-      "atum:coal_ore"
+      "atum:coal_ore",
+      "bno:ore_nethercoal"
     ]
   },
   {
@@ -29,7 +30,8 @@
       "galacticraftplanets:mars:3",
       "galacticraftplanets:asteroids_block:4",
       "galacticraftplanets:asteroids_block:5",
-      "lightningcraft:ore_block:0"
+      "lightningcraft:ore_block:0",
+      "bno:ore_netheriron"
     ]
   },
   {
@@ -45,7 +47,8 @@
       "abyssalcraft:abygolore",
       "atum:gold_ore",
       "erebus:ore_gold",
-      "lightningcraft:ore_block:1"
+      "lightningcraft:ore_block:1",
+      "bno:ore_nethergold"
     ]
   },
   {
@@ -62,7 +65,8 @@
       "erebus:ore_encrusted_diamond",
       "erebus:ore_diamond",
       "atum:diamond_ore",
-      "abyssalcraft:abydiaore"
+      "abyssalcraft:abydiaore",
+      "bno:ore_netherdiamond"
     ]
   },
   {
@@ -77,7 +81,8 @@
       "undergroundbiomes:sedimentary_stone_emerald_ore:*",
       "lightningcraft:ore_block:3",
       "erebus:ore_emerald",
-      "atum:emerald_ore"
+      "atum:emerald_ore",
+      "bno:ore_netheremerald"
     ]
   },
   {
@@ -91,7 +96,8 @@
       "undergroundbiomes:metamorphic_stone_lapis_ore:*",
       "undergroundbiomes:sedimentary_stone_lapis_ore:*",
       "atum:lapis_ore",
-      "erebus:ore_lapis"
+      "erebus:ore_lapis",
+      "bno:ore_netherlapis"
     ]
   },
   {
@@ -104,7 +110,8 @@
       "undergroundbiomes:igneous_stone_redstone_ore:*",
       "undergroundbiomes:metamorphic_stone_redstone_ore:*",
       "undergroundbiomes:sedimentary_stone_redstone_ore:*",
-      "atum:redstone_ore"
+      "atum:redstone_ore",
+      "bno:ore_netherredstone"
     ]
   },
   {
@@ -130,7 +137,8 @@
       "galacticraftplanets:mars:0",
       "galacticraftcore:basic_block_moon:0",
       "erebus:ore_copper",
-      "abyssalcraft:abycopore"
+      "abyssalcraft:abycopore",
+      "bno:ore_nethercopper"
     ]
   },
   {
@@ -151,7 +159,8 @@
       "galacticraftcore:basic_block_core:6",
       "galacticraftcore:basic_block_moon:1",
       "galacticraftplanets:mars:1",
-      "galacticraftplanets:venus:11"
+      "galacticraftplanets:venus:11",
+      "bno:ore_nethertin"
     ]
   },
   {
@@ -574,7 +583,8 @@
       "botania:biomestonea:15",
       "chisel:cobblestone:*",
       "chisel:cobblestone1:*",
-      "chisel:cobblestone2:*"
+      "chisel:cobblestone2:*",
+      "quark:biome_cobblestone:*"
     ]
   },
   {
@@ -661,7 +671,8 @@
       "chisel:bricks2:*",
       "chisel:stonebrick:*",
       "chisel:stonebrick1:*",
-      "chisel:stonebrick2:*"
+      "chisel:stonebrick2:*",
+      "quark:biome_brick:*"
     ]
   },
   {
@@ -3712,5 +3723,681 @@
     ],
     "backgroundColor": 861230421,
     "borderColor": -863467384
+  },
+  {
+    "id": "biblio_armorstand",
+    "displayName": "Armor Stand",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:armorstand:*"
+    ]
+  },
+  {
+    "id": "biblio_bookcase",
+    "displayName": "Bookcase",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:bookcase:*"
+    ]
+  },
+  {
+    "id": "biblio_case",
+    "displayName": "Display Case",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:case:*"
+    ]
+  },
+  {
+    "id": "biblio_clock",
+    "displayName": "Clock",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:clock:*"
+    ]
+  },
+  {
+    "id": "biblio_desk",
+    "displayName": "Desk",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:desk:*"
+    ]
+  },
+  {
+    "id": "biblio_fancysign",
+    "displayName": "Fancy Sign",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:fancysign:*"
+    ]
+  },
+  {
+    "id": "biblio_fancyworkbench",
+    "displayName": "Fancy Workbench",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:fancyworkbench:*"
+    ]
+  },
+  {
+    "id": "biblio_framedchest",
+    "displayName": "Framed Chest",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:framedchest:*"
+    ]
+  },
+  {
+    "id": "biblio_furniturepaneler",
+    "displayName": "Furniture Paneler",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:furniturepaneler:*"
+    ]
+  },
+  {
+    "id": "biblio_label",
+    "displayName": "Label",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:label:*"
+    ]
+  },
+  {
+    "id": "biblio_mapframe",
+    "displayName": "Map Frame",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:mapframe:*"
+    ]
+  },
+  {
+    "id": "biblio_paintingframeborderless",
+    "displayName": "Painting Frame (Borderless)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:paintingframeborderless:*"
+    ]
+  },
+  {
+    "id": "biblio_paintingframefancy",
+    "displayName": "Painting Frame (Fancy)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:paintingframefancy:*"
+    ]
+  },
+  {
+    "id": "biblio_paintingframeflat",
+    "displayName": "Painting Frame (Flat)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:paintingframeflat:*"
+    ]
+  },
+  {
+    "id": "biblio_paintingframemiddle",
+    "displayName": "Painting Frame (Middle)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:paintingframemiddle:*"
+    ]
+  },
+  {
+    "id": "biblio_paintingframesimple",
+    "displayName": "Painting Frame (Simple)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:paintingframesimple:*"
+    ]
+  },
+  {
+    "id": "biblio_potionshelf",
+    "displayName": "Potion Shelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:potionshelf:*"
+    ]
+  },
+  {
+    "id": "biblio_seat",
+    "displayName": "Seat",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:seat:*"
+    ]
+  },
+  {
+    "id": "biblio_shelf",
+    "displayName": "Shelf",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:shelf:*"
+    ]
+  },
+  {
+    "id": "biblio_table",
+    "displayName": "Table",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:table:*"
+    ]
+  },
+  {
+    "id": "biblio_toolrack",
+    "displayName": "Tool Rack",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:toolrack:*"
+    ]
+  },
+  {
+    "id": "biblio_lampgold",
+    "displayName": "Fancy Lamp (Gold)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:lampgold:*"
+    ]
+  },
+  {
+    "id": "biblio_lampiron",
+    "displayName": "Fancy Lamp (Iron)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:lampiron:*"
+    ]
+  },
+  {
+    "id": "biblio_lanterngold",
+    "displayName": "Fancy Lantern (Gold)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:lanterngold:*"
+    ]
+  },
+  {
+    "id": "biblio_lanterniron",
+    "displayName": "Fancy Lantern (Iron)",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:lanterniron:*"
+    ]
+  },
+  {
+    "id": "biblio_swordpedestal",
+    "displayName": "Sword Pedestal",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:swordpedestal:*"
+    ]
+  },
+  {
+    "id": "biblio_typewriter",
+    "displayName": "Typewriter",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:typewriter:*"
+    ]
+  },
+  {
+    "id": "biblio_seatbacks",
+    "displayName": "Seat Backs",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "bibliocraft:seatback1:*",
+      "bibliocraft:seatback2:*",
+      "bibliocraft:seatback3:*",
+      "bibliocraft:seatback4:*",
+      "bibliocraft:seatback5:*"
+    ]
+  },
+  {
+    "id": "ae2_paint_balls",
+    "displayName": "Paint Balls",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:paint_ball:0",
+      "appliedenergistics2:paint_ball:1",
+      "appliedenergistics2:paint_ball:2",
+      "appliedenergistics2:paint_ball:3",
+      "appliedenergistics2:paint_ball:4",
+      "appliedenergistics2:paint_ball:5",
+      "appliedenergistics2:paint_ball:6",
+      "appliedenergistics2:paint_ball:7",
+      "appliedenergistics2:paint_ball:8",
+      "appliedenergistics2:paint_ball:9",
+      "appliedenergistics2:paint_ball:10",
+      "appliedenergistics2:paint_ball:11",
+      "appliedenergistics2:paint_ball:12",
+      "appliedenergistics2:paint_ball:13",
+      "appliedenergistics2:paint_ball:14",
+      "appliedenergistics2:paint_ball:15"
+    ]
+  },
+  {
+    "id": "ae2_cable_glass",
+    "displayName": "ME Glass Cable",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:part:0",
+      "appliedenergistics2:part:1",
+      "appliedenergistics2:part:2",
+      "appliedenergistics2:part:3",
+      "appliedenergistics2:part:4",
+      "appliedenergistics2:part:5",
+      "appliedenergistics2:part:6",
+      "appliedenergistics2:part:7",
+      "appliedenergistics2:part:8",
+      "appliedenergistics2:part:9",
+      "appliedenergistics2:part:10",
+      "appliedenergistics2:part:11",
+      "appliedenergistics2:part:12",
+      "appliedenergistics2:part:13",
+      "appliedenergistics2:part:14",
+      "appliedenergistics2:part:15",
+      "appliedenergistics2:part:16"
+    ]
+  },
+  {
+    "id": "ae2_cable_covered",
+    "displayName": "ME Covered Cable",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:part:20",
+      "appliedenergistics2:part:21",
+      "appliedenergistics2:part:22",
+      "appliedenergistics2:part:23",
+      "appliedenergistics2:part:24",
+      "appliedenergistics2:part:25",
+      "appliedenergistics2:part:26",
+      "appliedenergistics2:part:27",
+      "appliedenergistics2:part:28",
+      "appliedenergistics2:part:29",
+      "appliedenergistics2:part:30",
+      "appliedenergistics2:part:31",
+      "appliedenergistics2:part:32",
+      "appliedenergistics2:part:33",
+      "appliedenergistics2:part:34",
+      "appliedenergistics2:part:35",
+      "appliedenergistics2:part:36"
+    ]
+  },
+  {
+    "id": "ae2_cable_smart",
+    "displayName": "ME Smart Cable",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:part:40",
+      "appliedenergistics2:part:41",
+      "appliedenergistics2:part:42",
+      "appliedenergistics2:part:43",
+      "appliedenergistics2:part:44",
+      "appliedenergistics2:part:45",
+      "appliedenergistics2:part:46",
+      "appliedenergistics2:part:47",
+      "appliedenergistics2:part:48",
+      "appliedenergistics2:part:49",
+      "appliedenergistics2:part:50",
+      "appliedenergistics2:part:51",
+      "appliedenergistics2:part:52",
+      "appliedenergistics2:part:53",
+      "appliedenergistics2:part:54",
+      "appliedenergistics2:part:55",
+      "appliedenergistics2:part:56"
+    ]
+  },
+  {
+    "id": "ae2_cable_dense_smart",
+    "displayName": "ME Dense Smart Cable",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:part:60",
+      "appliedenergistics2:part:61",
+      "appliedenergistics2:part:62",
+      "appliedenergistics2:part:63",
+      "appliedenergistics2:part:64",
+      "appliedenergistics2:part:65",
+      "appliedenergistics2:part:66",
+      "appliedenergistics2:part:67",
+      "appliedenergistics2:part:68",
+      "appliedenergistics2:part:69",
+      "appliedenergistics2:part:70",
+      "appliedenergistics2:part:71",
+      "appliedenergistics2:part:72",
+      "appliedenergistics2:part:73",
+      "appliedenergistics2:part:74",
+      "appliedenergistics2:part:75",
+      "appliedenergistics2:part:76"
+    ]
+  },
+  {
+    "id": "ae2_cable_dense_covered",
+    "displayName": "ME Dense Covered Cable",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:part:500",
+      "appliedenergistics2:part:501",
+      "appliedenergistics2:part:502",
+      "appliedenergistics2:part:503",
+      "appliedenergistics2:part:504",
+      "appliedenergistics2:part:505",
+      "appliedenergistics2:part:506",
+      "appliedenergistics2:part:507",
+      "appliedenergistics2:part:508",
+      "appliedenergistics2:part:509",
+      "appliedenergistics2:part:510",
+      "appliedenergistics2:part:511",
+      "appliedenergistics2:part:512",
+      "appliedenergistics2:part:513",
+      "appliedenergistics2:part:514",
+      "appliedenergistics2:part:515",
+      "appliedenergistics2:part:516"
+    ]
+  },
+  {
+    "id": "ae2_lumen_paint_balls",
+    "displayName": "Lumen Paint Balls",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "appliedenergistics2:paint_ball:20",
+      "appliedenergistics2:paint_ball:21",
+      "appliedenergistics2:paint_ball:22",
+      "appliedenergistics2:paint_ball:23",
+      "appliedenergistics2:paint_ball:24",
+      "appliedenergistics2:paint_ball:25",
+      "appliedenergistics2:paint_ball:26",
+      "appliedenergistics2:paint_ball:27",
+      "appliedenergistics2:paint_ball:28",
+      "appliedenergistics2:paint_ball:29",
+      "appliedenergistics2:paint_ball:30",
+      "appliedenergistics2:paint_ball:31",
+      "appliedenergistics2:paint_ball:32",
+      "appliedenergistics2:paint_ball:33",
+      "appliedenergistics2:paint_ball:34",
+      "appliedenergistics2:paint_ball:35"
+    ]
+  },
+  {
+    "id": "botania_petals",
+    "displayName": "Mystical Petals",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "botania:petal:0",
+      "botania:petal:1",
+      "botania:petal:2",
+      "botania:petal:3",
+      "botania:petal:4",
+      "botania:petal:5",
+      "botania:petal:6",
+      "botania:petal:7",
+      "botania:petal:8",
+      "botania:petal:9",
+      "botania:petal:10",
+      "botania:petal:11",
+      "botania:petal:12",
+      "botania:petal:13",
+      "botania:petal:14",
+      "botania:petal:15"
+    ]
+  },
+  {
+    "id": "botania_floral_powder",
+    "displayName": "Floral Powder",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "botania:dye:0",
+      "botania:dye:1",
+      "botania:dye:2",
+      "botania:dye:3",
+      "botania:dye:4",
+      "botania:dye:5",
+      "botania:dye:6",
+      "botania:dye:7",
+      "botania:dye:8",
+      "botania:dye:9",
+      "botania:dye:10",
+      "botania:dye:11",
+      "botania:dye:12",
+      "botania:dye:13",
+      "botania:dye:14",
+      "botania:dye:15"
+    ]
+  },
+  {
+    "id": "botania_petal_block",
+    "displayName": "Petal Blocks",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "botania:petalblock:0",
+      "botania:petalblock:1",
+      "botania:petalblock:2",
+      "botania:petalblock:3",
+      "botania:petalblock:4",
+      "botania:petalblock:5",
+      "botania:petalblock:6",
+      "botania:petalblock:7",
+      "botania:petalblock:8",
+      "botania:petalblock:9",
+      "botania:petalblock:10",
+      "botania:petalblock:11",
+      "botania:petalblock:12",
+      "botania:petalblock:13",
+      "botania:petalblock:14",
+      "botania:petalblock:15"
+    ]
+  },
+  {
+    "id": "botania_flugel_tiara",
+    "displayName": "Flügel Tiara",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "botania:flighttiara:0",
+      "botania:flighttiara:1",
+      "botania:flighttiara:2",
+      "botania:flighttiara:3",
+      "botania:flighttiara:4",
+      "botania:flighttiara:5",
+      "botania:flighttiara:6",
+      "botania:flighttiara:7",
+      "botania:flighttiara:8"
+    ]
+  },
+  {
+    "id": "aa_swords",
+    "displayName": "AA Swords",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_sword_crystal_red",
+      "actuallyadditions:item_sword_crystal_blue",
+      "actuallyadditions:item_sword_crystal_light_blue",
+      "actuallyadditions:item_sword_crystal_black",
+      "actuallyadditions:item_sword_crystal_green",
+      "actuallyadditions:item_sword_crystal_white",
+      "actuallyadditions:item_sword_emerald",
+      "actuallyadditions:item_sword_obsidian",
+      "actuallyadditions:item_sword_quartz"
+    ]
+  },
+  {
+    "id": "aa_pickaxes",
+    "displayName": "AA Pickaxes",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_pickaxe_crystal_red",
+      "actuallyadditions:item_pickaxe_crystal_blue",
+      "actuallyadditions:item_pickaxe_crystal_light_blue",
+      "actuallyadditions:item_pickaxe_crystal_black",
+      "actuallyadditions:item_pickaxe_crystal_green",
+      "actuallyadditions:item_pickaxe_crystal_white",
+      "actuallyadditions:item_pickaxe_emerald",
+      "actuallyadditions:item_pickaxe_obsidian",
+      "actuallyadditions:item_pickaxe_quartz"
+    ]
+  },
+  {
+    "id": "aa_axes",
+    "displayName": "AA Axes",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_axe_crystal_red",
+      "actuallyadditions:item_axe_crystal_blue",
+      "actuallyadditions:item_axe_crystal_light_blue",
+      "actuallyadditions:item_axe_crystal_black",
+      "actuallyadditions:item_axe_crystal_green",
+      "actuallyadditions:item_axe_crystal_white",
+      "actuallyadditions:item_axe_emerald",
+      "actuallyadditions:item_axe_obsidian",
+      "actuallyadditions:item_axe_quartz"
+    ]
+  },
+  {
+    "id": "aa_shovels",
+    "displayName": "AA Shovels",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_shovel_crystal_red",
+      "actuallyadditions:item_shovel_crystal_blue",
+      "actuallyadditions:item_shovel_crystal_light_blue",
+      "actuallyadditions:item_shovel_crystal_black",
+      "actuallyadditions:item_shovel_crystal_green",
+      "actuallyadditions:item_shovel_crystal_white",
+      "actuallyadditions:item_shovel_emerald",
+      "actuallyadditions:item_shovel_obsidian",
+      "actuallyadditions:item_shovel_quartz"
+    ]
+  },
+  {
+    "id": "aa_hoes",
+    "displayName": "AA Hoes",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_hoe_crystal_red",
+      "actuallyadditions:item_hoe_crystal_blue",
+      "actuallyadditions:item_hoe_crystal_light_blue",
+      "actuallyadditions:item_hoe_crystal_black",
+      "actuallyadditions:item_hoe_crystal_green",
+      "actuallyadditions:item_hoe_crystal_white",
+      "actuallyadditions:item_hoe_emerald",
+      "actuallyadditions:item_hoe_obsidian",
+      "actuallyadditions:item_hoe_quartz"
+    ]
+  },
+  {
+    "id": "aa_paxels",
+    "displayName": "AA Paxels",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:wooden_paxel",
+      "actuallyadditions:stone_paxel",
+      "actuallyadditions:iron_paxel",
+      "actuallyadditions:gold_paxel",
+      "actuallyadditions:diamond_paxel",
+      "actuallyadditions:emerald_paxel",
+      "actuallyadditions:obsidian_paxel",
+      "actuallyadditions:quartz_paxel",
+      "actuallyadditions:item_paxel_crystal_red",
+      "actuallyadditions:item_paxel_crystal_blue",
+      "actuallyadditions:item_paxel_crystal_light_blue",
+      "actuallyadditions:item_paxel_crystal_black",
+      "actuallyadditions:item_paxel_crystal_green",
+      "actuallyadditions:item_paxel_crystal_white"
+    ]
+  },
+  {
+    "id": "aa_helmets",
+    "displayName": "AA Helmets",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_helm_crystal_red",
+      "actuallyadditions:item_helm_crystal_blue",
+      "actuallyadditions:item_helm_crystal_light_blue",
+      "actuallyadditions:item_helm_crystal_black",
+      "actuallyadditions:item_helm_crystal_green",
+      "actuallyadditions:item_helm_crystal_white",
+      "actuallyadditions:item_helm_emerald",
+      "actuallyadditions:item_helm_obsidian",
+      "actuallyadditions:item_helm_quartz"
+    ]
+  },
+  {
+    "id": "aa_chestplates",
+    "displayName": "AA Chestplates",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_chest_crystal_red",
+      "actuallyadditions:item_chest_crystal_blue",
+      "actuallyadditions:item_chest_crystal_light_blue",
+      "actuallyadditions:item_chest_crystal_black",
+      "actuallyadditions:item_chest_crystal_green",
+      "actuallyadditions:item_chest_crystal_white",
+      "actuallyadditions:item_chest_emerald",
+      "actuallyadditions:item_chest_obsidian",
+      "actuallyadditions:item_chest_quartz"
+    ]
+  },
+  {
+    "id": "aa_boots",
+    "displayName": "AA Boots",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "actuallyadditions:item_boots_crystal_red",
+      "actuallyadditions:item_boots_crystal_blue",
+      "actuallyadditions:item_boots_crystal_light_blue",
+      "actuallyadditions:item_boots_crystal_black",
+      "actuallyadditions:item_boots_crystal_green",
+      "actuallyadditions:item_boots_crystal_white",
+      "actuallyadditions:item_boots_emerald",
+      "actuallyadditions:item_boots_obsidian",
+      "actuallyadditions:item_boots_quartz"
+    ]
   }
 ]
