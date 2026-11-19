@@ -3643,5 +3643,74 @@
     ],
     "backgroundColor": 861230421,
     "borderColor": -863467384
+  },
+  {
+    "id": "soul_vials",
+    "displayName": "Soul Vial",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "enderio:item_soul_vial:*"
+    ]
+  },
+  {
+    "id": "broken_spawners",
+    "displayName": "Broken Spawner",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "enderio:item_broken_spawner:*"
+    ]
+  },
+  {
+    "id": "mob_syringes",
+    "displayName": "Mob Syringe",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "rftools:syringe:*"
+    ]
+  },
+  {
+    "id": "beds",
+    "displayName": "Beds",
+    "itemUids": [
+      "minecraft:bed:*"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "banners",
+    "displayName": "Banners",
+    "itemUids": [
+      "minecraft:banner:*"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
+  },
+  {
+    "id": "shulker_boxes",
+    "displayName": "Shulker Boxes",
+    "itemUids": [
+      "minecraft:white_shulker_box",
+      "minecraft:orange_shulker_box",
+      "minecraft:magenta_shulker_box",
+      "minecraft:light_blue_shulker_box",
+      "minecraft:yellow_shulker_box",
+      "minecraft:lime_shulker_box",
+      "minecraft:pink_shulker_box",
+      "minecraft:gray_shulker_box",
+      "minecraft:silver_shulker_box",
+      "minecraft:cyan_shulker_box",
+      "minecraft:purple_shulker_box",
+      "minecraft:blue_shulker_box",
+      "minecraft:brown_shulker_box",
+      "minecraft:green_shulker_box",
+      "minecraft:red_shulker_box",
+      "minecraft:black_shulker_box"
+    ],
+    "backgroundColor": 861230421,
+    "borderColor": -863467384
   }
 ]
