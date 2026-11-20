@@ -3,20 +3,35 @@
 // draws the orb but has no tooltip, and DynamicRecipeWrapper only reports duration.
 // This appends the numbers as plain recipe tooltip lines, which drawInfo paints at the
 // bottom of the page for every recipe of the machine.
+//
+// Language keys cannot be used here: getFormattedTooltip only runs the string through
+// I18n.canTranslate/I18n.format with no arguments, so a numbered line has to be built
+// as a literal.
 
 import hellfirepvp.modularmachinery.common.crafting.RecipeRegistry
 import hellfirepvp.modularmachinery.common.machine.MachineRegistry
 import hellfirepvp.modularmachinery.common.machine.IOType
 import kport.modularmagic.common.crafting.requirement.RequirementLifeEssence
+import net.minecraft.client.Minecraft
 
 
 def log = { Object message ->
     System.out.println("[dj2-mmce-tips] " + message)
 }
 
-// Prefixes double as the idempotency marker: a reload must not stack duplicate lines.
-String costMarker = "\u00a77\u6d88\u8017 \u00a7f"
-String gainMarker = "\u00a77\u4ea7\u51fa \u00a7f"
+// The two words follow the client language; the amount and unit stay literal because
+// getFormattedTooltip cannot interpolate arguments into a language key. Both the words
+// and the language are read once at load, so switching language needs a reload.
+boolean zh = Minecraft.getMinecraft()?.gameSettings?.language?.toLowerCase()?.startsWith("zh")
+String consumeWord = zh ? "消耗" : "Consume"
+String produceWord = zh ? "产出" : "Produce"
+
+// Doubles as the idempotency marker: a reload must not stack duplicate lines.
+// Matches both the English wording and the older Chinese one, so switching does not
+// leave a stale line behind.
+def isOwnLine = { Object line ->
+    line != null && line.startsWith("\u00a77") && line.contains(" LP")
+}
 
 int tagged = 0
 int skipped = 0
@@ -26,7 +41,7 @@ for (def machine : MachineRegistry.getLoadedMachines()) {
         if (essences.isEmpty()) {
             continue
         }
-        if (recipe.getTooltipList().any { it != null && (it.startsWith(costMarker) || it.startsWith(gainMarker)) }) {
+        if (recipe.getTooltipList().any(isOwnLine)) {
             skipped++
             continue
         }
@@ -46,10 +61,10 @@ for (def machine : MachineRegistry.getLoadedMachines()) {
         }
 
         if (cost > 0) {
-            recipe.addTooltip(costMarker + cost + (costPerTick ? " LP/t" : " LP"))
+            recipe.addTooltip("\u00a77" + consumeWord + " \u00a7f" + cost + (costPerTick ? " LP/t" : " LP"))
         }
         if (gain > 0) {
-            recipe.addTooltip(gainMarker + gain + (gainPerTick ? " LP/t" : " LP"))
+            recipe.addTooltip("\u00a77" + produceWord + " \u00a7f" + gain + (gainPerTick ? " LP/t" : " LP"))
         }
         tagged++
     }
