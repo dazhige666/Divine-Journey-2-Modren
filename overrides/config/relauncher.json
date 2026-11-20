@@ -4,7 +4,7 @@
   "targetJavaVersion": 25,
   "targetVendor": "ZULU",
   "javaPath": "",
-  "args": "-XX:+UseCompactObjectHeaders -Dsun.net.client.defaultConnectTimeout=3000 -Dsun.net.client.defaultReadTimeout=8000 ",
+  "args": "-Dsun.net.client.defaultConnectTimeout=3000 -Dsun.net.client.defaultReadTimeout=8000 ",
   "autoSetup": true,
   "enableRelauncher": true,
   "fetchUpdates": false,

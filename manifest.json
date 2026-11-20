@@ -1437,6 +1437,12 @@
       "projectID": 624967,
       "fileID": 6461209,
       "required": true
+    },
+    {
+      "slug": "stellarcore",
+      "projectID": 1064321,
+      "fileID": 9430934,
+      "required": true
     }
   ],
   "overrides": "overrides"
