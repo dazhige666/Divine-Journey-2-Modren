@@ -1,14 +1,23 @@
 {
     "images":
     {
-        "modpack":
+        "vignette":
         {
-            "image" : "mainmenu:modpack_icon.png",
-            "posX" : -270,
-            "posY" : 0,
-            "width" : 262,
-            "height" : 94,
+            "image" : "mainmenu:vignette.png",
+            "posX" : -240,
+            "posY" : -20,
+            "width" : 240,
+            "height" : 400,
             "alignment" : "top_right"
+        },
+        "title":
+        {
+            "image" : "mainmenu:title.png",
+            "posX" : -168,
+            "posY" : 20,
+            "width" : 336,
+            "height" : 34,
+            "alignment" : "top_center"
         }
     },
 
@@ -16,12 +25,16 @@
     {
         "singleplayer":
         {
-            "text" : "",
-            "texture" : "mainmenu:singleplayer.png",
-            "posX" : -245,
-            "posY" : 95,
-            "width" : 224,
-            "height" : 27,
+            "text" : "menu.singleplayer",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 76,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
             "alignment" : "top_right",
             "action" :
             {
@@ -31,169 +44,179 @@
         },
         "multiplayer":
         {
-            "text" : "",
-            "posX" : -245,
-            "posY" : 122,
-            "width" : 224,
-            "height" : 27,
+            "text" : "menu.multiplayer",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 108,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
             "alignment" : "top_right",
-            "texture" : "mainmenu:multiplayer.png",
             "action" :
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        "options":
-        {
-            "text" : "",
-            "posX" : -245,
-            "posY" : 149,
-            "width" : 224,
-            "height" : 27,
-            "alignment" : "top_right",
-            "texture" : "mainmenu:options.png",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
         "mods":
         {
-            "text" : "",
-            "posX" : -245,
-            "posY" : 176,
-            "width" : 224,
-            "height" : 27,
+            "text" : "fml.menu.mods",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 140,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
             "alignment" : "top_right",
-            "texture" : "mainmenu:mods.png",
             "action" :
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
+        "options":
+        {
+            "text" : "menu.options",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 172,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
+            "alignment" : "top_right",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
         "language":
         {
-            "text" : "",
-            "posX" : -183,
-            "posY" : 230,
-            "width" : 62,
-            "height" : 63,
-            "tooltip": "Language",
+            "text" : "options.language",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 204,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
             "alignment" : "top_right",
-            "texture" : "mainmenu:language.png",
             "action" :
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
+        "issues":
+        {
+            "text" : "Issues",
+            "texture" : "mainmenu:button_small.png",
+            "posX" : -154,
+            "posY" : 236,
+            "width" : 64,
+            "height" : 20,
+            "imageWidth" : 256,
+            "imageHeight" : 80,
+            "normalTextColor" : 13421772,
+            "hoverTextColor" : 4294956634,
+            "alignment" : "top_right",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/dazhige666/Divine-Journey-2-Modren/issues"
+            }
+        },
+        "discord":
+        {
+            "text" : "Discord",
+            "texture" : "mainmenu:button_small.png",
+            "posX" : -86,
+            "posY" : 236,
+            "width" : 64,
+            "height" : 20,
+            "imageWidth" : 256,
+            "imageHeight" : 80,
+            "normalTextColor" : 13421772,
+            "hoverTextColor" : 4294956634,
+            "alignment" : "top_right",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.com/invite/rH9pyS7"
+            }
+        },
         "quit_game":
         {
-            "text" : "",
-            "posX" : -121,
-            "posY" : 230,
-            "width" : 100,
-            "height" : 63,
+            "text" : "menu.quit",
+            "texture" : "mainmenu:button.png",
+            "posX" : -154,
+            "posY" : 268,
+            "width" : 132,
+            "height" : 20,
+            "imageWidth" : 528,
+            "imageHeight" : 80,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 4294956634,
             "alignment" : "top_right",
-            "texture" : "mainmenu:quit_game.png",
             "action" :
             {
                 "type" : "quit"
             }
-        },
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -20,
-            "posY" : 0,
-            "width" : 20,
-            "height" : 20,
-            "alignment" : "top_right",
-            "texture" : "mainmenu:largebutton.png",
-            "action" :
-        {
-                "type" : "refresh"
-        }
         }
     },
 
     "labels":
     {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB",
-            "posX" : -65,
-            "posY" : -6,
-            "fontSize" : 0.6,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "bottom_right"
-        },
-        "forge":{
-            "text" : "Minecraft #mcversion#",
-            "posX" : 3,
-            "posY" : -12,
-            "fontSize" : 0.6,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "bottom_left"
-        },
-        "modsloaded":{
-            "text" : "#modsloaded# Mods Loaded",
-            "posX" : 3,
-            "posY" : -6,
-            "fontSize" : 0.6,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "bottom_left"
-        },
-        "modpack":{
-            "text" : "Divine Journey 2 Modern @PACK_VERSION@",
-            "posX" : 3,
-            "posY" : -24,
-            "fontSize" : 0.6,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "bottom_left"
-        },
         "creator":{
             "text" : "- modpack by dazhige666",
-            "posX" : 3,
-            "posY" : -18,
-            "fontSize" : 0.6,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "bottom_left"
+            "posX" : -22,
+            "posY" : -24,
+            "fontSize" : 1.0,
+            "color" : -2434342,
+            "hoverColor" : -2434342,
+            "alignment" : "bottom_right",
+            "anchor" : "end"
         },
-        "newsLine1":{
-            "text" : "",
-            "posX" : -140,
-            "posY" : 5,
-            "fontSize" : 1.3,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "top_right"
+        "forge":{
+            "text" : "Minecraft #mcversion# #modsloaded# Mods Loaded",
+            "posX" : 22,
+            "posY" : -24,
+            "fontSize" : 1.0,
+            "color" : -2434342,
+            "hoverColor" : -2434342,
+            "alignment" : "bottom_left",
+            "anchor" : "start"
         },
-        "newsLine2":{
-            "text" : "",
-            "posX" : -140,
-            "posY" : 19,
-            "fontSize" : 1.3,
-            "color" : -1,
-            "hoverColor" : -1,
-            "alignment" : "top_right"
+        "mojang":{
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 22,
+            "posY" : -14,
+            "fontSize" : 1.0,
+            "color" : -3947581,
+            "hoverColor" : -3947581,
+            "alignment" : "bottom_left",
+            "anchor" : "start"
         },
-        "newsLine3":{
-            "text" : "",
-            "posX" : -140,
-            "posY" : 33,
-            "fontSize" : 0.8,
-            "color" : -1,
-            "hoverColor" : 13158400,
-            "alignment" : "top_right"
+        "packVersion":{
+            "text" : "Pack Version: @PACK_VERSION@",
+            "posX" : -22,
+            "posY" : -14,
+            "fontSize" : 1.0,
+            "color" : -2434342,
+            "hoverColor" : -2434342,
+            "alignment" : "bottom_right",
+            "anchor" : "end"
         }
     },
 
@@ -202,7 +225,7 @@
         "background":
         {
             "image" : "mainmenu:background.png",
-            "mode" : "center"
+            "mode" : "fill"
         }
     }
 }
