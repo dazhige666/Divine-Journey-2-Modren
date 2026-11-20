@@ -1,0 +1,73 @@
+{
+    "machine": "mob_loot_fabricator",
+    "registryName": "noel357_mob_loot_fabricator_saplings",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "bewitchment:dragons_blood_sapling",
+            "amount": 1,
+            "chance": 0
+        },
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 5000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@0",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@1",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@2",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@4",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:sapling@5",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bewitchment:cypress_sapling",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bewitchment:elder_sapling",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "bewitchment:juniper_sapling",
+            "amount": 64
+        }
+    ]
+}
