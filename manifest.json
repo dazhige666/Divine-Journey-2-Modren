@@ -1209,7 +1209,7 @@
     {
       "slug": "vintagefix",
       "projectID": 871198,
-      "fileID": 7958801,
+      "fileID": 9072529,
       "required": true
     },
     {
@@ -1424,6 +1424,18 @@
       "slug": "scalar-legacy",
       "projectID": 1235372,
       "fileID": 6842491,
+      "required": true
+    },
+    {
+      "slug": "entity-culling",
+      "projectID": 409087,
+      "fileID": 6215595,
+      "required": true
+    },
+    {
+      "slug": "renderlib",
+      "projectID": 624967,
+      "fileID": 6461209,
       "required": true
     }
   ],
