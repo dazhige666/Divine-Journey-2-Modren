@@ -33,7 +33,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.1。改造集中在四
 
 1. 下载本包的最新 zip（CurseForge 格式，见 [Releases](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)），导入 Prism Launcher 或 MultiMC。
 2. 首次启动会自动下载并安装 Azul Zulu 25（约 220 MB，会显示扫描/下载进度窗，慢的话等几分钟），装好后自动用 Cleanroom 0.6.13 启动。下载失败时会弹窗，让你手动指定 Java 25 的路径。
-3. 首次进游戏需要联网：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立这期间窗口可能看起来卡住不动，是正常的。
+3. 首次进游戏需要联网：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。这期间窗口可能看起来卡住不动，是正常的。
 4. **如果自己装了 OptiFine，不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
 ## 与上游 DJ2 的差异
