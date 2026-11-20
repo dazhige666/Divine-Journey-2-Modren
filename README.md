@@ -32,7 +32,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.1。改造集中在四
 ## 安装
 
 1. 下载本包的最新 zip（CurseForge 格式，见 [Releases](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)），导入 Prism Launcher 或 MultiMC。
-2. 首次启动会自动下载并安装 Azul Zulu 25（约 220 MB，会显示扫描/下载进度窗，慢的话等几分钟），装好后自动用 Cleanroom 0.6.13 启动。下载失败时会弹窗，让你手动指定 Java 25 的路径。
+2. 运行层已内置：`config/relauncher.json` 里钉死了 Cleanroom 0.6.13-alpha 和 Java 25，不需要自己选版本。首次启动会自动下载安装 Azul Zulu 25（约 220 MB，会显示扫描/下载进度窗，慢的话等几分钟）。**如果你的环境里已经装了 Zulu 25、但启动器没检测到**，打开 `config/relauncher.json`，把 `javaPath` 填成 `java.exe` 的完整路径（例如 `D:\\tools\\jdk\\zulu-25\\bin\\java.exe`，注意双反斜杠）。
 3. 首次进游戏需要联网：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。这期间窗口可能看起来卡住不动，是正常的。
 4. **如果自己装了 OptiFine，不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
@@ -40,7 +40,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.1。改造集中在四
 
 | 项目 | 上游 2.23.4 | 本版 |
 |---|---|---|
-| 运行环境 | Forge 1.12.2（Java 8） | **Cleanroom 0.6.13-alpha**（1.12.2 兼容层，需 Java 25；由 Relauncher 固定版本并引导选择 Java） |
+| 运行环境 | Forge 1.12.2（Java 8） | **Cleanroom 0.6.13-alpha**（1.12.2 兼容层，需 Java 25；版本与 Java 路径都已写进包内的 `config/relauncher.json`） |
 | 多方块机器 | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
 | HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
 | 信息面板 | — | **InGame Info XML + 5 个附属**（TPS/MSPT、血魔法 LP、神秘灵气与咒波、RF 维度；中英双语，随游戏语言切换） |
@@ -123,7 +123,7 @@ DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.1. It goes in four 
 ## Installing
 
 1. Download the latest zip (CurseForge format, see [Releases](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)) and import it into Prism Launcher or MultiMC.
-2. The first launch downloads and installs Azul Zulu 25 automatically (~220 MB; a progress window may sit there for a few minutes), then starts Cleanroom 0.6.13. If the download fails, the relauncher window lets you point at a Java 25 runtime by hand.
+2. The runtime is already configured: `config/relauncher.json` pins Cleanroom 0.6.13-alpha and Java 25, so there is nothing to pick by hand. The first launch downloads and installs Azul Zulu 25 automatically (~220 MB; a progress window may sit there for a few minutes). **If your machine already has Zulu 25 but the launcher does not find it**, open `config/relauncher.json` and set `javaPath` to the full path of `java.exe` (for example `D:\\tools\\jdk\\zulu-25\\bin\\java.exe`).
 3. The first game launch needs a network connection: I18nUpdateMod has to download the CFPA language pack, and JEI builds its search index on first load. The window may look frozen while this happens; that is normal.
 4. **If you install OptiFine yourself, do not enable "Fast Render"** — it breaks rendering in this pack.
 
@@ -131,7 +131,7 @@ DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.1. It goes in four 
 
 | Item | Upstream 2.23.4 | This pack |
 |---|---|---|
-| Runtime | Forge 1.12.2 (Java 8) | **Cleanroom 0.6.13-alpha** (a 1.12.2 compatibility layer, needs Java 25; the Relauncher pins the version and helps pick a Java) |
+| Runtime | Forge 1.12.2 (Java 8) | **Cleanroom 0.6.13-alpha** (a 1.12.2 compatibility layer, needs Java 25; both the version and the Java path live in the pack's `config/relauncher.json`) |
 | Multiblocks | Modular Machinery 1.10 + Modular Diversity 1.8 + ModularMagic 1.4 | **MMCE 2.3.2 + MMCE-Addons 2.0.5** |
 | HUD | Hwyla + Waila Harvestability | **The One Probe CE 1.4.1** + TopAllDependents |
 | Info panel | — | **InGame Info XML + 5 addons** (TPS/MSPT, Blood Magic LP, Thaumcraft aura and warp, RFTools dimensions; bilingual, follows the game language) |
