@@ -31,6 +31,18 @@
 - 通过 CurseForge manifest 引用（projectID `297404`，fileID `7173159`），不随本包再分发。
 - 许可：AGPL-3.0，版权归 CFPAOrg 及其贡献者。
 
+## Noel357 补充包
+
+- 来源：`NOEL357_additions_2.23.4-2`（作者 NOEL357）。
+- 引入日期：2026-11-21，提交 `78c7c38`（“Add the four Noel357 machine recipes”）。
+- 引入的 4 条配方：
+  1. 激光聚焦（Laser Focus）：16 个固化经验（Solidified Experience）+ 12 个充能金晶（Empowered Glod Crystal）+ 4 个充能钻石水晶（Empowered Diamatine Crystal）+ 4 个充能绿宝石水晶（Empowered Emeradic Crystal）+ 32000 FE/t + 1,280,000 激光能量 → 64 个扬升锭（Elevatium Ingot）。
+  2. 怪物战利品制造机（Mob Loot Fabricator）：1 个心之容器[蓝]（Blue Heart Canister）+ 500 LP → 25000 LP 返还 + 5 种恶魔意志各 100 点（原生、腐蚀、破坏、复仇、坚毅；Raw / Corrosive / Destructive / Vengeful / Steadfast Will）+ 8000 mB 生命源质（Life Essence）+ 1 个[虚弱]气血碎片（Weak Blood Shard）。
+  3. 怪物战利品制造机（Mob Loot Fabricator）：1 个龙血树苗（Dragons Blood Sapling）+ 5000 LP → 6 种原版树苗各 64 个（橡树树苗 / Oak Sapling、云杉树苗 / Spruce Sapling、白桦树苗 / Birch Sapling、丛林树苗 / Jungle Sapling、金合欢树苗 / Acacia Sapling、深色橡树树苗 / Dark Oak Sapling）+ 3 种 Bewitchment 树苗各 64 个（柏树树苗 / Cypress Sapling、接骨木树苗 / Elder Sapling、杜松树苗 / Juniper Sapling）。
+  4. 怪物战利品制造机（Mob Loot Fabricator）：1 个元始珍珠（Primordial Pearl）+ 5000 LP → 1 个寻常藏宝袋（Common Treasure）+ 1 个稀有藏宝袋（Uncommon Treasure，33.33%）。
+- 修改说明：将激光配方的能量由 320000 调整为 1280000。
+- 许可：作者 NOEL357 已授权整合包使用这些配方。
+
 ## 其他
 
-- 各模组版权归各自作者所有，均通过 CurseForge 下载，不再随包分发。
+- 各模组版权归各自作者所有，均通过 CurseForge 下载，不随包分发。
