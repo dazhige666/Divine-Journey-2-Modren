@@ -21,8 +21,21 @@
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:crystal_essence_display",
-            "amount": 64
+            "item": "thaumcraft:crystal_essence",
+            "amount": 64,
+            "nbt": {
+                "display": {
+                    "Name": "§c全§6部§e种§a类§b水§d晶§5碎§d片",
+                    "Lore": [
+                        "§7一次产出全部 41 种水晶碎片（每种 64 个）",
+                        "§c请确保输出仓至少留出 41 个格子"
+                    ]
+                },
+                "ench": [
+                    {}
+                ],
+                "HideFlags": "33"
+            }
         }
     ]
 }
