@@ -11,6 +11,9 @@ recipes.addShaped(<modularmachinery:blockaspectproviderinput>, [[null,<thaumcraf
 // Life Essence Provider
 BloodAltar.addRecipe(<modularmachinery:blocklifeessenceprovideroutput>, <modularmachinery:blockcasing>, 5, 240000, 120, 120);
 
+// Life Essence Provider (Input) - reworked from the output hatch
+BloodAltar.addRecipe(<modularmachinery:blocklifeessenceproviderinput>, <modularmachinery:blocklifeessenceprovideroutput>, 5, 120000, 120, 120);
+
 // Demonic Will Output
 TartaricForge.addRecipe(<modularmachinery:blockwillprovideroutput>, [<bloodmagic:demon_will_gauge>,<modularmachinery:blockcasing>,<contenttweaker:binding_reagent>,<bloodmagic:path:6>], 8192, 4096);
 
