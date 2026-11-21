@@ -374,6 +374,11 @@ crystal_bundle.register();
 var empowered_crystal_bundle = VanillaFactory.createItem("empowered_crystal_bundle");
 empowered_crystal_bundle.rarity = "RARE";
 empowered_crystal_bundle.register();
+
+var crystal_essence_display = VanillaFactory.createItem("crystal_essence_display");
+crystal_essence_display.rarity = "RARE";
+crystal_essence_display.register();
+
 var cosmic_alloy = VanillaFactory.createItem("cosmic_alloy");
 cosmic_alloy.register();
 var ingot_of_elevation = VanillaFactory.createItem("ingot_of_elevation");

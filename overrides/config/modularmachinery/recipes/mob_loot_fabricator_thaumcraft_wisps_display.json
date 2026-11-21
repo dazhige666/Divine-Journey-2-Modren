@@ -1,0 +1,28 @@
+{
+    "machine": "mob_loot_fabricator",
+    "registryName": "mob_loot_fabricator_thaumcraft_wisps_display",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thaumicaugmentation:autocaster_placer",
+            "nbt": {
+                "dj2_jei_display": "1"
+            },
+            "amount": 1,
+            "chance": 0
+        },
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:crystal_essence_display",
+            "amount": 64
+        }
+    ]
+}
