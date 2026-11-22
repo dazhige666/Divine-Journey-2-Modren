@@ -1455,6 +1455,12 @@
       "projectID": 1504502,
       "fileID": 7922772,
       "required": true
+    },
+    {
+      "slug": "super-factory-manager-unofficial-backport-sfm-ub",
+      "projectID": 1394832,
+      "fileID": 7492878,
+      "required": true
     }
   ],
   "overrides": "overrides"

@@ -21,7 +21,7 @@
                     "io": "input",
                     "target": "energy",
                     "operation": 1,
-                    "multiplier": 4
+                    "multiplier": 8
                 }
             ]
         }
