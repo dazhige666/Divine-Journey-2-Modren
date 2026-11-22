@@ -3,6 +3,29 @@
     "localizedname": "Weak Fusion Plant",
     "requires-blueprint": true,
     "color": "C96100",
+    "modifiers": [
+        {
+            "description": "modularmachinery.weak_fusion_plant.modifier.reinforced_machine_accelerator.desc",
+            "elements": "contenttweaker:reinforced_machine_accelerator",
+            "x": 0,
+            "y": [0, 1, 2],
+            "z": 2,
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.1
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 10
+                }
+            ]
+        }
+    ],
     "parts": [
         {
             "x": -1,
