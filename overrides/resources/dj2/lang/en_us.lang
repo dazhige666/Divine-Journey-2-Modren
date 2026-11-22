@@ -1,0 +1,9 @@
+dj2.xnet.connector.rf=RF: 40,000 RF/t, buffer 200,000 RF
+dj2.xnet.connector.fluid=Fluid: 8,000 mB per operation
+dj2.xnet.connector.special=Special channels (mana/gas/essentia): unavailable on normal connectors
+dj2.xnet.advanced_connector.rf=RF: 400,000 RF/t, buffer 2,000,000 RF
+dj2.xnet.advanced_connector.fluid=Fluid: 40,000 mB per operation
+dj2.xnet.advanced_connector.special=Mana 80,000 / Gas 10,240 / Essentia 800
+dj2.xnet.controller.rf=Max energy: 200,000 RF
+dj2.xnet.controller.channel=Per active channel: 1 RF/t; per operation: 2 RF
+dj2.xnet.controller.input=Max input: 1,000 RF/t; max channels: 32

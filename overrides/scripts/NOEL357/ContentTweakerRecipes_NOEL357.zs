@@ -1,6 +1,8 @@
 // ContentTweaker item recipes from the Noel357 addon (selected).
 // Tooltips are intentionally omitted.
 
+import mods.modularmachinery.RecipeBuilder;
+
 // Big Void Seed
 recipes.addShaped(<contenttweaker:noel357_big_void_seed>, [
   [<thaumcraft:void_seed>, <thaumcraft:void_seed>, <thaumcraft:void_seed>],
