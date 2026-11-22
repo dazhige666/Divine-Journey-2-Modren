@@ -103,7 +103,7 @@ createSpawner(<entity:abyssalcraft:shadowbeast>, [<abyssalcraft:stone:7>, <divin
 createSpawner(<entity:abyssalcraft:anticow>, [<abyssalcraft:powerstonetracker>, <abyssalcraft:ingotblock:1>, <minecraft:beef>, <minecraft:beef>,  <minecraft:leather>, <minecraft:leather>, <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000})]);
 
 // Buffalo
-createSpawner(<entity:totemic:buffalo>, [<minecraft:wheat>, <totemic:buffalo_items:1>]);
+createSpawner(<entity:totemic:buffalo>, [<minecraft:wheat>, <minecraft:beef>, <minecraft:wool:12>]);
 
 // Bald Eagle
 createSpawner(<entity:totemic:bald_eagle>, [<minecraft:fish>, <minecraft:fish:1>, <minecraft:feather>]);
@@ -115,9 +115,24 @@ createSpawner(<entity:minecraft:guardian>, [<minecraft:fish>, <minecraft:dye>, <
 createSpawner(<entity:minecraft:evocation_illager>, [<contenttweaker:empowered_glod_crystal>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:4>, <mob_grinding_utils:saw_upgrade:1>]);
 
 // Vanilla Minecraft Ghasts
-createSpawner(<entity:minecraft:ghast>, [<minecraft:ghast_tear>, <minecraft:fire_charge>, <minecraft:tnt>]);
+createSpawner(<entity:minecraft:ghast>, [<minecraft:wool>, <minecraft:fire_charge>, <minecraft:tnt>]);
 
 // Twilight Forest Ghastlings
-createSpawner(<entity:twilightforest:mini_ghast>, [<divinerpg:ghast_pumpkin>, <minecraft:fire_charge>, <appliedenergistics2:tiny_tnt>]);
+createSpawner(<entity:twilightforest:mini_ghast>, [<minecraft:wool>, <minecraft:fire_charge>, <appliedenergistics2:tiny_tnt>]);
+
+// Lizard
+createSpawner(<entity:bewitchment:lizard>, [<ore:tallgrass>, <minecraft:spider_eye>]);
+
+// Druden
+createSpawner(<entity:bewitchment:druden>, [<minecraft:sapling>, <minecraft:sapling:1>, <minecraft:sapling:2>, <minecraft:sapling:3>, <minecraft:sapling:4>, <minecraft:sapling:5>]);
+
+// Saguaro Worm
+createSpawner(<entity:divinerpg:saguaro_worm>, [<minecraft:cactus>, <minecraft:sand>]);
+
+// Cyclops
+createSpawner(<entity:divinerpg:cyclops>, [<minecraft:ender_eye>, <minecraft:gold_ingot>, <totemic:buffalo_items>]);
+
+// Towerwood Borer
+createSpawner(<entity:twilightforest:tower_termite>, [<minecraft:planks:*>, <minecraft:blaze_powder>]);
 
 print("ENDING RootsEntitySpawning.zs");

@@ -10,3 +10,4 @@ modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=R
 modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=Note: The §eCelestial Collector Crystal§r must be attuned to §eLucerna§r for the multiblock to form.
 modularmachinery.chemical_caster.modifier.celestial_crystal_core.desc=Replace Crystal Cores with Celestial Crystal Cores for 10x recipe speeds at 10x the energy cost.
 modularmachinery.weak_fusion_plant.modifier.reinforced_machine_accelerator.desc=Replace 3 Machine Circuitry inside with Reinforced Machine Accelerators for 10x recipe speeds at 10x the energy cost.
+modularmachinery.noel357_bottler.modifier.reinforced_machine_accelerator.desc=Replace the §eAcceleration Rune§r with a §eReinforced Machine Accelerator§r for 8x recipe speeds at 4x the energy cost.

@@ -9,3 +9,4 @@ modularmachinery.lightningcraft_infusion_multiblock.modifier.rf_generator.desc=�
 modularmachinery.mob_loot_fabricator.modifier.celestial_crystal.desc=注意：§e天辉聚能水晶§r必须调谐至§e圣芒座§r，多方块结构才能成型。
 modularmachinery.chemical_caster.modifier.celestial_crystal_core.desc=将§e水晶核心§r替换为§e天体水晶核心§r，使配方处理速度提升至 10 倍，但能耗也提升至 10 倍。
 modularmachinery.weak_fusion_plant.modifier.reinforced_machine_accelerator.desc=将内部的 3 个§e机器电路§r替换为§e强化机械加速器§r，使配方处理速度提升至 10 倍，但能耗也提升至 10 倍。
+modularmachinery.noel357_bottler.modifier.reinforced_machine_accelerator.desc=将§e促进符文§r替换为§e强化机械加速器§r，使配方处理速度提升至 8 倍，能耗提升至 4 倍。

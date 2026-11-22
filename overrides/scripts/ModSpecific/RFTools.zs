@@ -112,7 +112,7 @@ recipes.addShaped(<rftools:space_chamber_card>, [[<enderio:item_alloy_ingot:6>,<
 
 // Builder
 recipes.remove(<rftools:builder>);
-recipes.addShaped(<rftools:builder>, [[<industrialforegoing:block_destroyer>,<appliedenergistics2:drive>,<industrialforegoing:block_destroyer>],[<thermalfoundation:storage:8>,<rftools:machine_frame>,<thermalfoundation:storage:8>],[<industrialforegoing:block_placer>,<appliedenergistics2:drive>,<industrialforegoing:block_placer>]]);
+recipes.addShaped(<rftools:builder>.withTag({waitMode:0}), [[<industrialforegoing:block_destroyer>,<appliedenergistics2:drive>,<industrialforegoing:block_destroyer>],[<thermalfoundation:storage:8>,<rftools:machine_frame>,<thermalfoundation:storage:8>],[<industrialforegoing:block_placer>,<appliedenergistics2:drive>,<industrialforegoing:block_placer>]]);
 
 // Composer
 recipes.remove(<rftools:composer>);
@@ -445,5 +445,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<rftools:powercell_creative>,
 [<thermalfoundation:storage_alloy:6>, <divinerpg:molten_furnace>, <contenttweaker:ultimate_machine_frame>, <divinerpg:molten_furnace>, <thermalfoundation:storage_alloy:6>],
 [<thermalfoundation:storage_alloy:6>, <rftools:powercell_advanced>, <galacticraftcore:infinite_battery>, <rftools:powercell_advanced>, <thermalfoundation:storage_alloy:6>],
 [<enderio:block_alloy:6>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:6>, <thermalfoundation:storage_alloy:6>, <enderio:block_alloy:6>]]);
+
+// Filter Module
+recipes.remove(<rftools:filter_module>);
+recipes.addShaped(<rftools:filter_module>.withTag({blacklistMode:"White"}), [[null,<minecraft:hopper>,null],[<minecraft:redstone>,<minecraft:iron_ingot>,<minecraft:redstone>],[null,<minecraft:paper>,null]]);
 
 print("ENDING RFTools.zs");

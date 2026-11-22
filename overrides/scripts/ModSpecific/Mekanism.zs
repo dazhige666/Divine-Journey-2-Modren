@@ -40,29 +40,111 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<mekanism:ingot:0>);
 recipes.remove(<mekanism:machineblock2:5>);
 recipes.addShaped(<mekanism:machineblock2:5>, [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<chiselsandbits:bitsaw_diamond:0>.noReturn(),<mekanism:basicblock:8>,<chiselsandbits:bitsaw_diamond:0>.noReturn()],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
 
+// NOEL357 START 1 (add `function()` and swap 2 machine and 1 Enriched Gum)
+
 // Basic Enriching Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 1}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 1}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock>,<contenttweaker:enriched_gum>,<mekanism:machineblock>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_enriching_factory", <mekanism:machineblock:5>.withTag({recipeType: 1}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 1, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 1});
+    }
+  }, null
+);
 
 // Basic Smelting Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 0}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock:10>,<contenttweaker:enriched_gum>,<mekanism:machineblock:10>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_smelting_factory", <mekanism:machineblock:5>.withTag({recipeType: 0}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock:10>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 0, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 0});
+    }
+  }, null
+);
 
 // Basic Crushing Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 2}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 2}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock:3>,<contenttweaker:enriched_gum>,<mekanism:machineblock:3>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_crushing_factory", <mekanism:machineblock:5>.withTag({recipeType: 2}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock:3>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 2, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 2});
+    }
+  }, null
+);
 
 // Basic Compressing Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 3}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock:1>,<contenttweaker:enriched_gum>,<mekanism:machineblock:1>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_compressing_factory", <mekanism:machineblock:5>.withTag({recipeType: 3}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock:1>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 3, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 3});
+    }
+  }, null
+);
 
 // Basic Infusing Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 7}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock:8>,<contenttweaker:enriched_gum>,<mekanism:machineblock:8>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_infusing_factory", <mekanism:machineblock:5>.withTag({recipeType: 7}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock:8>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 7, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 7});
+    }
+  }, null
+);
 
 // Basic Sawing Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 8}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 8}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock2:5>,<contenttweaker:enriched_gum>,<mekanism:machineblock2:5>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
+recipes.addShaped("mekanism_basic_sawing_factory", <mekanism:machineblock:5>.withTag({recipeType: 8}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock2:5>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 8, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 8});
+    }
+  }, null
+);
+
+// NOEL357 END 1
 
 // Electric Pump
 recipes.remove(<mekanism:machineblock:12>);
@@ -544,6 +626,54 @@ recipes.addShaped(<mekanism:machineblock:4>, [[<mekanism:teleportationcore>,<mek
 recipes.remove(<mekanism:machineblock3>);
 recipes.addShaped(<mekanism:machineblock3>, [[<enderio:block_alloy:6>,<contenttweaker:cosmic_alloy>,<enderio:block_alloy:6>],[<contenttweaker:steaming_restonia_crystal>,<enderio:block_transceiver>,<contenttweaker:steaming_restonia_crystal>],[<enderio:block_alloy:6>,<contenttweaker:cosmic_alloy>,<enderio:block_alloy:6>]]);
 
+// NOEL357 START 2 (add 2 `val = []` and `for{}`)
+
+val mekaMachineNBTrecipeTypeArray = [0, 1, 2, 3, 5, 6, 7, 8] as int[];
+val mekaMachineNameArray = ["smelting", "enriching", "crushing", "compressing", "purifying", "injecting", "infusing", "sawing"] as string[];
+
+for i, NBT in mekaMachineNBTrecipeTypeArray {
+  recipes.remove(<mekanism:machineblock:6>.withTag({recipeType: NBT}));
+
+  recipes.addShaped("mekanism_advanced_" + mekaMachineNameArray[i] + "_factory", <mekanism:machineblock:6>.withTag({recipeType: NBT}), [
+    [<enderio:item_alloy_ingot:6>, <mekanism:controlcircuit:1>, <enderio:item_alloy_ingot:6>],
+    [<mekanism:controlcircuit:1>, <mekanism:machineblock:5>.withTag({recipeType: NBT}).marked("machine"), <mekanism:controlcircuit:1>],
+    [<enderio:item_alloy_ingot:6>, <contenttweaker:cosmic_alloy>, <enderio:item_alloy_ingot:6>]
+    ], function(out, ins, cInfo) {
+      if(ins.machine.tag has "mekData") {
+        if(ins.machine.tag.mekData has "upgrades") {
+          return out.withTag({recipeType: NBT, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+        } return null;
+      } else {
+        return out.withTag({recipeType: NBT});
+      }
+    }, null
+  );
+
+
+  recipes.remove(<mekanism:machineblock:7>.withTag({recipeType: NBT}));
+
+  recipes.addShaped("mekanism_elite_" + mekaMachineNameArray[i] + "_factory", <mekanism:machineblock:7>.withTag({recipeType: NBT}), [
+    [<enderio:block_alloy:6>, <contenttweaker:steaming_restonia_crystal_block>, <enderio:block_alloy:6>],
+    [<contenttweaker:cosmic_alloy>, <mekanism:machineblock:6>.withTag({recipeType: NBT}).marked("machine"), <contenttweaker:cosmic_alloy>],
+    [<enderio:block_alloy:6>, <contenttweaker:steaming_restonia_crystal_block>, <enderio:block_alloy:6>]
+    ], function(out, ins, cInfo) {
+      if(ins.machine.tag has "mekData") {
+        if(ins.machine.tag.mekData has "upgrades") {
+          return out.withTag({recipeType: NBT, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+        } return null;
+      } else {
+        return out.withTag({recipeType: NBT});
+      }
+    }, null
+  );
+
+}
+
+// NOEL357 END 2
+
+// NOEL357 START 3 (commend out)
+
+/*
 function addMekAdvancedAndEliteFactoryRecipe(basic_factory as IItemStack, advanced_factory as IItemStack, elite_factory as IItemStack) {
     recipes.remove(advanced_factory);
     recipes.addShaped(advanced_factory, [[<enderio:item_alloy_ingot:6>,<mekanism:controlcircuit:1>,<enderio:item_alloy_ingot:6>],[<mekanism:controlcircuit:1>,basic_factory,<mekanism:controlcircuit:1>],[<enderio:item_alloy_ingot:6>,<contenttweaker:cosmic_alloy>,<enderio:item_alloy_ingot:6>]]);
@@ -562,13 +692,40 @@ addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeTyp
 
 // Advanced & Elite Compressing Factory
 addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:machineblock:6>.withTag({recipeType: 3}), <mekanism:machineblock:7>.withTag({recipeType: 3}));
+*/
+
+// NOEL357 END 3
 
 // Basic Purifying Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 5}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 5}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock:9>,<contenttweaker:enriched_gum>,<mekanism:machineblock:9>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
 
+// NOEL357 START 4 (add `function()` and swap 2 machine and 1 Enriched Gum)
+
+recipes.addShaped("mekanism_basic_purifying_factory", <mekanism:machineblock:5>.withTag({recipeType: 5}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock:9>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 5, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 5});
+    }
+  }, null
+);
+
+// NOEL357 END 4
+
+// NOEL357 START 5 (commend out)
+
+/*
 // Advanced & Elite Purifying Factory
 addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeType: 5}), <mekanism:machineblock:6>.withTag({recipeType: 5}), <mekanism:machineblock:7>.withTag({recipeType: 5}));
+*/
+
+// NOEL357 END 5
 
 // Chemical Injection Chamber
 recipes.remove(<mekanism:machineblock2:3>);
@@ -576,8 +733,29 @@ recipes.addShaped(<mekanism:machineblock2:3>, [[<enderio:item_alloy_ingot:6>,<al
 
 // Basic Injecting Factory
 recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 6}));
-recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 6}), [[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],[<mekanism:machineblock2:3>,<contenttweaker:enriched_gum>,<mekanism:machineblock2:3>],[<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]]);
 
+// NOEL357 START 6 (add `function()` and swap 2 machine and 1 Enriched Gum)
+
+recipes.addShaped("mekanism_basic_injecting_factory", <mekanism:machineblock:5>.withTag({recipeType: 6}), [
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>],
+  [<contenttweaker:enriched_gum>,<mekanism:machineblock2:3>.marked("machine"),<contenttweaker:enriched_gum>],
+  [<ore:ingotRedAlloy>,<mekanism:controlcircuit>,<ore:ingotRedAlloy>]
+  ], function(out, ins, cInfo) {
+    if(ins.machine.tag has "mekData") {
+      if(ins.machine.tag.mekData has "upgrades") {
+        return out.withTag({recipeType: 6, mekData: {upgrades: ins.machine.tag.mekData.upgrades}});
+      } return null;
+    } else {
+      return out.withTag({recipeType: 6});
+    }
+  }, null
+);
+
+// NOEL357 END 6
+
+// NOEL357 START 7 (commend out)
+
+/*
 // Advanced & Elite Injecting Factory
 addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeType: 6}), <mekanism:machineblock:6>.withTag({recipeType: 6}), <mekanism:machineblock:7>.withTag({recipeType: 6}));
 
@@ -586,6 +764,9 @@ addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeTyp
 
 // Advanced & Elite Sawing Factory
 addMekAdvancedAndEliteFactoryRecipe(<mekanism:machineblock:5>.withTag({recipeType: 8}), <mekanism:machineblock:6>.withTag({recipeType: 8}), <mekanism:machineblock:7>.withTag({recipeType: 8}));
+*/
+
+// NOEL357 END 7
 
 // Jetpack
 recipes.remove(<mekanism:jetpack>);
