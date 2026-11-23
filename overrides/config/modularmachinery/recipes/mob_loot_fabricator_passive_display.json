@@ -1,0 +1,50 @@
+{
+    "machine": "mob_loot_fabricator",
+    "registryName": "mob_loot_fabricator_passive_display",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "torchmaster:dread_lamp",
+            "nbt": {
+                "dj2_jei_display": "1"
+            },
+            "amount": 1,
+            "chance": 0
+        },
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:beef",
+            "amount": 1,
+            "nbt": {
+                "display": {
+                    "Name": "§6被动生物战利品",
+                    "Lore": [
+                        "§7一次产出全部 14 种物品 + 8000 mB 肉汁：",
+                        "§f羽毛、生鸡肉、猪排、牛肉、皮革",
+                        "§f兔皮、兔脚、生兔肉、墨囊、生羊肉",
+                        "§f白色羊毛、雪球、Totemic 野牛物品、Natura 材料",
+                        "§7五种生肉已合并为这个图标"
+                    ]
+                },
+                "ench": [
+                    {}
+                ],
+                "HideFlags": "33"
+            }
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "meat",
+            "amount": 8000
+        }
+    ]
+}

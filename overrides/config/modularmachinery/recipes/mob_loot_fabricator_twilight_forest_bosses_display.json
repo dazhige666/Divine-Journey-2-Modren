@@ -1,0 +1,44 @@
+{
+    "machine": "mob_loot_fabricator",
+    "registryName": "mob_loot_fabricator_twilight_forest_bosses_display",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "twilightforest:lamp_of_cinders",
+            "nbt": {
+                "dj2_jei_display": "1"
+            },
+            "amount": 1,
+            "chance": 0
+        },
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "amount": 5000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "twilightforest:trophy@0",
+            "amount": 1,
+            "nbt": {
+                "display": {
+                    "Name": "§6暮色森林 Boss 战利品",
+                    "Lore": [
+                        "§7一次产出全部 15 种战利品：",
+                        "§f娜迦、巫妖、米诺菇、九头蛇、暮色恶魂、冰雪女王战利品",
+                        "§f巨人镐、巨人剑、娜迦鳞片、牛头人沙拉酱肉",
+                        "§f雪怪首领毛皮、炽热的血液、炽热之泪、九头蛇肉排",
+                        "§f橙色的心 ×6"
+                    ]
+                },
+                "ench": [
+                    {}
+                ],
+                "HideFlags": "33"
+            }
+        }
+    ]
+}

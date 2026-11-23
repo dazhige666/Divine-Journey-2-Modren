@@ -7,3 +7,4 @@ dj2.xnet.advanced_connector.special=Mana 80,000 / Gas 10,240 / Essentia 800
 dj2.xnet.controller.rf=Max energy: 200,000 RF
 dj2.xnet.controller.channel=Per active channel: 1 RF/t; per operation: 2 RF
 dj2.xnet.controller.input=Max input: 1,000 RF/t; max channels: 32
+dj2.mmce.controller.tooltip=Right-click the controller with a stick to auto-build the machine.
