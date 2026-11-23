@@ -36,6 +36,38 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.1。改造集中在四
 3. 首次进游戏需要联网：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。这期间窗口可能看起来卡住不动，是正常的。
 4. **如果自己装了 OptiFine，不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
+## 推荐材质包
+
+下面这套是 DJ2 官方实例正在用的组合；完整安装说明见 [`overrides/RESOURCEPACKS.md`](overrides/RESOURCEPACKS.md)。
+
+游戏内“已选资源包”列表**越靠上优先级越高**（[官方说明](https://help.minecraft.net/hc/en-us/articles/40080080733069)）。下面编号 1–8 就是游戏内**从上到下**的摆放顺序：1 在最上面，8 在最下面。
+
+1. aDJ2
+2. Aether b1.7.3 Textures
+3. Smooth Drawers
+4. Updated Engineering
+5. Modernity Extra
+6. Modernity Adjunct
+7. Modernity
+8. OceanWater
+
+| 包 | 版本 | 来源 |
+|---|---|---|
+| aDJ2 |  | [DJ2 Discord](https://discord.com/invite/rH9pyS7) → `dj2官方频道` → 帖子 `a DJ2 custom item resource pack` → 下载 `aDJ2.zip` |
+| Aether b1.7.3 Textures | b1.7.3 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/jappafied-aether) 或 [GitHub](https://github.com/Mr-Aerod/Jappafied-Aethers) |
+| Smooth Drawers | 1.12 v1 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/smooth-drawers) |
+| Updated Engineering | 1.12.2 edition | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/updated-engineering) |
+| Modernity Extra | 1.4.0-Beta | [GitHub](https://github.com/RuiXuqi/ModernityExtra)，按 README 下载 dev 包 |
+| Modernity Adjunct | 1.7.1 | [Modrinth](https://modrinth.com/resourcepack/modernity-adjunct) |
+| Modernity | 3.10.3 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/modernity) |
+| OceanWater | v1.0-1.11 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/ocean-water)。已归档；在 Additional Files 里选 OptiFine 版 |
+
+注意事项：
+
+- Modernity Extra 必须和 Modernity 3.10.3、Modernity Adjunct 1.7.1 配套，版本不要混搭。
+- 中文语言包不用在这里装；本包继续由 I18nUpdateMod 自动更新。
+- 如果自己装了 OptiFine，OceanWater 要选 OptiFine 版。
+
 ## 与上游 DJ2 的差异
 
 | 项目 | 上游 2.23.4 | 本版 |
@@ -126,6 +158,38 @@ DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.1. It goes in four 
 2. The runtime is already configured: `config/relauncher.json` pins Cleanroom 0.6.13-alpha and Java 25, so there is nothing to pick by hand. The first launch downloads and installs Azul Zulu 25 automatically (~220 MB; a progress window may sit there for a few minutes). **If your machine already has Zulu 25 but the launcher does not find it**, open `config/relauncher.json` and set `javaPath` to the full path of `java.exe` (for example `D:\\tools\\jdk\\zulu-25\\bin\\java.exe`).
 3. The first game launch needs a network connection: I18nUpdateMod has to download the CFPA language pack, and JEI builds its search index on first load. The window may look frozen while this happens; that is normal.
 4. **If you install OptiFine yourself, do not enable "Fast Render"** — it breaks rendering in this pack.
+
+## Recommended resource packs
+
+The list below is the set used by the DJ2 official instance; full instructions: [`overrides/RESOURCEPACKS.md`](overrides/RESOURCEPACKS.md).
+
+In the in-game Selected list, the **top entry has the highest priority** ([official help](https://help.minecraft.net/hc/en-us/articles/40080080733069)). The numbers 1–8 below are the order from top to bottom: 1 is at the top, 8 at the bottom.
+
+1. aDJ2
+2. Aether b1.7.3 Textures
+3. Smooth Drawers
+4. Updated Engineering
+5. Modernity Extra
+6. Modernity Adjunct
+7. Modernity
+8. OceanWater
+
+| Pack | Version | Source |
+|---|---|---|
+| aDJ2 |  | [DJ2 Discord](https://discord.com/invite/rH9pyS7) → `dj2官方频道` → post `a DJ2 custom item resource pack` → download `aDJ2.zip` |
+| Aether b1.7.3 Textures | b1.7.3 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/jappafied-aether) or [GitHub](https://github.com/Mr-Aerod/Jappafied-Aethers) |
+| Smooth Drawers | 1.12 v1 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/smooth-drawers) |
+| Updated Engineering | 1.12.2 edition | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/updated-engineering) |
+| Modernity Extra | 1.4.0-Beta | [GitHub](https://github.com/RuiXuqi/ModernityExtra); follow the README and take the dev pack |
+| Modernity Adjunct | 1.7.1 | [Modrinth](https://modrinth.com/resourcepack/modernity-adjunct) |
+| Modernity | 3.10.3 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/modernity) |
+| OceanWater | v1.0-1.11 | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/ocean-water); archived, pick the OptiFine build under Additional Files |
+
+Notes:
+
+- Modernity Extra must match Modernity 3.10.3 and Modernity Adjunct 1.7.1; do not mix versions.
+- Do not install a Chinese language pack here; I18nUpdateMod keeps it updated at runtime.
+- If you use OptiFine, pick the OptiFine build of OceanWater.
 
 ## Differences from upstream DJ2
 
