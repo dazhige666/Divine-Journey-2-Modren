@@ -5,7 +5,7 @@ Minecraft 1.12.2 专家级整合包，基于 [Divine Journey 2](https://github.c
 <div align="center">
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.12.2-yellow.svg?style=for-the-badge)](/manifest.json)
-[![Version](https://img.shields.io/badge/Version-1.0.1-orange.svg?style=for-the-badge)](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.2-orange.svg?style=for-the-badge)](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)
 [![License](https://img.shields.io/badge/License-GPL--3.0-yellow.svg?style=for-the-badge)](/LICENSE)
 [![Based on Divine Journey 2](https://img.shields.io/badge/Based%20on-DJ2%202.23.4-blue.svg?style=for-the-badge)](https://github.com/Divine-Journey-2/Divine-Journey-2)
 
@@ -13,12 +13,22 @@ Minecraft 1.12.2 专家级整合包，基于 [Divine Journey 2](https://github.c
 
 ## 这是什么
 
-DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.1。改造集中在四个方向：
+DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四个方向：
 
 - **跑得更快**：启动路径上做了三处针对性改动，见下面的[性能](#性能)一节。
 - **维护得下去**：停更的多方块机器体系换成 MMCE，HUD 与小地图换成还在更新的替代品，运行层迁到 Cleanroom。
 - **中文内置**：任务书与本包自定义文本直接随包分发，其余模组由 I18nUpdateMod 在运行时补齐。
 - **界面重做**：图片化主菜单，按钮文字走原版语言键（跟着游戏语言走）。
+
+## 1.0.2 更新了什么
+
+| 方向 | 内容 |
+|---|---|
+| 新增模组 | XNet + XNet: Additions、Super Factory Manager、Fluid Drawers + libnine、AE2 Stuff / BD Lib / AE2 Fluid Crafting / Neeve's AE2 Additions / PackagedExCrafting；manifest 243 条 |
+| 刷怪机 | 5×5×5 新结构，6 个任意等级输出仓、生命源质输入；任务 622 同步；水晶与暮色/被动配方改展示模式，JEI 页高从 15 降到 14 |
+| 界面/HEI | 隐藏 42 个 MMCE / Addons 冗余条目；机器控制器加“木棍右键自动搭建”提示 |
+| 启动/修复 | StellarCore / VintageFix 配置回归；关闭 EnderIO Painter 的 JEI 插件；修复任务 622 输出仓 `Damage:32767` 导致的崩溃 |
+| 文档 | README 推荐材质包、`overrides/RESOURCEPACKS.md`、ATTRIBUTION 与维护文档更新 |
 
 ## 1.0.1 更新了什么
 
@@ -128,7 +138,7 @@ An expert-level Minecraft 1.12.2 modpack, built on [Divine Journey 2](https://gi
 <div align="center">
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.12.2-yellow.svg?style=for-the-badge)](/manifest.json)
-[![Version](https://img.shields.io/badge/Version-1.0.1-orange.svg?style=for-the-badge)](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.2-orange.svg?style=for-the-badge)](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)
 [![License](https://img.shields.io/badge/License-GPL--3.0-yellow.svg?style=for-the-badge)](/LICENSE)
 [![Based on Divine Journey 2](https://img.shields.io/badge/Based%20on-DJ2%202.23.4-blue.svg?style=for-the-badge)](https://github.com/Divine-Journey-2/Divine-Journey-2)
 
@@ -136,12 +146,22 @@ An expert-level Minecraft 1.12.2 modpack, built on [Divine Journey 2](https://gi
 
 ## What this is
 
-DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.1. It goes in four directions:
+DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.2. It goes in four directions:
 
 - **Start faster.** Three targeted changes on the startup path — see [Performance](#performance).
 - **Stay maintainable.** The abandoned multiblock system is replaced by MMCE, the HUD and minimap by mods that are still updated, and the runtime moved to Cleanroom.
 - **Ship Chinese.** The quest book and this pack's own text are bundled; everything else is filled in at runtime by I18nUpdateMod.
 - **Redo the interface.** An image-based main menu whose button labels come from vanilla language keys, so they follow the game language.
+
+## What changed in 1.0.2
+
+| Area | Change |
+|---|---|
+| New mods | XNet + XNet: Additions, Super Factory Manager, Fluid Drawers + libnine, AE2 Stuff / BD Lib / AE2 Fluid Crafting / Neeve's AE2 Additions / PackagedExCrafting; manifest now 243 entries |
+| Mob Loot Fabricator | New 5×5×5 structure with six any-tier output hatches and a life-essence input; quest 622 updated; crystal, Twilight and passive recipes moved to display mode, reducing the JEI page height from 15 to 14 |
+| UI / HEI | 42 redundant MMCE / Addons entries hidden; controller tooltip for stick-based auto-building |
+| Startup / fixes | StellarCore and VintageFix configs restored; EnderIO Painter JEI plugin disabled; fixed the quest 622 crash caused by output-bus `Damage:32767` |
+| Docs | Recommended resource packs in README, `overrides/RESOURCEPACKS.md`, attribution and maintenance docs updated |
 
 ## What changed in 1.0.1
 
