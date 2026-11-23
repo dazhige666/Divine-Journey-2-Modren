@@ -48,7 +48,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 
 ## 推荐材质包
 
-下面这套是 DJ2 官方实例正在用的组合；完整安装说明见 [`overrides/RESOURCEPACKS.md`](overrides/RESOURCEPACKS.md)。
+下面这套是 作者本人正在用的组合；完整安装说明见 [`overrides/RESOURCEPACKS.md`](overrides/RESOURCEPACKS.md)。
 
 游戏内“已选资源包”列表**越靠上优先级越高**（[官方说明](https://help.minecraft.net/hc/en-us/articles/40080080733069)）。下面编号 1–8 就是游戏内**从上到下**的摆放顺序：1 在最上面，8 在最下面。
 
