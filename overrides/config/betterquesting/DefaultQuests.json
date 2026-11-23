@@ -27988,8 +27988,8 @@
             },
             "4:10": {
               "id:8": "modularmachinery:blockoutputbus",
-              "Count:3": 2,
-              "Damage:2": 2
+              "Count:3": 6,
+              "Damage:2": 32767
             },
             "5:10": {
               "id:8": "modularmachinery:blockinputbus",
@@ -28020,8 +28020,12 @@
             },
             "11:10": {
               "id:8": "astralsorcery:blockblackmarble",
-              "Count:3": 26,
+              "Count:3": 32,
               "Damage:2": 3
+            },
+            "12:10": {
+              "id:8": "modularmachinery:blocklifeessenceproviderinput",
+              "Count:3": 1
             }
           },
           "taskID:8": "bq_standard:retrieval"
