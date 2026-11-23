@@ -1473,6 +1473,36 @@
       "projectID": 322344,
       "fileID": 3509087,
       "required": true
+    },
+    {
+      "slug": "ae2-stuff-unofficial",
+      "projectID": 951064,
+      "fileID": 5002181,
+      "required": true
+    },
+    {
+      "slug": "bdlib",
+      "projectID": 70496,
+      "fileID": 4675629,
+      "required": true
+    },
+    {
+      "slug": "ae2-fluid-crafting-rework",
+      "projectID": 623955,
+      "fileID": 5315135,
+      "required": true
+    },
+    {
+      "slug": "nae2",
+      "projectID": 884359,
+      "fileID": 5380800,
+      "required": true
+    },
+    {
+      "slug": "packagedexcrafting",
+      "projectID": 322861,
+      "fileID": 4415275,
+      "required": true
     }
   ],
   "overrides": "overrides"
