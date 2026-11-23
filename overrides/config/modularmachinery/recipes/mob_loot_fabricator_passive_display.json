@@ -25,13 +25,13 @@
             "amount": 1,
             "nbt": {
                 "display": {
-                    "Name": "§6被动生物战利品",
+                    "Name": "§6被动生物肉类（5 种）",
                     "Lore": [
-                        "§7一次产出全部 14 种物品 + 8000 mB 肉汁：",
-                        "§f羽毛、生鸡肉、猪排、牛肉、皮革",
-                        "§f兔皮、兔脚、生兔肉、墨囊、生羊肉",
-                        "§f白色羊毛、雪球、Totemic 野牛物品、Natura 材料",
-                        "§7五种生肉已合并为这个图标"
+                        "§7生鸡肉",
+                        "§7猪排",
+                        "§7牛肉",
+                        "§7生兔肉",
+                        "§7生羊肉"
                     ]
                 },
                 "ench": [
@@ -39,6 +39,60 @@
                 ],
                 "HideFlags": "33"
             }
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:feather",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:leather",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:rabbit_hide",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:rabbit_foot",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dye@0",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:wool@0",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:snowball",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "totemic:buffalo_items",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "natura:materials@6",
+            "amount": 64
         },
         {
             "type": "fluid",
