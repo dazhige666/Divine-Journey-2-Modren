@@ -40,13 +40,14 @@
   2. 怪物战利品制造机（Mob Loot Fabricator）：1 个心之容器[蓝]（Blue Heart Canister）+ 500 LP → 25000 LP 返还 + 5 种恶魔意志各 100 点（原生、腐蚀、破坏、复仇、坚毅；Raw / Corrosive / Destructive / Vengeful / Steadfast Will）+ 8000 mB 生命源质（Life Essence）+ 1 个[虚弱]气血碎片（Weak Blood Shard）。
   3. 怪物战利品制造机（Mob Loot Fabricator）：1 个龙血树苗（Dragons Blood Sapling）+ 5000 LP → 6 种原版树苗各 64 个（橡树树苗 / Oak Sapling、云杉树苗 / Spruce Sapling、白桦树苗 / Birch Sapling、丛林树苗 / Jungle Sapling、金合欢树苗 / Acacia Sapling、深色橡树树苗 / Dark Oak Sapling）+ 3 种 Bewitchment 树苗各 64 个（柏树树苗 / Cypress Sapling、接骨木树苗 / Elder Sapling、杜松树苗 / Juniper Sapling）。
   4. 怪物战利品制造机（Mob Loot Fabricator）：1 个元始珍珠（Primordial Pearl）+ 5000 LP → 1 个寻常藏宝袋（Common Treasure）+ 1 个稀有藏宝袋（Uncommon Treasure，33.33%）。
-- 2026-11-22 曾扩展合并到 ContentTweaker、机器与脚本（提交 `9f4f182`、`05d1bda`、`f681ed8`、`e9c8eef`、`78e3977`）；2026-11-23 按“DJ2 Modern 只做生活类改动、不擅自简化流程”回滚，回滚尚未提交。
+- 2026-11-22 曾扩展合并到 ContentTweaker、机器与脚本（提交 `9f4f182`、`05d1bda`、`f681ed8`、`e9c8eef`、`78e3977`）；2026-11-23 按“DJ2 Modern 只做生活类改动、不擅自简化流程”回滚，回滚已提交 `5609329`（本地，尚未推送）。
 - **保留的改动**：
   - `config/astralsorcery.cfg`：`skySupportedDimensions` 追加 `-100`。
   - `config/evilcraft.cfg`：`blood_stained_block=false`（关闭血染方块）。
   - XNet 1.12-1.8.2 + XNet: Additions 0.1.2：17 条配方新增、16 条移除；9 条 tooltip；配置 `xnet`、`xnetadditions`。
   - SFM: Unofficial Backport 4.1.0：22 条配方新增、20 条移除；Network Tool 使用 Better P2P 高级内存卡；配置 `superfactorymanager`。
   - Mekanism 工厂升级保留；EnderIO 输出锁、RFTools waitMode、Roots 生成展示；恐惧之地剑/盾、暗钢剑堆叠数 8。
+  - Botanic Additions 12.2.6（作者 Zeitheron）、Fluid Drawers 1.0.7 + libnine 1.2.1（作者 phantamanta44）：通过 CurseForge 引入；新增两个生活类配方脚本，未补 `zh_cn` 语言键。
 - **已回滚**：
   - ContentTweaker 20 个物品/方块、25 条配方、7 个 blockstate、20 张材质。
   - 究极灌注机、模块化女巫坩埚、温室、模块化精灵门，及其配方、罐子、蓝图。
