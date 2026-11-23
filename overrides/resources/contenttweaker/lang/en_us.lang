@@ -728,28 +728,3 @@ item.contenttweaker.goddess_pearl.name=Goddess' Pearl
 item.contenttweaker.industrial_grade_graphite_dust.name=Industrial Grade Graphite Dust
 item.contenttweaker.redstone_inlay_package.name=Redstone Inlay Package
 item.contenttweaker.hand_framing_tool.name=Hand Framing Tool
-
-# NOEL357 START 1
-
-item.contenttweaker.noel357_fire_jar.name=Fire Jar
-item.contenttweaker.noel357_demon_jar.name=Demon Jar
-item.contenttweaker.noel357_alien_jar.name=Alien Jar
-item.contenttweaker.noel357_swirl_jar.name=Swirl Jar
-item.contenttweaker.noel357_witch_jar.name=Witch Jar
-item.contenttweaker.noel357_energy_tablet.name=Energy Tablet
-tile.contenttweaker.noel357_basic_energy_cube.name=Basic Energy Cube
-tile.contenttweaker.noel357_advanced_energy_cube.name=Advanced Energy Cube
-tile.contenttweaker.noel357_elite_energy_cube.name=Elite Energy Cube
-tile.contenttweaker.noel357_ultimate_energy_cube.name=Ultimate Energy Cube
-item.contenttweaker.noel357_big_void_seed.name=Big Void Seed
-tile.contenttweaker.noel357_basic_steel_casing.name=Basic Steel Casing
-tile.contenttweaker.noel357_advanced_steel_casing.name=Advanced Steel Casing
-tile.contenttweaker.noel357_elite_steel_casing.name=Elite Steel Casing
-item.contenttweaker.noel357_lava_crystal.name=Lava Crystal
-item.contenttweaker.noel357_water_crystal.name=Water Crystal
-item.contenttweaker.noel357_pressurized_air_tank.name=Pressurized Air Tank
-item.contenttweaker.noel357_magnetic_glove.name=Magnetic Glove
-item.contenttweaker.noel357_dew_of_the_void_crystal.name=Dew of the Void Crystal
-item.contenttweaker.noel357_vapor_of_levity_crystal.name=Vapor of Levity Crystal
-
-# NOEL357 END 1

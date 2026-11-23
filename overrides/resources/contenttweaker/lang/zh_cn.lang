@@ -728,29 +728,3 @@ item.contenttweaker.goddess_pearl.name=女神珍珠
 item.contenttweaker.industrial_grade_graphite_dust.name=工业级石墨粉
 item.contenttweaker.redstone_inlay_package.name=红石镶嵌包
 item.contenttweaker.hand_framing_tool.name=手持式镶框工具
-
-
-# NOEL357 START 1
-
-item.contenttweaker.noel357_fire_jar.name=火焰罐
-item.contenttweaker.noel357_demon_jar.name=恶魔罐
-item.contenttweaker.noel357_alien_jar.name=异界罐
-item.contenttweaker.noel357_swirl_jar.name=漩涡罐
-item.contenttweaker.noel357_witch_jar.name=女巫罐
-item.contenttweaker.noel357_energy_tablet.name=能量平板
-tile.contenttweaker.noel357_basic_energy_cube.name=基础能量立方
-tile.contenttweaker.noel357_advanced_energy_cube.name=高级能量立方
-tile.contenttweaker.noel357_elite_energy_cube.name=精英能量立方
-tile.contenttweaker.noel357_ultimate_energy_cube.name=终极能量立方
-item.contenttweaker.noel357_big_void_seed.name=大型虚空种子
-tile.contenttweaker.noel357_basic_steel_casing.name=基础钢制机壳
-tile.contenttweaker.noel357_advanced_steel_casing.name=高级钢制机壳
-tile.contenttweaker.noel357_elite_steel_casing.name=精英钢制机壳
-item.contenttweaker.noel357_lava_crystal.name=岩浆水晶
-item.contenttweaker.noel357_water_crystal.name=水之水晶
-item.contenttweaker.noel357_pressurized_air_tank.name=加压空气罐
-item.contenttweaker.noel357_magnetic_glove.name=磁力手套
-item.contenttweaker.noel357_dew_of_the_void_crystal.name=虚空之露水晶
-item.contenttweaker.noel357_vapor_of_levity_crystal.name=轻盈之汽水晶
-
-# NOEL357 END 1
