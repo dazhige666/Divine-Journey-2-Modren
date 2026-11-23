@@ -1463,12 +1463,6 @@
       "required": true
     },
     {
-      "slug": "botanic-additions",
-      "projectID": 310637,
-      "fileID": 2939405,
-      "required": true
-    },
-    {
       "slug": "fluid-drawers",
       "projectID": 402338,
       "fileID": 3373954,
