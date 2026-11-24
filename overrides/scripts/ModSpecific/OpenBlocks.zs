@@ -110,6 +110,10 @@ recipes.addShaped(<openblocks:generic:2>, [[<contenttweaker:open_ingot>,<content
 recipes.remove(<openblocks:generic:3>);
 recipes.addShaped(<openblocks:generic:3>, [[null,<erebus:materials:13>,null],[<erebus:materials:13>,<erebus:materials:13>,<erebus:materials:13>],[<contenttweaker:open_ingot>,<contenttweaker:open_ingot>,<contenttweaker:open_ingot>]]);
 
+// Miracle Magnet (meta 4 is not registered without OpenPeripheralCore)
+recipes.removeByRecipeName("openblocks:miracle_magnet_0");
+recipes.removeByRecipeName("openblocks:miracle_magnet_1");
+
 // Line
 recipes.remove(<openblocks:generic:5>);
 recipes.addShaped(<openblocks:generic:5>, [[<contenttweaker:open_ingot>,<ore:slimeball>,<contenttweaker:open_ingot>],[<immersiveengineering:material:5>,<immersiveengineering:material:5>,<immersiveengineering:material:5>],[<contenttweaker:open_ingot>,<ore:slimeball>,<contenttweaker:open_ingot>]]);
