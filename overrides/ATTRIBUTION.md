@@ -47,12 +47,10 @@
   - SFM: Unofficial Backport 4.1.0：22 条配方新增、20 条移除；Network Tool 使用 Better P2P 高级内存卡；配置 `superfactorymanager`。
   - Mekanism 工厂升级；EnderIO 输出锁、RFTools waitMode、Roots 生成展示；恐惧之地剑/盾、暗钢剑堆叠数 8。
   - Fluid Drawers 1.0.7 + libnine 1.2.1（作者 phantamanta44）：通过 CurseForge 引入；新增一个生活类配方脚本（基础储罐），未补 `zh_cn` 语言键。
-  - AE2 Stuff Unofficial 0.9（作者 serenibyss、bdew；CF 951064/5002181）。
-  - BD Lib 1.14.4.1（作者 bdew；CF 70496/4675629）。
   - AE2 Fluid Crafting 2.5.13-r（作者 GlodBlock，credits phantamanta44；CF 623955/5315135）。
   - Neeve's AE2: Extended Life Additions 1.6.4（作者 NotMyWing；CF 884359/5380800）。
   - PackagedExCrafting 1.0.2.6（作者 thelm；CF 322861/4415275）。
-- 修改说明：4 条配方按仓库 MMCE/Addons 字段兼容调整；激光产能 320000 → 1280000；SFM Network Tool 改用 Better P2P 高级内存卡；Fluid Drawers 基础储罐改用本仓库配方；AE2FC / AE2 Stuff / Nae2 / PackagedExCrafting 四个脚本按仓库版本去掉不存在的 `dj2.noel357_add.desc0` tooltip。
+- 修改说明：4 条配方按仓库 MMCE/Addons 字段兼容调整；激光产能 320000 → 1280000；SFM Network Tool 改用 Better P2P 高级内存卡；Fluid Drawers 基础储罐改用本仓库配方；AE2FC / Nae2 / PackagedExCrafting 三个脚本按仓库版本去掉不存在的 `dj2.noel357_add.desc0` tooltip。
 - 许可：作者 NOEL357 已授权整合包使用这些配方与脚本。
 
 ## 其他

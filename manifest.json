@@ -1475,18 +1475,6 @@
       "required": true
     },
     {
-      "slug": "ae2-stuff-unofficial",
-      "projectID": 951064,
-      "fileID": 5002181,
-      "required": true
-    },
-    {
-      "slug": "bdlib",
-      "projectID": 70496,
-      "fileID": 4675629,
-      "required": true
-    },
-    {
       "slug": "ae2-fluid-crafting-rework",
       "projectID": 623955,
       "fileID": 5315135,
