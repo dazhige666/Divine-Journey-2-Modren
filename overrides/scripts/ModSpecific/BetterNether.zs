@@ -44,4 +44,7 @@ recipes.addShapeless(<betternether:reeds_button>, [<quark:dark_oak_button>,<bett
 // Bone Block reversion
 recipes.addShaped(<minecraft:bone_block> * 4, [[<betternether:bone_block>,<betternether:bone_block>],[<betternether:bone_block>,<betternether:bone_block>]]);
 
+// Small Nether Brick Tile Slab (missing recipe in BetterNether)
+recipes.addShaped(<betternether:nether_brick_tile_slab_half> * 6, [[<betternether:nether_brick_tile_small>,<betternether:nether_brick_tile_small>,<betternether:nether_brick_tile_small>]]);
+
 print("ENDING BetterNether.zs");
