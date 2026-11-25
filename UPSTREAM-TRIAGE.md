@@ -76,4 +76,5 @@ DJ2 Modern 是 Divine Journey 2 的现代化分支，不是上游 DJ2 官方团�
 | #1377 | Omniwand 不含部分扳手 | 已修复（下一次发版） | 补上 Actually Additions 激光扳手、Integrated Dynamics 扳手；旧 wand 需要重新制作。 |
 | #1376 | 开局箱子掉熔炉/工作台/铁锭 | 不采纳 | 箱子本身不掉熔炉/工作台，它们是村庄等结构摆放的方块；铁锭来源广泛，且部分掉落是有意保留。 |
 | #1375 | Omniwand 对 IE 炼药锅、Dolly 不生效 | 不修复（说明） | IE 电弧炉触发方块是原版炼药锅，Omniwand 无法在配置里单独映射；请用真工程锤。Dolly 用完后左键空挥回 wand，是预期行为。 |
-
+| #1373 | MM 物品输出直连 AE2 Storage Bus 导致 ME 合成卡顿 | 说明 / 旧版 | 旧版 Modular Machinery 1.10 的组合；1.0.2 已换 MMCE，未复现。现阶段建议在输出仓和 Storage Bus 之间加缓冲容器。MMCE 自带 ME 总线，但当前未开放配方，后续单独评估。 |
+| #1372 | DivineRPG 护甲快速换装后套装奖励残留 | 不修复（说明） | 快速换装可能绕过 DivineRPG 的装备变更事件，让 Shadow 套装的速度加成残留到重进世界。纯包侧修复只能加轮询或关闭右键换装；对可选 QoL 而言不值得，暂不处理。 |
