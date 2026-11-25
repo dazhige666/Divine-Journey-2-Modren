@@ -79,3 +79,4 @@ DJ2 Modern 是 Divine Journey 2 的现代化分支，不是上游 DJ2 官方团�
 | #1373 | MM 物品输出直连 AE2 Storage Bus 导致 ME 合成卡顿 | 说明 / 旧版 | 旧版 Modular Machinery 1.10 的组合；1.0.2 已换 MMCE，未复现。现阶段建议在输出仓和 Storage Bus 之间加缓冲容器。MMCE 自带 ME 总线，但当前未开放配方，后续单独评估。 |
 | #1372 | DivineRPG 护甲快速换装后套装奖励残留 | 不修复（说明） | 快速换装可能绕过 DivineRPG 的装备变更事件，让 Shadow 套装的速度加成残留到重进世界。纯包侧修复只能加轮询或关闭右键换装；对可选 QoL 而言不值得，暂不处理。 |
 | #1371 | Roots Germination 范围不是 5×5×5 | 无需处理 | 5 是半径，实际扫描 11×11×11；默认 19 也是半径（39×39×39），脚本已压到 5。评论里的 `interval=5` 只加快生长频率，不会缩小范围；若要 5×5×5，半径需改为 2，属于平衡调整。 |
+| #1370 | Bewitchment 异常断线时客户端 NPE | 不修复（说明） | `SyncExtendedPlayer` 的延迟任务在断线后读取 `Minecraft.player`，缺少 null 检查；只在异常断线时触发，且不是断线崩溃的根因。包侧没有可靠手段拦截已排队的任务，要修需给 Bewitchment 加 mixin，暂不处理。 |
