@@ -813,8 +813,7 @@ woodland_mansion_locator_token.itemRightClick = function(stack, world, player, h
     //    return "PASS";
     //}
     stack.damage(2, player);
-    player.executeCommand("locate Mansion");
-    Commands.call("locate Mansion", player, world, false, true);
+    Commands.call("locate Mansion", player, world, true, true);
     return "SUCCESS";
 };
 woodland_mansion_locator_token.register();
