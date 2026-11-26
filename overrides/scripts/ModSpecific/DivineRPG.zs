@@ -305,4 +305,16 @@ recipes.remove(<divinerpg:reyvor_crystal>);
 recipes.remove(<divinerpg:karot_crystal>);
 recipes.remove(<divinerpg:densos_crystal>);
 
+// Iceika Workshop Carpet/Lamp recipes (#1270)
+recipes.addShaped(<divinerpg:workshop_carpet> * 2, [
+    [null, <divinerpg:ice_shards>, null],
+    [<divinerpg:ice_shards>, <ore:wool>, <divinerpg:ice_shards>],
+    [null, <divinerpg:ice_shards>, null]
+]);
+recipes.addShaped(<divinerpg:workshop_lamp> * 2, [
+    [null, <divinerpg:ice_shards>, null],
+    [<divinerpg:ice_shards>, <minecraft:glowstone>, <divinerpg:ice_shards>],
+    [null, <divinerpg:ice_shards>, null]
+]);
+
 print("ENDING DivineRPG.zs");
