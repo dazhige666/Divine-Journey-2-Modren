@@ -11204,7 +11204,8 @@
             },
             "2:10": {
               "id:8": "immersiveengineering:tool",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -46185,7 +46186,8 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:tool",
-              "Count:3": 1
+              "Count:3": 1,
+              "Damage:2": 0
             }
           },
           "taskID:8": "bq_standard:retrieval"

@@ -68,6 +68,7 @@ DJ2 Modern 是 Divine Journey 2 的现代化分支，不是上游 DJ2 官方团�
 
 | 编号 | 问题 | 状态 | 说明 |
 |---|---|---|---|
+| #1384 | EnderIO 农业站收获时把作物/种子掉在地上、大麦种成棉花 | 不修复（说明） | 大麦无法种植是 EnderIO Farming Station 的已知限制；输出溢出在 `useOutputQueue=true` 时会重新排队，当前配置不建议改成 `false`（会直接掉地）。 |
 | #1383 | JEI Utilities + AE2 崩溃 | 无需处理 | 旧版 JEI Utilities 的渲染 bug；当前版本已没有对应类，无法复现。 |
 | #1382 | Erebus 护目镜 + Totemic 末影图腾夜视消失 | 已加提示（下一次发版） | 护目镜每帧加夜视 II 再移除，会覆盖图腾的夜视 I；在任务 1040 里加了红字提醒，不写额外补丁。 |
 | #1380 | OpenBlocks 出现 `.name` 重复配方 | 已修复（下一次发版） | 实际是 Miracle Magnet 的未注册物品；已删除两条冗余配方。 |
@@ -82,3 +83,7 @@ DJ2 Modern 是 Divine Journey 2 的现代化分支，不是上游 DJ2 官方团�
 | #1370 | Bewitchment 异常断线时客户端 NPE | 不修复（说明） | `SyncExtendedPlayer` 的延迟任务在断线后读取 `Minecraft.player`，缺少 null 检查；只在异常断线时触发，且不是断线崩溃的根因。包侧没有可靠手段拦截已排队的任务，要修需给 Bewitchment 加 mixin，暂不处理。 |
 | #1367 | 林地府邸定位令牌非 OP 使用时无反应 | 已修复（下一次发版） | 旧代码用 `player.executeCommand` 以玩家身份执行 `/locate`，非 OP 无权限；后面的 `Commands.call(..., false, true)` 虽然绕过权限，但 `logToChat=false` 导致结果静默。改为单次 `Commands.call(..., true, true)`，非 OP 也能看到坐标。 |
 | #1369 | 被攻击时施放 Roots Sanctuary 客户端崩溃 | 已规避（下一次发版） | EnderModpackTweaks 的 Crissaegrim Tweaks 同时替换了 MysticalLib 的消息处理；关闭该开关后不再加载对应 mixin，Sanctuary 的 NPE 路径消失。当前包未安装 Crissaegrim，没有功能损失。 |
+| #1366 | Storage Drawers 抽屉用扳手旋转时扳手消失 | 不修复（说明） | 旋转未成功或重复右键时，Storage Drawers 会把手中的 TE/Yeta 扳手当普通物品插入抽屉；扳手没有丢失，左键点抽屉可取回。密封抽屉被旋转会直接拆除，是另一条路径。包侧没有只禁止“扳手插入”的配置；为这个旧交互 bug 加事件补丁不值得。 |
+| #1365 | Roots 收获法术破坏 Natura 灌木掉灌木方块并可复制 | 已修复（下一次发版） | 在 `roots/crops.cfg` 的 `HarvestBlacklist` 加入 8 种 Natura 灌木；法术会跳过它们，右键采浆果仍正常。 |
+| #1364 | Efficiency 附魔书无法附魔 EnderIO / Roots 剪刀 | 无法复现 | 2.23.4 未能复现；2.23.1 的旧行为未再出现，暂不处理。 |
+| #1325 | “An Engineer's Must-Have”没有工程师锤也自动完成 | 已修复（下一次发版） | 任务 910 与 256 的需求是裸 `immersiveengineering:tool`，未指定 `Damage`，任意 IE 工具子类型都会匹配；补上 `Damage:2=0`，只认 Engineer's Hammer。 |

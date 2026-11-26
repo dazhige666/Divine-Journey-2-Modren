@@ -4399,5 +4399,70 @@
       "actuallyadditions:item_boots_obsidian",
       "actuallyadditions:item_boots_quartz"
     ]
+  },
+  {
+    "id": "evilcraft_biome_extract",
+    "displayName": "EvilCraft Biome Extracts",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "evilcraft:biome_extract:*"
+    ]
+  },
+  {
+    "id": "evilcraft_display_stand",
+    "displayName": "EvilCraft Display Stands",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "evilcraft:display_stand:*"
+    ]
+  },
+  {
+    "id": "ec_singularities",
+    "displayName": "Singularities",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "extendedcrafting:singularity:*",
+      "extendedcrafting:singularity_custom:*",
+      "extendedcrafting:singularity_ultimate",
+      "avaritia:singularity:12",
+      "contenttweaker:minecraft_singularity",
+      "contenttweaker:thermal_singularity",
+      "contenttweaker:mixed_thermal_singularity",
+      "contenttweaker:tinkers_singularity",
+      "contenttweaker:enderio_singularity",
+      "contenttweaker:endergy_singularity",
+      "contenttweaker:projectred_singularity",
+      "contenttweaker:mekanism_singularity",
+      "contenttweaker:abyssal_singularity",
+      "contenttweaker:divine_singularity",
+      "contenttweaker:dusty_thermal_singularity",
+      "contenttweaker:botanic_singularity",
+      "contenttweaker:thaumic_singularity",
+      "contenttweaker:alchemic_singularity",
+      "contenttweaker:draglactic_singularity",
+      "contenttweaker:extra_tech_singularity",
+      "contenttweaker:extra_magic_singularity",
+      "contenttweaker:magical_singularity",
+      "contenttweaker:techy_singularity",
+      "contenttweaker:powerful_singularity",
+      "contenttweaker:beginners_singularity",
+      "contenttweaker:tnt_singularity",
+      "contenttweaker:neutronium_singularity",
+      "contenttweaker:infinite_singularity",
+      "contenttweaker:singularity_singularity",
+      "contenttweaker:creative_singularity"
+    ]
+  },
+  {
+    "id": "extrautils2_biome_marker",
+    "displayName": "Biome Markers",
+    "backgroundColor": 861230421,
+    "borderColor": -863467384,
+    "itemUids": [
+      "extrautils2:biomemarker:*"
+    ]
   }
 ]
