@@ -111,9 +111,9 @@
       "required": true
     },
     {
-      "slug": "storage-drawers",
-      "projectID": 223852,
-      "fileID": 4655859,
+      "slug": "meowmeldrawers",
+      "projectID": 1303187,
+      "fileID": 7042531,
       "required": true
     },
     {
@@ -1072,12 +1072,6 @@
       "required": true
     },
     {
-      "slug": "framed-compacting-drawers",
-      "projectID": 376351,
-      "fileID": 3015136,
-      "required": true
-    },
-    {
       "slug": "plusticminusbad",
       "projectID": 376903,
       "fileID": 3319812,
@@ -1460,12 +1454,6 @@
       "slug": "super-factory-manager-unofficial-backport-sfm-ub",
       "projectID": 1394832,
       "fileID": 7492878,
-      "required": true
-    },
-    {
-      "slug": "fluid-drawers",
-      "projectID": 402338,
-      "fileID": 3373954,
       "required": true
     },
     {
