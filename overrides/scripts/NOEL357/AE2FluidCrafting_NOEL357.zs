@@ -9,13 +9,8 @@ mods.jei.JEI.hide(<ae2fc:fluid_drop>.withTag({Fluid:"lava"}));
 // ME Fluid Assembler
 mods.jei.JEI.removeAndHide(<ae2fc:fluid_assembler>);
 
-// ME Fluid Discretizer
-recipes.remove(<ae2fc:fluid_discretizer>);
-recipes.addShaped(<ae2fc:fluid_discretizer>, [
-  [<enderio:item_alloy_ingot>, <contenttweaker:methodology_processor>, <enderio:item_alloy_endergy_ingot:1>],
-  [<appliedenergistics2:part:221>, <appliedenergistics2:condenser>, <appliedenergistics2:part:220>],
-  [<enderio:item_alloy_endergy_ingot:1>, <contenttweaker:methodology_processor>, <enderio:item_alloy_ingot>]
-]);
+// ME Fluid Discretizer (obsolete in AE2FCRU)
+mods.jei.JEI.removeAndHide(<ae2fc:fluid_discretizer>);
 
 
 // Fluid Pattern Encoder
@@ -73,43 +68,20 @@ recipes.addShaped(<ae2fc:dual_interface>, [
 
 recipes.addShapeless(<ae2fc:dual_interface>, [<ae2fc:part_dual_interface>]);
 
-// ME Fluid Level Maintainer
+// ME General Level Maintainer (disabled in this pack)
 mods.jei.JEI.removeAndHide(<ae2fc:fluid_level_maintainer>);
+
+// Dedicated fluid pattern terminals are removed; the vanilla Pattern Terminal now handles fluid patterns.
+mods.jei.JEI.removeAndHide(<ae2fc:part_fluid_pattern_terminal>);
+mods.jei.JEI.removeAndHide(<ae2fc:part_fluid_pattern_ex_terminal>);
+mods.jei.JEI.removeAndHide(<ae2fc:wireless_fluid_pattern_terminal>);
 
 // ME Ultimate Encoder
 recipes.remove(<ae2fc:ultimate_encoder>);
 recipes.addShaped(<ae2fc:ultimate_encoder>, [
   [<enderio:item_alloy_ingot>, <appliedenergistics2:material:24>, <enderio:item_alloy_endergy_ingot:1>],
-  [<appliedenergistics2:part:341>, <actuallyadditions:block_misc:8>, <ae2fc:part_fluid_pattern_ex_terminal>],
+  [<actuallyadditions:block_misc:8>, <appliedenergistics2:part:341>, <actuallyadditions:block_misc:8>],
   [<enderio:item_alloy_endergy_ingot:1>, <ironchest:iron_chest:6>, <enderio:item_alloy_ingot>]
 ]);
-
-
-// ME Fluid Pattern Terminal
-recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
-recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
-  [null, <enderio:item_alloy_ingot>, null],
-  [<appliedenergistics2:part:340>, <appliedenergistics2:material:24>, <ae2fc:fluid_pattern_encoder>],
-  [null, <enderio:item_alloy_endergy_ingot:1>, null]
-]);
-
-
-// ME Extended Processing Fluid Pattern Terminal
-recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
-recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
-  [<contenttweaker:estimation_processor>, null, <contenttweaker:estimation_processor>],
-  [<ae2fc:part_fluid_pattern_terminal>, <appliedenergistics2:material:24>, <ae2fc:part_fluid_pattern_terminal>],
-  [<contenttweaker:estimation_processor>, null, <contenttweaker:estimation_processor>]
-]);
-
-
-// Wireless Fluid Pattern Terminal
-recipes.remove(<ae2fc:wireless_fluid_pattern_terminal>);
-recipes.addShaped(<ae2fc:wireless_fluid_pattern_terminal>, [
-  [null, <contenttweaker:methodology_processor>, null],
-  [<appliedenergistics2:wireless_terminal>, <botania:corporeaspark:1>, <ae2fc:part_fluid_pattern_terminal>],
-  [null, <contenttweaker:methodology_processor>, null]
-]);
-
 
 print("ENDING AE2FluidCrafting_NOEL357.zs");

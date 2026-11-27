@@ -1172,7 +1172,7 @@
     {
       "slug": "ae2-extended-life",
       "projectID": 570458,
-      "fileID": 5147702,
+      "fileID": 5411078,
       "required": true
     },
     {
@@ -1475,9 +1475,9 @@
       "required": true
     },
     {
-      "slug": "ae2-fluid-crafting-rework",
-      "projectID": 623955,
-      "fileID": 5315135,
+      "slug": "ae2fluidcraft-rework-unofficial",
+      "projectID": 1404390,
+      "fileID": 9205999,
       "required": true
     },
     {
