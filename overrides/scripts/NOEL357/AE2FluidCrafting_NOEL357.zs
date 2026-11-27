@@ -13,13 +13,8 @@ mods.jei.JEI.removeAndHide(<ae2fc:fluid_assembler>);
 mods.jei.JEI.removeAndHide(<ae2fc:fluid_discretizer>);
 
 
-// Fluid Pattern Encoder
-recipes.remove(<ae2fc:fluid_pattern_encoder>);
-recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [
-  [<enderio:item_alloy_ingot>, <appliedenergistics2:material:52>, <enderio:item_alloy_endergy_ingot:1>],
-  [<contenttweaker:methodology_processor>, <actuallyadditions:block_misc:8>, <contenttweaker:methodology_processor>],
-  [<enderio:item_alloy_endergy_ingot:1>, <ironchest:iron_chest:6>, <enderio:item_alloy_ingot>]
-]);
+// Fluid Pattern Encoder (obsolete in AE2FCRU: base Pattern Terminal handles fluids)
+mods.jei.JEI.removeAndHide(<ae2fc:fluid_pattern_encoder>);
 
 
 // ME Fluid Packet Decoder
