@@ -51,15 +51,6 @@ recipes.addShaped(<nae2:upgrade:1>, [
 ]);
 
 
-// Reconstruction Chamber
-recipes.remove(<nae2:reconstruction_chamber>);
-recipes.addShaped(<nae2:reconstruction_chamber>, [
-  [<enderio:item_alloy_ingot:6>, <contenttweaker:estimation_processor>, <enderio:item_alloy_ingot:6>],
-  [<actuallyadditions:item_misc:18>, <appliedenergistics2:molecular_assembler>, <enderutilities:enderpart:17>],
-  [<enderio:item_alloy_ingot:6>, <contenttweaker:estimation_processor>, <enderio:item_alloy_ingot:6>]
-]);
-
-
 // 4x Crafting Co-Processing Unit
 recipes.remove(<nae2:coprocessor_4x>);
 recipes.addShaped(<nae2:coprocessor_4x>, [
@@ -86,15 +77,5 @@ recipes.addShaped(<nae2:coprocessor_64x>, [
   [<enderio:item_alloy_ingot>, <nae2:coprocessor_16x>, <enderio:item_alloy_ingot>]
 ]);
 
-
-// ME Storage Exposer
-recipes.remove(<nae2:exposer>);
-recipes.addShaped(<nae2:exposer>, [
-  [<enderio:item_alloy_ingot>, <appliedenergistics2:material:43>, <enderio:item_alloy_ingot>],
-  [<appliedenergistics2:part:220>, <appliedenergistics2:interface>, <appliedenergistics2:part:220>],
-  [<enderio:item_alloy_ingot>, <appliedenergistics2:material:43>, <enderio:item_alloy_ingot>]
-]);
-
-recipes.addShapeless(<nae2:exposer>, [<nae2:part:2>]);
 
 print("ENDING NeevesAE2ExtendedLifeAdditions_NOEL357.zs");
