@@ -22,6 +22,10 @@ recipes.remove(<storagedrawers:upgrade_storage:3>);
 recipes.addShaped(<storagedrawers:upgrade_storage:3>, [[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<minecraft:diamond>,<storagedrawers:upgrade_storage:2>,<minecraft:diamond>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.remove(<storagedrawers:upgrade_storage:4>);
 recipes.addShaped(<storagedrawers:upgrade_storage:4>, [[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<minecraft:emerald>,<storagedrawers:upgrade_storage:3>,<minecraft:emerald>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
+recipes.remove(<storagedrawers:upgrade_storage:5>);
+recipes.addShaped(<storagedrawers:upgrade_storage:5>, [[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<minecraft:dragon_breath>,<storagedrawers:upgrade_storage:4>,<minecraft:dragon_breath>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
+recipes.remove(<storagedrawers:upgrade_storage:6>);
+recipes.addShaped(<storagedrawers:upgrade_storage:6>, [[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<minecraft:nether_star>,<storagedrawers:upgrade_storage:5>,<minecraft:nether_star>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.remove(<storagedrawers:upgrade_conversion>);
 
 // Compacting Drawer
@@ -37,7 +41,7 @@ recipes.remove(<storagedrawers:controllerslave>);
 recipes.addShaped(<storagedrawers:controllerslave>, [[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:dustDraconium>,<ore:drawerBasic>,<ore:dustDraconium>],[<ore:stone>,<minecraft:diamond>,<ore:stone>]]);
 
 // Creative Storage Upgrade
-recipes.addShaped(<storagedrawers:upgrade_creative>, [[<contenttweaker:white_matter>,<storagedrawers:upgrade_storage:4>,<contenttweaker:white_matter>],[<tconstruct:materials:50>,<projecte:condenser_mk2>,<tconstruct:materials:50>],[<contenttweaker:white_matter>,<storagedrawers:upgrade_storage:4>,<contenttweaker:white_matter>]]);
+recipes.addShaped(<storagedrawers:upgrade_creative>, [[<contenttweaker:white_matter>,<storagedrawers:upgrade_storage:6>,<contenttweaker:white_matter>],[<tconstruct:materials:50>,<projecte:condenser_mk2>,<tconstruct:materials:50>],[<contenttweaker:white_matter>,<storagedrawers:upgrade_storage:6>,<contenttweaker:white_matter>]]);
 
 // Creative Vending Upgrade
 mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative:1>,
@@ -98,6 +102,8 @@ static upgradeMultiplier as int[int] = {
     2:  8,
     3: 16,
     4: 32,
+    5: 64,
+    6: 128,
 } as int[int];
 
 // Determine the current capacity of a drawer using its current upgrades based on an input base.
