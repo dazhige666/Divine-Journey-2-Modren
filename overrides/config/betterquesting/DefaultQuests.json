@@ -84909,6 +84909,33 @@
         }
       },
       "rewards:9": {}
+    },
+    "1737:10": {
+      "questID:3": 1737,
+      "preRequisites:11": [1293],
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "superfactorymanager:manager"
+          },
+          "name:8": "dj2.quest.db.1737.title",
+          "desc:8": "dj2.quest.db.1737.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "superfactorymanager:manager",
+              "Count:3": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -88841,6 +88868,13 @@
           "x:3": 336,
           "y:3": 168,
           "id:3": 1734,
+          "sizeY:3": 24
+        },
+        "77:10": {
+          "sizeX:3": 24,
+          "x:3": 160,
+          "y:3": 144,
+          "id:3": 1737,
           "sizeY:3": 24
         }
       },

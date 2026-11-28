@@ -3533,3 +3533,6 @@ dj2.quest.db.1735.desc=Use the immense power of the heavens themselves to fuel y
 
 dj2.quest.db.1736.title=Stop the Lag
 dj2.quest.db.1736.desc=Use XNet to replace most of your logistics. It can significantly improve TPS, but be careful not to put too many connectors in one network — otherwise every modification will become a brainstorming session.
+
+dj2.quest.db.1737.title=Automation Helper
+dj2.quest.db.1737.desc=Handy, but it has a learning curve. You're still a little way off, but you'll get there soon.
