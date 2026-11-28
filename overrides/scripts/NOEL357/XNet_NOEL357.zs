@@ -139,12 +139,16 @@ recipes.remove(<xnet:antenna>);
 recipes.remove(<xnet:antenna_base>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <xnet:antenna_base>);
 recipes.remove(<xnet:antenna_dish>);
+recipes.remove(<xnet:netcable:4>);
+recipes.remove(<xnet:connector:4>);
 
 mods.jei.JEI.hide(<xnet:router>);
 mods.jei.JEI.hide(<xnet:wireless_router>);
 mods.jei.JEI.hide(<xnet:antenna>);
 mods.jei.JEI.hide(<xnet:antenna_base>);
 mods.jei.JEI.hide(<xnet:antenna_dish>);
+mods.jei.JEI.hide(<xnet:netcable:4>);
+mods.jei.JEI.hide(<xnet:connector:4>);
 
 
 print("ENDING XNet_NOEL357.zs");
