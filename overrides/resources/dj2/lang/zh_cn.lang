@@ -1,10 +1,10 @@
-dj2.xnet.connector.rf=RF 传输：40,000 RF/t，缓存 200,000 RF
+dj2.xnet.connector.rf=RF 传输：20,000 RF/t，缓存 150,000 RF
 dj2.xnet.connector.fluid=流体传输：8,000 mB/次
 dj2.xnet.connector.special=特殊通道（魔力/气体/源质）：普通连接器不可用
-dj2.xnet.advanced_connector.rf=RF 传输：400,000 RF/t，缓存 2,000,000 RF
+dj2.xnet.advanced_connector.rf=RF 传输：200,000 RF/t，缓存 1,500,000 RF
 dj2.xnet.advanced_connector.fluid=流体传输：40,000 mB/次
-dj2.xnet.advanced_connector.special=魔力 80,000 / 气体 10,240 / 源质 800
-dj2.xnet.controller.rf=最大储能：200,000 RF
-dj2.xnet.controller.channel=每活跃频道：1 RF/t；每次操作：2 RF
-dj2.xnet.controller.input=最大输入：1,000 RF/t；最大频道：32
+dj2.xnet.advanced_connector.special=魔力 40,000 / 气体 5,120 / 源质 400
+dj2.xnet.controller.channel=每活跃频道：5 RF/t
+dj2.xnet.controller.operation=每次操作：10 RF
+dj2.xnet.controller.idle=待机：5 RF/t
 dj2.mmce.controller.tooltip=手持木棍右键控制器，可自动搭建机器。

@@ -127,9 +127,9 @@ recipes.addShaped(<xnet:controller>, [
   [<appliedenergistics2:material:24>, <mekanism:basicblock:8>, <appliedenergistics2:material:24>],
   [<thermalfoundation:material:160>, <mekanism:controlcircuit:2>, <thermalfoundation:material:160>]
 ]);
-<xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.rf"));
 <xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.channel"));
-<xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.input"));
+<xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.operation"));
+<xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.idle"));
 
 
 // Router
