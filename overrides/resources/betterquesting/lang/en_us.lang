@@ -3539,3 +3539,13 @@ dj2.quest.db.1737.desc=Handy, but it has a learning curve. You're still a little
 
 dj2.quest.db.1738.title=Super Evolution or Perfect Form?
 dj2.quest.db.1738.desc=Now you can use the full power of XNet and SFM.
+
+dj2.quest.db.1739.title=Laser Sorting
+dj2.quest.db.1739.desc=Use this to simplify your wiring, but short runs still need ME cables.%n%n§cNote: it can only transfer 8 channels.§r
+
+dj2.quest.db.1740.title=Large Crafting Unit
+dj2.quest.db.1740.desc=The 4x Crafting Co-Processing Units increase the number of simultaneous crafting/processing orders inside the ongoing recipe your multiblock can do.
+dj2.quest.db.1741.title=Large-Large Crafting Unit
+dj2.quest.db.1741.desc=The 16x Crafting Co-Processing Units increase the number of simultaneous crafting/processing orders inside the ongoing recipe your multiblock can do.
+dj2.quest.db.1742.title=Super-Large Crafting Unit
+dj2.quest.db.1742.desc=The 64x Crafting Co-Processing Units increase the number of simultaneous crafting/processing orders inside the ongoing recipe your multiblock can do.

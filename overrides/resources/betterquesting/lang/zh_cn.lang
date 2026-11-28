@@ -3539,3 +3539,13 @@ dj2.quest.db.1737.desc=好用但有门槛。你距离它还有一段距离，但
 
 dj2.quest.db.1738.title=超进化还是完全体
 dj2.quest.db.1738.desc=现在你可以使用XNet和SFM的所有能力。
+
+dj2.quest.db.1739.title=激光分类
+dj2.quest.db.1739.desc=用这个来简化你的布线吧，但是短距布线还是得用ME线缆。%n%n§c注意：它只能传输8个频道。§r
+
+dj2.quest.db.1740.title=大合成单元
+dj2.quest.db.1740.desc=并行处理单元（4x）可以提高你的CPU能同时进行合成/处理的配方数.
+dj2.quest.db.1741.title=大大合成单元
+dj2.quest.db.1741.desc=并行处理单元（16x）可以提高你的CPU能同时进行合成/处理的配方数.
+dj2.quest.db.1742.title=超级大合成单元
+dj2.quest.db.1742.desc=并行处理单元（64x）可以提高你的CPU能同时进行合成/处理的配方数.
