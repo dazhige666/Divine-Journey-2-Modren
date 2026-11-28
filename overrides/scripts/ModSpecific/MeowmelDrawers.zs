@@ -1,20 +1,22 @@
 // Meowmel Drawers - Stone Upgrade tiers
-// Tier 1 is unchanged; tiers 2-6 use the previous tier in the corners,
-// the stage material on the edges, and the upgrade template in the center.
+// Tier 1 is wood sticks and double compressed cobblestone.
+// Tiers 2-6 use the previous tier in the corners,
+// the stage material on the edges, and a speed upgrade in the center:
+// tiers 2-3 use the EXU2 speed upgrade, tier 4 the magical one, tiers 5-6 the ultimate one.
 
 // Tier 1: Stone Upgrade I
 recipes.remove(<storagedrawers:produce_stone>);
 recipes.addShaped(<storagedrawers:produce_stone>, [
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:stickWood>, <extrautils2:compressedcobblestone:1>, <ore:stickWood>],
     [<extrautils2:ingredients:8>, <storagedrawers:upgrade_template>, <extrautils2:ingredients:8>],
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+    [<ore:stickWood>, <extrautils2:compressedcobblestone:1>, <ore:stickWood>]
 ]);
 
 // Tier 2: Stone Upgrade II
 recipes.remove(<storagedrawers:produce_stone:1>);
 recipes.addShaped(<storagedrawers:produce_stone:1>, [
     [<storagedrawers:produce_stone>, <minecraft:diamond>, <storagedrawers:produce_stone>],
-    [<minecraft:diamond>, <storagedrawers:upgrade_template>, <minecraft:diamond>],
+    [<minecraft:diamond>, <extrautils2:ingredients:6>, <minecraft:diamond>],
     [<storagedrawers:produce_stone>, <minecraft:diamond>, <storagedrawers:produce_stone>]
 ]);
 
@@ -22,7 +24,7 @@ recipes.addShaped(<storagedrawers:produce_stone:1>, [
 recipes.remove(<storagedrawers:produce_stone:2>);
 recipes.addShaped(<storagedrawers:produce_stone:2>, [
     [<storagedrawers:produce_stone:1>, <immersiveengineering:material:19>, <storagedrawers:produce_stone:1>],
-    [<immersiveengineering:material:19>, <storagedrawers:upgrade_template>, <immersiveengineering:material:19>],
+    [<immersiveengineering:material:19>, <extrautils2:ingredients:6>, <immersiveengineering:material:19>],
     [<storagedrawers:produce_stone:1>, <immersiveengineering:material:19>, <storagedrawers:produce_stone:1>]
 ]);
 
@@ -30,7 +32,7 @@ recipes.addShaped(<storagedrawers:produce_stone:2>, [
 recipes.remove(<storagedrawers:produce_stone:3>);
 recipes.addShaped(<storagedrawers:produce_stone:3>, [
     [<storagedrawers:produce_stone:2>, <plustic:osgloglasingot>, <storagedrawers:produce_stone:2>],
-    [<plustic:osgloglasingot>, <storagedrawers:upgrade_template>, <plustic:osgloglasingot>],
+    [<plustic:osgloglasingot>, <extrautils2:ingredients:15>, <plustic:osgloglasingot>],
     [<storagedrawers:produce_stone:2>, <plustic:osgloglasingot>, <storagedrawers:produce_stone:2>]
 ]);
 
@@ -38,7 +40,7 @@ recipes.addShaped(<storagedrawers:produce_stone:3>, [
 recipes.remove(<storagedrawers:produce_stone:4>);
 recipes.addShaped(<storagedrawers:produce_stone:4>, [
     [<storagedrawers:produce_stone:3>, <contenttweaker:steaming_restonia_crystal>, <storagedrawers:produce_stone:3>],
-    [<contenttweaker:steaming_restonia_crystal>, <storagedrawers:upgrade_template>, <contenttweaker:steaming_restonia_crystal>],
+    [<contenttweaker:steaming_restonia_crystal>, <extrautils2:ingredients:16>, <contenttweaker:steaming_restonia_crystal>],
     [<storagedrawers:produce_stone:3>, <contenttweaker:steaming_restonia_crystal>, <storagedrawers:produce_stone:3>]
 ]);
 
@@ -46,7 +48,7 @@ recipes.addShaped(<storagedrawers:produce_stone:4>, [
 recipes.remove(<storagedrawers:produce_stone:5>);
 recipes.addShaped(<storagedrawers:produce_stone:5>, [
     [<storagedrawers:produce_stone:4>, <botania:manaresource:4>, <storagedrawers:produce_stone:4>],
-    [<botania:manaresource:4>, <storagedrawers:upgrade_template>, <botania:manaresource:4>],
+    [<botania:manaresource:4>, <extrautils2:ingredients:16>, <botania:manaresource:4>],
     [<storagedrawers:produce_stone:4>, <botania:manaresource:4>, <storagedrawers:produce_stone:4>]
 ]);
 
