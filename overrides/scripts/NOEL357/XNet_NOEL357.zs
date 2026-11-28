@@ -132,50 +132,19 @@ recipes.addShaped(<xnet:controller>, [
 <xnet:controller>.addTooltip(game.localize("dj2.xnet.controller.idle"));
 
 
-// Router
+// Router / wireless system removed
 recipes.remove(<xnet:router>);
-recipes.addShaped(<xnet:router>, [
-  [<enderio:item_alloy_ingot:6>, <appliedenergistics2:material:7>, <enderio:item_alloy_ingot:6>],
-  [<contenttweaker:estimation_processor>, <enderio:item_material>, <contenttweaker:estimation_processor>],
-  [<enderio:item_alloy_ingot:6>, <appliedenergistics2:material:7>, <enderio:item_alloy_ingot:6>]
-]);
-
-
-// Wireless Router
 recipes.remove(<xnet:wireless_router>);
-recipes.addShaped(<xnet:wireless_router>, [
-  [<enderio:item_alloy_ingot:6>, <appliedenergistics2:material:41>, <enderio:item_alloy_ingot:6>],
-  [<contenttweaker:methodology_processor>, <xnet:router>, <contenttweaker:methodology_processor>],
-  [<enderio:item_alloy_ingot:6>, <appliedenergistics2:material:41>, <enderio:item_alloy_ingot:6>]
-]);
-
-
-// Antenna
 recipes.remove(<xnet:antenna>);
-recipes.addShaped(<xnet:antenna>, [
-  [<immersiveengineering:material:2>, <enderio:item_alloy_ingot:6>, <immersiveengineering:material:2>],
-  [<immersiveengineering:material:2>, <enderio:item_alloy_ingot:6>, <immersiveengineering:material:2>],
-  [<immersiveengineering:material:2>, <enderio:item_alloy_ingot:6>, <immersiveengineering:material:2>]
-]);
-
-
-// Antenna Base
 recipes.remove(<xnet:antenna_base>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <xnet:antenna_base>);
-recipes.addShaped(<xnet:antenna_base>, [
-  [null, <enderio:item_alloy_ingot:6>, null],
-  [null, <enderio:item_alloy_ingot:6>, null],
-  [<enderio:item_alloy_ingot:6>, <enderio:block_alloy:6>, <enderio:item_alloy_ingot:6>]
-]);
-
-
-// Antenna Dish
 recipes.remove(<xnet:antenna_dish>);
-recipes.addShaped(<xnet:antenna_dish>, [
-  [<enderio:item_alloy_ingot:6>, <enderio:item_material:65>, <enderio:item_alloy_ingot:6>],
-  [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>],
-  [null, <enderio:item_alloy_ingot:6>, null]
-]);
+
+mods.jei.JEI.hide(<xnet:router>);
+mods.jei.JEI.hide(<xnet:wireless_router>);
+mods.jei.JEI.hide(<xnet:antenna>);
+mods.jei.JEI.hide(<xnet:antenna_base>);
+mods.jei.JEI.hide(<xnet:antenna_dish>);
 
 
 print("ENDING XNet_NOEL357.zs");
