@@ -3549,3 +3549,6 @@ dj2.quest.db.1741.title=大大合成单元
 dj2.quest.db.1741.desc=并行处理单元（16x）可以提高你的CPU能同时进行合成/处理的配方数.
 dj2.quest.db.1742.title=超级大合成单元
 dj2.quest.db.1742.desc=并行处理单元（64x）可以提高你的CPU能同时进行合成/处理的配方数.
+
+dj2.quest.db.1743.title=像MEK一样
+dj2.quest.db.1743.desc=加速？我们选择并行，小子！

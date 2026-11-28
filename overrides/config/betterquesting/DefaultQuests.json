@@ -85114,6 +85114,47 @@
         }
       },
       "rewards:9": {}
+    },
+    "1743:10": {
+      "questID:3": 1743,
+      "preRequisites:11": [1004],
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "nae2:part",
+            "Damage:2": 1
+          },
+          "name:8": "dj2.quest.db.1743.title",
+          "desc:8": "dj2.quest.db.1743.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nae2:part",
+              "Count:3": 2,
+              "Damage:2": 1
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 8,
+              "Damage:2": 24
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -86761,6 +86802,13 @@
           "x:3": 144,
           "y:3": 72,
           "id:3": 1736,
+          "sizeY:3": 24
+        },
+        "70:10": {
+          "sizeX:3": 24,
+          "x:3": 128,
+          "y:3": 96,
+          "id:3": 1743,
           "sizeY:3": 24
         }
       },
