@@ -53,8 +53,8 @@ recipes.addShaped(<storagedrawers:produce_stone:5>, [
 ]);
 
 // Wireless Upgrade tiers
-// Tier 1 outputs 8; tiers 2-6 use the previous tier, the stage capacitor,
-// the stage ingot and the upgrade template in the same layout.
+// Tier 1 outputs 8; tiers 2-6 output 2 and use the previous tier in the corners,
+// the stage ingot on the edges and the stage capacitor in the center.
 
 // Wireless Upgrade I
 recipes.remove(<storagedrawers:ender_linker>);
@@ -68,40 +68,40 @@ recipes.addShaped(<storagedrawers:ender_linker> * 8, [
 recipes.remove(<storagedrawers:ender_linker:1>);
 recipes.addShaped(<storagedrawers:ender_linker:1> * 2, [
     [<storagedrawers:ender_linker>, <enderio:item_alloy_ingot:6>, <storagedrawers:ender_linker>],
-    [<enderio:item_alloy_ingot:6>, <storagedrawers:upgrade_template>, <enderio:item_alloy_ingot:6>],
-    [<enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:6>, <enderio:item_basic_capacitor:1>]
+    [<enderio:item_alloy_ingot:6>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:6>],
+    [<storagedrawers:ender_linker>, <enderio:item_alloy_ingot:6>, <storagedrawers:ender_linker>]
 ]);
 
 // Wireless Upgrade III
 recipes.remove(<storagedrawers:ender_linker:2>);
 recipes.addShaped(<storagedrawers:ender_linker:2> * 2, [
     [<storagedrawers:ender_linker:1>, <enderio:item_alloy_ingot:2>, <storagedrawers:ender_linker:1>],
-    [<enderio:item_alloy_ingot:2>, <storagedrawers:upgrade_template>, <enderio:item_alloy_ingot:2>],
-    [<enderio:item_basic_capacitor:2>, <enderio:item_alloy_ingot:2>, <enderio:item_basic_capacitor:2>]
+    [<enderio:item_alloy_ingot:2>, <enderio:item_basic_capacitor:2>, <enderio:item_alloy_ingot:2>],
+    [<storagedrawers:ender_linker:1>, <enderio:item_alloy_ingot:2>, <storagedrawers:ender_linker:1>]
 ]);
 
 // Wireless Upgrade IV
 recipes.remove(<storagedrawers:ender_linker:3>);
 recipes.addShaped(<storagedrawers:ender_linker:3> * 2, [
     [<storagedrawers:ender_linker:2>, <enderio:item_alloy_ingot:8>, <storagedrawers:ender_linker:2>],
-    [<enderio:item_alloy_ingot:8>, <storagedrawers:upgrade_template>, <enderio:item_alloy_ingot:8>],
-    [<enderio:item_capacitor_crystalline>, <enderio:item_alloy_ingot:8>, <enderio:item_capacitor_crystalline>]
+    [<enderio:item_alloy_ingot:8>, <enderio:item_capacitor_crystalline>, <enderio:item_alloy_ingot:8>],
+    [<storagedrawers:ender_linker:2>, <enderio:item_alloy_ingot:8>, <storagedrawers:ender_linker:2>]
 ]);
 
 // Wireless Upgrade V
 recipes.remove(<storagedrawers:ender_linker:4>);
-recipes.addShaped(<storagedrawers:ender_linker:4>, [
+recipes.addShaped(<storagedrawers:ender_linker:4> * 2, [
     [<storagedrawers:ender_linker:3>, <contenttweaker:ingot_of_elevation>, <storagedrawers:ender_linker:3>],
-    [<contenttweaker:ingot_of_elevation>, <storagedrawers:upgrade_template>, <contenttweaker:ingot_of_elevation>],
-    [<enderio:item_capacitor_melodic>, <contenttweaker:ingot_of_elevation>, <enderio:item_capacitor_melodic>]
+    [<contenttweaker:ingot_of_elevation>, <enderio:item_capacitor_melodic>, <contenttweaker:ingot_of_elevation>],
+    [<storagedrawers:ender_linker:3>, <contenttweaker:ingot_of_elevation>, <storagedrawers:ender_linker:3>]
 ]);
 
 // Wireless Upgrade VI
 recipes.remove(<storagedrawers:ender_linker:5>);
-recipes.addShaped(<storagedrawers:ender_linker:5>, [
+recipes.addShaped(<storagedrawers:ender_linker:5> * 2, [
     [<storagedrawers:ender_linker:4>, <botania:manaresource:4>, <storagedrawers:ender_linker:4>],
-    [<botania:manaresource:4>, <storagedrawers:upgrade_template>, <botania:manaresource:4>],
-    [<enderio:item_capacitor_stellar>, <botania:manaresource:4>, <enderio:item_capacitor_stellar>]
+    [<botania:manaresource:4>, <enderio:item_capacitor_stellar>, <botania:manaresource:4>],
+    [<storagedrawers:ender_linker:4>, <botania:manaresource:4>, <storagedrawers:ender_linker:4>]
 ]);
 
 // Compact Drawers
