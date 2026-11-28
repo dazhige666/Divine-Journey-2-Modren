@@ -68,9 +68,9 @@ gen.setPowerLevel(resource('generators:dragon_egg'), { TilePassiveGenerator gene
 })
 
 // vastly increase creative gen to avoid needing to spam it
-gen.setBasePower(resource('generators:creative'), 1_000_000_000.0f) // 1 trillion gp!!!
+gen.setBasePower(resource('generators:creative'), 1_000_000_000_000.0f) // 1 trillion gp!!!
 gen.setPowerLevel(resource('generators:creative'), { TilePassiveGenerator generator, World world ->
-    1_000_000_000.0f
+    1_000_000_000_000.0f
 })
 
 // todo: why is this needed?

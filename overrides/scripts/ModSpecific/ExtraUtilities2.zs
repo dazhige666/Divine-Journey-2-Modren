@@ -559,6 +559,7 @@ recipes.addShapedMirrored(<extrautils2:lawsword>, [[null,<extrautils2:opinium:8>
 
 // Creative Mill
 recipes.addShaped(<extrautils2:passivegenerator:6> * 4, [[<extrautils2:passivegenerator:8>,<contenttweaker:white_matter>,<extrautils2:passivegenerator:8>],[<contenttweaker:white_matter>,<danknull:dank_null_6>,<contenttweaker:white_matter>],[<extrautils2:passivegenerator:8>,<contenttweaker:white_matter>,<extrautils2:passivegenerator:8>]]);
+<extrautils2:passivegenerator:6>.addTooltip("1 trillion gp!!!");
 
 // Creative Energy Source
 mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:creativeenergy>,
