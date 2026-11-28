@@ -17,7 +17,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 
 - **跑得更快**：启动路径上做了三处针对性改动，见下面的[性能](#性能)一节。
 - **维护得下去**：停更的多方块机器体系换成 MMCE，HUD 与小地图换成还在更新的替代品，运行层迁到 Cleanroom。
-- **中文内置**：任务书与本包自定义文本直接随包分发，其余模组由 I18nUpdateMod 在运行时补齐。
+- **中文内置**：任务书、本包自定义文本与各模组的汉化覆盖都随包分发，中文不再依赖运行时下载。
 - **界面重做**：图片化主菜单，按钮文字走原版语言键（跟着游戏语言走）。
 
 ## 1.0.2 更新了什么
@@ -43,7 +43,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 
 1. 下载本包的最新 zip（CurseForge 格式，见 [Releases](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)），导入 Prism Launcher 或 MultiMC。
 2. 运行层已内置：`config/relauncher.json` 里钉死了 Cleanroom 0.6.13-alpha 和 Java 25，不需要自己选版本。首次启动会自动下载安装 Azul Zulu 25（约 220 MB，会显示扫描/下载进度窗，慢的话等几分钟）。**如果你的环境里已经装了 Zulu 25、但启动器没检测到**，打开 `config/relauncher.json`，把 `javaPath` 填成 `java.exe` 的完整路径（例如 `D:\\tools\\jdk\\zulu-25\\bin\\java.exe`，注意双反斜杠）。
-3. 首次进游戏需要联网：I18nUpdateMod 要下载 CFPA 语言包，JEI 的检索索引也要在第一次加载时建立。这期间窗口可能看起来卡住不动，是正常的。
+3. 首次进游戏时 JEI 要建立检索索引，这期间窗口可能看起来卡住不动，是正常的（语言包已随包内置，不再联网下载）。
 4. **如果自己装了 OptiFine，不要打开「快速渲染 / Fast Render」**，本包里它会造成渲染错误。
 
 ## 推荐材质包
@@ -75,7 +75,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 注意事项：
 
 - Modernity Extra 必须和 Modernity 3.10.3、Modernity Adjunct 1.7.1 配套，版本不要混搭。
-- 中文语言包不用在这里装；本包继续由 I18nUpdateMod 自动更新。
+- 中文语言包不用在这里装；本包已内置汉化覆盖，不依赖运行时语言包。
 - 如果自己装了 OptiFine，OceanWater 要选 OptiFine 版。
 
 ## 与上游 DJ2 的差异
@@ -90,7 +90,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 | 优化 | Spark + FermiumBooter / FermiumASM / NoiseThreader | **Flare + Chibi (LoliASM) + VintageFix + StellarCore + EntityCulling**，mixin 层交给 Cleanroom 内置 |
 | 检索 | JEI 4.16 | **HEI 4.38.0 + HECh 1.4.1**（拼音、首字母搜索），同一物品的变体折叠成组 |
 | 主菜单 | 原版文字菜单 | **图片化主菜单**，按钮文字走语言键，含 Issues / Discord 入口 |
-| 语言 | 英文 | **内置简体中文** + I18nUpdateMod 运行时补齐；信息面板中英双语 |
+| 语言 | 英文 | **内置简体中文**（随包覆盖，不联网下载）；信息面板中英双语 |
 
 这些替换集中在运行、界面与性能层：多方块结构的搭建方式、配方输入输出、任务要求与上游保持一致。
 
@@ -109,7 +109,7 @@ DJ2 Modern 是 Divine Journey 2 的改版，当前是 1.0.2。改造集中在四
 本包的简体中文分两部分：
 
 - **内置部分**：DJ2 自定义文本（任务书、ContentTweaker / CraftTweaker 物品、附魔描述、GroovyScript、Requious Frakto），以及 MMCE 机器名与 modifier 描述，通过 `overrides/resources/` 与 `overrides/oresources/` 下的覆盖文件提供，不修改任何模组 jar。
-- **运行时部分**：其余模组的中文由 I18nUpdateMod 下载的 CFPA 语言包提供。
+- **模组部分**：其余模组的中文由 `overrides/resources/` 下的语言文件覆盖，未覆盖的键回退英文。
 
 IGI 信息面板的配置（`overrides/config/InGameInfoXML/`）已做成中英双语：321 条标签、群系名与维度名都改为从 `overrides/resources/dj2hud/lang/` 读取，中文客户端显示原有中文，英文客户端显示英文（群系名由游戏本体给出）。
 
@@ -119,7 +119,7 @@ IGI 信息面板的配置（`overrides/config/InGameInfoXML/`）已做成中英�
 
 - **OptiFine 需要自己装**（不随包分发），并且不要开 Fast Render。
 - **不要手动给 JVM 加 `-XX:+UseCompactObjectHeaders`**：它和 StellarCore 冲突，会直接 JVM 级崩溃（`EXCEPTION_ACCESS_VIOLATION`）。
-- 首次启动必须联网。若网络受限，I18nUpdateMod 的语言包会下载失败（不影响进入游戏，只是部分文本回退英文）。
+- **首次启动需要联网下载 Java 25**（见安装步骤 2）；语言包不再需要联网。
 
 ## 许可与致谢
 
@@ -150,7 +150,7 @@ DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.2. It goes in four 
 
 - **Start faster.** Three targeted changes on the startup path — see [Performance](#performance).
 - **Stay maintainable.** The abandoned multiblock system is replaced by MMCE, the HUD and minimap by mods that are still updated, and the runtime moved to Cleanroom.
-- **Ship Chinese.** The quest book and this pack's own text are bundled; everything else is filled in at runtime by I18nUpdateMod.
+- **Ship Chinese.** The quest book, this pack's own text and the per-mod Chinese overrides are all bundled, so Chinese no longer depends on a runtime download.
 - **Redo the interface.** An image-based main menu whose button labels come from vanilla language keys, so they follow the game language.
 
 ## What changed in 1.0.2
@@ -176,7 +176,7 @@ DJ2 Modern is a rework of Divine Journey 2, currently at 1.0.2. It goes in four 
 
 1. Download the latest zip (CurseForge format, see [Releases](https://github.com/dazhige666/Divine-Journey-2-Modren/releases)) and import it into Prism Launcher or MultiMC.
 2. The runtime is already configured: `config/relauncher.json` pins Cleanroom 0.6.13-alpha and Java 25, so there is nothing to pick by hand. The first launch downloads and installs Azul Zulu 25 automatically (~220 MB; a progress window may sit there for a few minutes). **If your machine already has Zulu 25 but the launcher does not find it**, open `config/relauncher.json` and set `javaPath` to the full path of `java.exe` (for example `D:\\tools\\jdk\\zulu-25\\bin\\java.exe`).
-3. The first game launch needs a network connection: I18nUpdateMod has to download the CFPA language pack, and JEI builds its search index on first load. The window may look frozen while this happens; that is normal.
+3. The first game launch builds the JEI search index, so the window may look frozen for a while; that is normal. (Language packs are bundled now, so nothing is downloaded.)
 4. **If you install OptiFine yourself, do not enable "Fast Render"** — it breaks rendering in this pack.
 
 ## Recommended resource packs
@@ -208,7 +208,7 @@ In the in-game Selected list, the **top entry has the highest priority** ([offic
 Notes:
 
 - Modernity Extra must match Modernity 3.10.3 and Modernity Adjunct 1.7.1; do not mix versions.
-- Do not install a Chinese language pack here; I18nUpdateMod keeps it updated at runtime.
+- Do not install a Chinese language pack here; this pack bundles its own overrides and does not rely on a runtime pack.
 - If you use OptiFine, pick the OptiFine build of OceanWater.
 
 ## Differences from upstream DJ2
@@ -223,7 +223,7 @@ Notes:
 | Optimizations | Spark + FermiumBooter / FermiumASM / NoiseThreader | **Flare + Chibi (LoliASM) + VintageFix + StellarCore + EntityCulling**, with the mixin layer provided by Cleanroom itself |
 | Search | JEI 4.16 | **HEI 4.38.0 + HECh 1.4.1** (pinyin and initials search), with item variants collapsed into groups |
 | Main menu | Vanilla text menu | **Image-based main menu**, labels via language keys, Issues / Discord buttons |
-| Language | English | **Simplified Chinese bundled** + I18nUpdateMod at runtime; the info panel is bilingual |
+| Language | English | **Simplified Chinese bundled** (overrides shipped with the pack, no download); the info panel is bilingual |
 
 All of this sits in the runtime, interface and performance layers: multiblock structures are built the same way, recipes take and produce the same items, and quest requirements match upstream.
 
@@ -242,7 +242,7 @@ All of this sits in the runtime, interface and performance layers: multiblock st
 The Simplified Chinese in this pack comes from two places:
 
 - **Bundled**: DJ2's own text (quest book, ContentTweaker / CraftTweaker items, enchantment descriptions, GroovyScript, Requious Frakto) plus MMCE machine names and modifier descriptions, delivered as override files under `overrides/resources/` and `overrides/oresources/` — no mod jar is modified.
-- **At runtime**: the remaining mods' Chinese comes from the CFPA language pack downloaded by I18nUpdateMod.
+- **Mod coverage**: the remaining mods' Chinese comes from the language files under `overrides/resources/`; keys that are not covered fall back to English.
 
 The IGI info panel (`overrides/config/InGameInfoXML/`) is bilingual: 321 labels, biome names and dimension names are read from `overrides/resources/dj2hud/lang/`, so a Chinese client shows the original Chinese and an English client shows English (biome names come from the game itself).
 
@@ -252,7 +252,7 @@ Sources, credits and the record of changes to the translated text: [`overrides/A
 
 - **OptiFine must be installed by hand** (it is not redistributed), and do not enable Fast Render.
 - **Do not add `-XX:+UseCompactObjectHeaders` to the JVM arguments.** It conflicts with StellarCore and crashes the JVM outright with `EXCEPTION_ACCESS_VIOLATION`.
-- The first launch requires network access. If it is blocked, I18nUpdateMod will fail to download its language pack — the game still starts, but some text falls back to English.
+- The first launch needs network access to download Java 25 (see step 2); language packs are no longer downloaded.
 
 ## License and credits
 

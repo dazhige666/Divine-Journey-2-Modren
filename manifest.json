@@ -1334,13 +1334,6 @@
       "clientOnly": true
     },
     {
-      "slug": "i18nupdatemod",
-      "projectID": 297404,
-      "fileID": 7173159,
-      "required": true,
-      "clientOnly": true
-    },
-    {
       "slug": "just-enough-characters",
       "projectID": 250702,
       "fileID": 9163752,
