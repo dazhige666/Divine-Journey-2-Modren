@@ -44,13 +44,8 @@ recipes.addShaped(<ae2fc:large_ingredient_buffer>, [
 ]);
 
 
-// Precision Burette
-recipes.remove(<ae2fc:burette>);
-recipes.addShaped(<ae2fc:burette>, [
-  [<thermalfoundation:material:32>, <openblocks:tank>, <thermalfoundation:material:32>],
-  [<appliedenergistics2:material:23>, <mekanism:basicblock:8>, <appliedenergistics2:material:23>],
-  [<thermalfoundation:material:32>, <storagedrawers:basicdrawers>, <thermalfoundation:material:32>]
-]);
+// Precision Burette (removed)
+mods.jei.JEI.removeAndHide(<ae2fc:burette>);
 
 
 // ME Dual Interface
