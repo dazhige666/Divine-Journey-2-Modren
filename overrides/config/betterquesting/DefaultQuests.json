@@ -84908,7 +84908,17 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "xnet:connector_upgrade",
+              "Count:3": 4
+            }
+          }
+        }
+      }
     },
     "1737:10": {
       "questID:3": 1737,
@@ -84935,7 +84945,54 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "superfactorymanager:labelgun",
+              "Count:3": 1
+            }
+          }
+        }
+      }
+    },
+    "1738:10": {
+      "questID:3": 1738,
+      "preRequisites:11": [1397],
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "ALWAYS",
+          "icon:10": {
+            "id:8": "xnet:advanced_connector"
+          },
+          "name:8": "dj2.quest.db.1738.title",
+          "desc:8": "dj2.quest.db.1738.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "xnet:advanced_connector",
+              "Count:3": 4
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:methodology_processor",
+              "Count:3": 4
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -89982,6 +90039,13 @@
           "x:3": 160,
           "y:3": 0,
           "id:3": 1730,
+          "sizeY:3": 24
+        },
+        "87:10": {
+          "sizeX:3": 24,
+          "x:3": 176,
+          "y:3": 72,
+          "id:3": 1738,
           "sizeY:3": 24
         }
       },
